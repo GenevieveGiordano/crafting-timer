@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/crafting-timer/static/css/main.f3683dd6.css",
+    "main.js": "/crafting-timer/static/js/main.c4500490.js",
+    "index.html": "/crafting-timer/index.html",
+    "main.f3683dd6.css.map": "/crafting-timer/static/css/main.f3683dd6.css.map",
+    "main.c4500490.js.map": "/crafting-timer/static/js/main.c4500490.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3683dd6.css",
+    "static/js/main.c4500490.js"
+  ]
+}
