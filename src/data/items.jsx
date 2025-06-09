@@ -148,55 +148,55 @@ const itemGroups = {
       { id: 88, name: 'Iron Chunk', image: '/images/resources/iron/item-iron-chunk-icon.png', duration: 300 },
       { id: 89, name: 'Iron Slab', image: '/images/resources/iron/item-iron-slab-icon.png', duration: 900 },
       { id: 90, name: 'Iron Plate', image: '/images/resources/iron/item-iron-plate-icon.png', duration: 1800 },
-      { id: 90, name: 'Reinforced Iron Plate', image: '/images/resources/iron/item-iron-plate-reinforced-icon.png', duration: 3600 },
-      { id: 90, name: 'Iron Legs', image: '/images/resources/iron/item-iron-leg-shell-icon.png', duration: 7200 },
-      { id: 90, name: 'Iron Body', image: '/images/resources/iron/item-iron-body-shell-icon.png', duration: 7200 },
-      { id: 90, name: 'Iron Helm', image: '/images/resources/iron/item-iron-helm-shell-icon.png', duration: 7200 }
+      { id: 91, name: 'Reinforced Iron Plate', image: '/images/resources/iron/item-iron-plate-reinforced-icon.png', duration: 3600 },
+      { id: 92, name: 'Iron Legs', image: '/images/resources/iron/item-iron-leg-shell-icon.png', duration: 7200 },
+      { id: 93, name: 'Iron Body', image: '/images/resources/iron/item-iron-body-shell-icon.png', duration: 7200 },
+      { id: 94, name: 'Iron Helm', image: '/images/resources/iron/item-iron-helm-shell-icon.png', duration: 7200 }
     ],
     "Silver": [
-      { id: 88, name: 'Silver Chunk', image: '/images/resources/silver/item-silver-chunk-icon.png', duration: 300 },
-      { id: 89, name: 'Silver Slab', image: '/images/resources/silver/item-silver-slab-icon.png', duration: 900 },
-      { id: 90, name: 'Silver Plate', image: '/images/resources/silver/item-silver-plate-icon.png', duration: 1800 },
-      { id: 90, name: 'Reinforced Silver Plate', image: '/images/resources/silver/item-silver-plate-reinforced-icon.png', duration: 3600 },
-      { id: 90, name: 'Silver Legs', image: '/images/resources/silver/item-silver-leg-shell-icon.png', duration: 7200 },
-      { id: 90, name: 'Silver Body', image: '/images/resources/silver/item-silver-body-shell-icon.png', duration: 7200 },
-      { id: 90, name: 'Silver Helm', image: '/images/resources/silver/item-silver-helm-shell-icon.png', duration: 7200 }
+      { id: 95, name: 'Silver Chunk', image: '/images/resources/silver/item-silver-chunk-icon.png', duration: 300 },
+      { id: 96, name: 'Silver Slab', image: '/images/resources/silver/item-silver-slab-icon.png', duration: 900 },
+      { id: 97, name: 'Silver Plate', image: '/images/resources/silver/item-silver-plate-icon.png', duration: 1800 },
+      { id: 98, name: 'Reinforced Silver Plate', image: '/images/resources/silver/item-silver-plate-reinforced-icon.png', duration: 3600 },
+      { id: 99, name: 'Silver Legs', image: '/images/resources/silver/item-silver-leg-shell-icon.png', duration: 7200 },
+      { id: 100, name: 'Silver Body', image: '/images/resources/silver/item-silver-body-shell-icon.png', duration: 7200 },
+      { id: 101, name: 'Silver Helm', image: '/images/resources/silver/item-silver-helm-shell-icon.png', duration: 7200 }
     ],
     "Gold": [
-      { id: 88, name: 'Gold Chunk', image: '/images/resources/gold/crafting-gold-chunk-icon.png', duration: 900 },
-      { id: 89, name: 'Gold Slab', image: '/images/resources/gold/crafting-gold-slab-icon.png', duration: 3600 },
-      { id: 90, name: 'Gold Plate', image: '/images/resources/gold/crafting-gold-plate-icon.png', duration: 7200 },
-      { id: 90, name: 'Reinforced Gold Plate', image: '/images/resources/gold/crafting-gold-plate-reinforced-icon.png', duration: 14400 },
-      { id: 88, name: 'Legs', image: '/images/resources/gold/crafting-gold-leg-shell-icon.png', duration: 21600 },
-      { id: 89, name: 'Body', image: '/images/resources/gold/crafting-gold-body-shell-icon.png', duration: 21600 },
-      { id: 90, name: 'Helm', image: '/images/resources/gold/crafting-gold-helm-shell-icon.png', duration: 21600 }
+      { id: 102, name: 'Gold Chunk', image: '/images/resources/gold/crafting-gold-chunk-icon.png', duration: 900 },
+      { id: 103, name: 'Gold Slab', image: '/images/resources/gold/crafting-gold-slab-icon.png', duration: 3600 },
+      { id: 104, name: 'Gold Plate', image: '/images/resources/gold/crafting-gold-plate-icon.png', duration: 7200 },
+      { id: 105, name: 'Reinforced Gold Plate', image: '/images/resources/gold/crafting-gold-plate-reinforced-icon.png', duration: 14400 },
+      { id: 106, name: 'Legs', image: '/images/resources/gold/crafting-gold-leg-shell-icon.png', duration: 21600 },
+      { id: 107, name: 'Body', image: '/images/resources/gold/crafting-gold-body-shell-icon.png', duration: 21600 },
+      { id: 108, name: 'Helm', image: '/images/resources/gold/crafting-gold-helm-shell-icon.png', duration: 21600 }
     ],
     "Unob": [
-      { id: 88, name: 'Unobtainium Chunk', image: '/images/resources/unobtainium/crafting-unobtainium-chunk-icon.png', duration: 1800 },
-      { id: 89, name: 'Unobtainium Slab', image: '/images/resources/unobtainium/crafting-unobtainium-slab-icon.png', duration: 7200 },
-      { id: 90, name: 'Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-icon.png', duration: 14400 },
-      { id: 90, name: 'Reinforced Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png', duration: 21600 },
-      { id: 88, name: 'Legs', image: '/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png', duration: 28800 },
-      { id: 89, name: 'Body', image: '/images/resources/unobtainium/crafting-unobtainium-body-mold-icon.png', duration: 28800 },
-      { id: 90, name: 'Helm', image: '/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png', duration: 28800 }
+      { id: 109, name: 'Unobtainium Chunk', image: '/images/resources/unobtainium/crafting-unobtainium-chunk-icon.png', duration: 1800 },
+      { id: 110, name: 'Unobtainium Slab', image: '/images/resources/unobtainium/crafting-unobtainium-slab-icon.png', duration: 7200 },
+      { id: 111, name: 'Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-icon.png', duration: 14400 },
+      { id: 112, name: 'Reinforced Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png', duration: 21600 },
+      { id: 113, name: 'Legs', image: '/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png', duration: 28800 },
+      { id: 114, name: 'Body', image: '/images/resources/unobtainium/crafting-unobtainium-body-mold-icon.png', duration: 28800 },
+      { id: 115, name: 'Helm', image: '/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png', duration: 28800 }
     ],
     "Frost": [
-      { id: 88, name: 'Ice Crystal Chunk', image: '/images/resources/frost/crafting-ice-crystal-medium-icon.png', duration: 7200 },
-      { id: 89, name: 'Ice Crystal', image: '/images/resources/frost/crafting-ice-crystal-large-icon.png', duration: 14400 },
-      { id: 90, name: 'Frostite Plate', image: '/images/resources/frost/item-ice-plate-icon.png', duration: 21600 },
-      { id: 90, name: 'Reinforced Frostite Plate', image: '/images/resources/frost/item-ice-plate-reinforced-icon.png', duration: 28800 },
-      { id: 88, name: 'Legs', image: '/images/resources/frost/crafting-ice-leg-shell-icon.png', duration: 43200 },
-      { id: 89, name: 'Body', image: '/images/resources/frost/crafting-ice-body-shell-icon.png', duration: 43200 },
-      { id: 90, name: 'Helm', image: '/images/resources/frost/crafting-ice-helm-shell-icon.png', duration: 43200 }
+      { id: 116, name: 'Ice Crystal Chunk', image: '/images/resources/frost/crafting-ice-crystal-medium-icon.png', duration: 7200 },
+      { id: 117, name: 'Ice Crystal', image: '/images/resources/frost/crafting-ice-crystal-large-icon.png', duration: 14400 },
+      { id: 118, name: 'Frostite Plate', image: '/images/resources/frost/item-ice-plate-icon.png', duration: 21600 },
+      { id: 119, name: 'Reinforced Frostite Plate', image: '/images/resources/frost/item-ice-plate-reinforced-icon.png', duration: 28800 },
+      { id: 120, name: 'Legs', image: '/images/resources/frost/crafting-ice-leg-shell-icon.png', duration: 43200 },
+      { id: 121, name: 'Body', image: '/images/resources/frost/crafting-ice-body-shell-icon.png', duration: 43200 },
+      { id: 122, name: 'Helm', image: '/images/resources/frost/crafting-ice-helm-shell-icon.png', duration: 43200 }
     ],
     "Marble": [
-      { id: 88, name: 'Marble Chunk', image: '/images/resources/marble/crafting-marble-chunk-icon.png', duration: 7200 },
-      { id: 89, name: 'Marble Slab', image: '/images/resources/marble/crafting-marble-slab-icon.png', duration: 14400 },
-      { id: 90, name: 'Marble Plate', image: '/images/resources/marble/crafting-marble-plate-icon.png', duration: 21600 },
-      { id: 90, name: 'Reinforced Marble Plate', image: '/images/resources/marble/crafting-marble-plate-rf-icon.png', duration: 28800 },
-      { id: 88, name: 'Legs', image: '/images/resources/marble/.png', duration: 43200 },
-      { id: 89, name: 'Body', image: '/images/resources/marble/.png', duration: 43200 },
-      { id: 90, name: 'Helm', image: '/images/resources/marble/.png', duration: 43200 }
+      { id: 123, name: 'Marble Chunk', image: '/images/resources/marble/crafting-marble-chunk-icon.png', duration: 7200 },
+      { id: 124, name: 'Marble Slab', image: '/images/resources/marble/crafting-marble-slab-icon.png', duration: 14400 },
+      { id: 125, name: 'Marble Plate', image: '/images/resources/marble/crafting-marble-plate-icon.png', duration: 21600 },
+      { id: 126, name: 'Reinforced Marble Plate', image: '/images/resources/marble/crafting-marble-plate-rf-icon.png', duration: 28800 },
+      { id: 127, name: 'Legs', image: '/images/resources/marble/.png', duration: 43200 },
+      { id: 128, name: 'Body', image: '/images/resources/marble/.png', duration: 43200 },
+      { id: 129, name: 'Helm', image: '/images/resources/marble/.png', duration: 43200 }
     ]
   }
 };
