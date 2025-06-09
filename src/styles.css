@@ -1,0 +1,152 @@
+body {
+  background-color: rgb(13, 2, 39);
+    padding-bottom: 50px;
+}
+
+footer {
+  background-color: #1d1333;
+  text-align: center;
+  padding: 12px;
+  font-size: 0.9rem;
+  color: #ccc;
+  border-top: 1px solid #444;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.web-title {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Container holding all tiers horizontally */
+.all-groups {
+  display: flex;
+  gap: 40px; /* space between tiers */
+  align-items: flex-start; /* align all tiers top */
+  text-align: center;
+  padding: 20px;
+  overflow-x: auto; /* allow horizontal scroll if too wide */
+  flex-wrap: wrap; /*makes the whole row wrap once its too long*/
+  
+}
+
+/* Each tier is a vertical column */
+.tier-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* left align content */
+  min-width: 120px; /* or adjust width as needed */
+  justify-content: center; /* horizontal align */
+  align-items: center;     /* vertical align */
+}
+
+/* Tier Title */
+.tier-title {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #444;
+  white-space: nowrap; /* prevent breaking */
+}
+
+
+/* Group Title */
+.group-name {
+  /* position: relative; */
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #845cf1;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px; /*rounded*/
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+
+}
+
+
+/* Items Layout */
+.items-list {
+  margin-top: 0; /* remove top margin */
+  display: flex;
+  flex-direction: column; /* stack vertically */ /* THISSSSSS*/
+  gap: 10px;
+}
+
+/* Item Card remains unchanged */
+.item-card {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(67, 29, 156);
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.item-card.ready {
+  background-color: rgb(132, 255, 84);
+}
+
+.item-card.active {
+  background-color: rgba(216, 43, 43, 0.79);
+}
+
+.item-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(61, 6, 6, 0.47);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+
+/* TITLE AREA*/
+.tier-title {
+  width: 100%;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: #ffffff;
+  padding-bottom: 6px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 8px;
+  background-color: #845cf1;
+  
+}
+
+.groups-row {
+  display: flex;
+  gap: 12px; /* space between groups */
+  flex-wrap: nowrap; /* keep groups in one row */
+  
+}
+.all-groups {
+  /* display: block; stack tiers vertically */
+  /* width: 100%; */
+  gap: 40px;
+  
+}
+
+
