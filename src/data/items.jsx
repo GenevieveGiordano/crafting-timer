@@ -177,7 +177,7 @@ const itemGroups = {
       { id: 111, name: 'Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-icon.png', duration: 14400 },
       { id: 112, name: 'Reinforced Unobtainium Plate', image: '/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png', duration: 21600 },
       { id: 113, name: 'Legs', image: '/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png', duration: 28800 },
-      { id: 114, name: 'Body', image: '/images/resources/unobtainium/crafting-unobtainium-body-mold-icon.png', duration: 28800 },
+      { id: 114, name: 'Body', image: '/images/resources/unobtainium/crafting-unobtainium-body-shell-icon.png', duration: 28800 },
       { id: 115, name: 'Helm', image: '/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png', duration: 28800 }
     ],
     "Frost": [
