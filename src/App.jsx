@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import SideBar from './components/SideBar';
 import ItemGroupList from './components/ItemGroupList';
 import './styles.css';
 
@@ -86,15 +87,24 @@ function App() {
   };
 
   return (
-    <div style={{ padding: '20px' }}>
-      <div className="web-title"> <h1>Fantasy Online 2 Crafting Timers</h1></div> 
-      <audio ref={audioRef} src="/done.mp3" preload="auto" />
-      <ItemGroupList
-        activeTimers={activeTimers}
-        toggleTimer={toggleTimer}
-        getTimeLeft={getTimeLeft}
-      />
+    <div className='container'>
+      <div className="web-title"> <h1>Fantasy Online 2 Crafting Timers</h1></div>
+      <div className='core-page'>
 
+        <SideBar/>
+
+        <div className='main-content'>
+        <audio ref={audioRef} src="/done.mp3" preload="auto" />
+
+        <ItemGroupList
+          activeTimers={activeTimers}
+          toggleTimer={toggleTimer}
+          getTimeLeft={getTimeLeft}
+        />
+        </div>
+        
+      </div>
+      <footer className="static-footer">Made by MajorasMask Courtesy of Catacomb Saints</footer>
     </div>
     
   );
