@@ -7,7 +7,7 @@ html, body {
   background-color: rgb(13, 2, 39);
 }
 
-footer {
+.footer {
   background-color: #1d1333;
   text-align: center;
   padding: 12px;
@@ -29,27 +29,28 @@ footer {
   margin: 0px;
   min-width: 100vw; /*essential*/
   justify-self: center; /*works to center*/
-  
 }
 
-.web-title {
+.header {
   color: #e8dada;
   font-size: 2rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #407207;
 }
 
 .sidebar {
   background-color: #80c93d;
   min-width: 55px;
-
-
+  /* position: sticky; */
 }
 
 .core-page {
   display: flex;
   width: 100%;
   height: 100%;
+    flex: 1; /* Grow to fill the remaining space */
+  /* padding: 20px; */
 }
 
 .main-content {
@@ -57,14 +58,13 @@ footer {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 90px;
   box-sizing: border-box;
   overflow-x: auto;
   min-width: 0;  /* prevent content overflow breaking flex */
   max-width: 100%;  /* prevent max-width restrictions */
 }
-
-
 
 /* Container holding all tiers horizontally */
 .all-groups {
@@ -78,12 +78,7 @@ footer {
   align-items: flex-start; /* align all tiers top */
   gap: 40px; /* space between tiers */
   text-align: center;
-
-
-
 }
-
-
 
 /* Each tier is a vertical column */
 .tier-section {
@@ -116,9 +111,7 @@ footer {
   color: #fff;
   padding: 10px 15px;
   width: 100%;
-
 }
-
 
 /* Items Layout */
 .items-list {
@@ -170,8 +163,7 @@ footer {
   pointer-events: none;
 }
 
-
-/* TITLE AREA*/
+/* Tier TITLE AREA*/
 .tier-title {
   width: 100%;
   font-size: 2rem;

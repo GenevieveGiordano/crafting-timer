@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
+import Header from './components/Header';
 import SideBar from './components/SideBar';
 import ItemGroupList from './components/ItemGroupList';
+import Footer from './components/Footer';
 import './styles.css';
 
 
@@ -88,7 +90,7 @@ function App() {
 
   return (
     <div className='container'>
-      <div className="web-title"> <h1>Fantasy Online 2 Crafting Timers</h1></div>
+      <Header/>
       <div className='core-page'>
 
         <SideBar/>
@@ -104,7 +106,8 @@ function App() {
         </div>
         
       </div>
-      <footer className="static-footer">Made by MajorasMask Courtesy of Catacomb Saints</footer>
+      
+      <Footer/>
     </div>
     
   );
