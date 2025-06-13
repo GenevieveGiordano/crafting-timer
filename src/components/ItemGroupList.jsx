@@ -2,7 +2,7 @@ import ItemGroup from './ItemGroup';
 import itemGroups from '../data/items'; // Adjust path if needed
 import '../styles.css';
 
-const ItemGroupList = ({ activeTimers, toggleTimer, getTimeLeft }) => {
+const ItemGroupList = ({ activeTimers, toggleTimer, getTimeLeft, openCustomTimer }) => {
   return (
 <div className="all-groups">
   {Object.entries(itemGroups).map(([tierName, tierData]) => (
@@ -21,6 +21,7 @@ const ItemGroupList = ({ activeTimers, toggleTimer, getTimeLeft }) => {
               activeTimers={activeTimers}
               toggleTimer={toggleTimer}
               getTimeLeft={getTimeLeft}
+              openCustomTimer={openCustomTimer}
             />
           ))
         ) : (
@@ -30,6 +31,7 @@ const ItemGroupList = ({ activeTimers, toggleTimer, getTimeLeft }) => {
             activeTimers={activeTimers}
             toggleTimer={toggleTimer}
             getTimeLeft={getTimeLeft}
+            openCustomTimer={openCustomTimer}
           />
         )}
       </div>

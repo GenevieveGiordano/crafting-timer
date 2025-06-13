@@ -1,7 +1,7 @@
 import ItemCard from './ItemCard';
 import '../styles.css';
 
-const ItemGroup = ({ groupName, items, activeTimers, toggleTimer, getTimeLeft }) => {
+const ItemGroup = ({ groupName, items, activeTimers, toggleTimer, getTimeLeft, openCustomTimer }) => {
   return (
     <div className="item-group">
       <h2 className="group-name">{groupName}</h2>
@@ -13,6 +13,7 @@ const ItemGroup = ({ groupName, items, activeTimers, toggleTimer, getTimeLeft })
             isActive={!!activeTimers[item.id]}
             timeLeft={getTimeLeft(activeTimers[item.id])}
             onClick={() => toggleTimer(item.id, item.duration)}
+            onHold={openCustomTimer}
           />
         ))}
       </div>
