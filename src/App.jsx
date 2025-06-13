@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Header from './components/Header';
 import SideBar from './components/SideBar';
+import Form from './components/Form';
 import ItemGroupList from './components/ItemGroupList';
 import Footer from './components/Footer';
 import './styles.css';
@@ -127,8 +128,11 @@ return (
   <div className='container'>
 
     <Header />
+    
     <div className='core-page'>
+      
       <SideBar />
+      
       <div className='main-content'>
         <audio ref={audioRef} src="/done.mp3" preload="auto" />
         <ItemGroupList
@@ -159,6 +163,7 @@ return (
         backgroundColor: 'white', padding: '20px', borderRadius: '8px', maxWidth: '400px', width: '90%' 
       }}
     >
+      <Form/>
       <h3>Set Custom Timer</h3>
       <div className="modal-inputs">
         <input
@@ -168,7 +173,7 @@ return (
           onChange={e => setCustomMinutes(e.target.value)}
           style={{ marginRight: '8px', width: '100px' }}
         />
-        <h1>DEBUG??</h1>
+
         <input
           type="number"
           placeholder="Seconds"

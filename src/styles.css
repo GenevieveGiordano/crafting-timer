@@ -93,6 +93,64 @@ h3 {
   max-width: 100%;  /* prevent max-width restrictions */
 }
 
+.form-container {
+  border-style: solid;
+  border-width: 5px;
+  border:rgb(132, 255, 84);
+  max-width: 20%;
+  align-self: center;
+  padding: 10px 5px;
+  margin: 15px;
+  text-align: center;
+  background-color: #845cf1;
+  border-radius: 16px; /*rounded*/
+}
+
+.label-container {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
+  width:100%;
+  /* padding-bottom: 15px; */
+}
+
+.label-group {
+  display: flex;
+  text-align: center;
+  justify-self: center;
+  align-items: center;
+}
+
+.label-title {
+  padding: 25px;
+}
+
+.input-group {
+  /* align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-items: center;
+  justify-self: center;
+  justify-content: center; */
+    margin: 15px 25px;
+}
+
+.form-input {
+  border-color: #b283ff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 14px; /*rounded*/
+  text-align: center;
+  
+}
+.btn {
+  padding: 10px;
+  background-color:rgb(86, 33, 209);
+  color: white;
+  font-weight: bold;
+}
+
 /* Container holding all tiers horizontally */
 .all-groups {
   max-width: 100%;
