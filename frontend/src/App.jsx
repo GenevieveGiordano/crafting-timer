@@ -9,13 +9,12 @@ import './styles.css';
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentItemId, setCurrentItemId] = useState(null);
-  const [currentItem, setCurrentItem] = useState(null); // <-- keep full item here
+  const [currentItem, setCurrentItem] = useState(null);
   const [customDays, setCustomDays] = useState('');
   const [customHours, setCustomHours] = useState('');
   const [customMinutes, setCustomMinutes] = useState('');
   const [customSeconds, setCustomSeconds] = useState('');
 
-  // Backend data
   const [itemGroups, setItemGroups] = useState({});
   const [loading, setLoading] = useState(true);
 
@@ -42,15 +41,29 @@ function App() {
     localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
   }, [activeTimers]);
 
-  // Fetch items from backend
+  // Fetch items from backend and group them by tier and group
   useEffect(() => {
+    const groupItemsByTierAndGroup = (items) => {
+      return items.reduce((acc, item) => {
+        const tier = item.tier || 'defaultTier';
+        const group = item.group || 'defaultGroup';
+
+        if (!acc[tier]) acc[tier] = {};
+        if (!acc[tier][group]) acc[tier][group] = [];
+
+        acc[tier][group].push(item);
+        return acc;
+      }, {});
+    };
+
     const fetchItems = async () => {
       try {
         const API_URL = 'https://crafting-timer.onrender.com/api/items';
-
-    const response = await fetch(API_URL);
+        const response = await fetch(API_URL);
         const data = await response.json();
-        setItemGroups(data);
+
+        const groupedData = groupItemsByTierAndGroup(data);
+        setItemGroups(groupedData);
       } catch (error) {
         console.error('Failed to fetch items:', error);
       } finally {
@@ -181,7 +194,7 @@ function App() {
             <p>Loading items...</p>
           ) : (
             <ItemGroupList
-              itemGroups={itemGroups} // <- pass the fetched data
+              itemGroups={itemGroups} // <- grouped data now
               activeTimers={activeTimers}
               toggleTimer={toggleTimer}
               getTimeLeft={getTimeLeft}

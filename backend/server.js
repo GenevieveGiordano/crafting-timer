@@ -12,21 +12,17 @@ const uri = "mongodb://genevievehgiordano:GhoulYuki3798@" +
   "ac-yiawmah-shard-00-02.znqy7hf.mongodb.net:27017/" +
   "fo2Database?ssl=true&replicaSet=atlas-pacrwz-shard-0&authSource=admin&retryWrites=true&w=majority";
 
-
-// Removed tls options for MongoClient — the driver handles TLS automatically with mongodb+srv://
 const client = new MongoClient(uri, {
   maxPoolSize: 10,
   minPoolSize: 1,
   serverSelectionTimeoutMS: 5000,
-  // Removed tls: true and tlsAllowInvalidCertificates
-  // Removed minTLSVersion option
 });
 
 const PORT = 5000;
 
 async function startServer() {
   try {
-    await client.connect();  // Wait for connection to MongoDB Atlas
+    await client.connect();
     console.log('✅ Connected to MongoDB Atlas');
 
     app.listen(PORT, () => {
@@ -34,11 +30,10 @@ async function startServer() {
     });
   } catch (error) {
     console.error('❌ Failed to connect to MongoDB', error);
-    process.exit(1); // Exit process with failure code
+    process.exit(1);
   }
 }
 
-// Define your routes here, e.g.:
 app.get('/', (req, res) => {
   res.send('Backend is running');
 });
@@ -55,5 +50,4 @@ app.get('/api/items', async (req, res) => {
   }
 });
 
-// Call startServer to connect DB and launch app
 startServer();

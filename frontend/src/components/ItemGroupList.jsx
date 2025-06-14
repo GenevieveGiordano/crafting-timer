@@ -1,39 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import ItemGroup from './ItemGroup';
 
-const ItemGroupList = ({ activeTimers, toggleTimer, getTimeLeft, openCustomTimer }) => {
-  const [itemGroups, setItemGroups] = useState({});
-
-  // Helper function to group flat array by tier and group
-  const groupItemsByTierAndGroup = (items) => {
-    return items.reduce((acc, item) => {
-      const tier = item.tier || 'defaultTier';
-      const group = item.group || 'defaultGroup';
-
-      if (!acc[tier]) acc[tier] = {};
-      if (!acc[tier][group]) acc[tier][group] = [];
-
-      acc[tier][group].push(item);
-      return acc;
-    }, {});
-  };
-
-useEffect(() => {
-  const fetchItems = async () => {
-    try {
-      const response = await fetch('https://crafting-timer.onrender.com/api/items');
-      const data = await response.json();
-      console.log('Fetched data:', data);  // <-- add this
-      const groupedData = groupItemsByTierAndGroup(data);
-      console.log('Grouped data:', groupedData); // <-- and this
-      setItemGroups(groupedData);
-    } catch (error) {
-      console.error('Error fetching item groups:', error);
-    }
-  };
-
-  fetchItems();
-}, []);
+const ItemGroupList = ({
+  itemGroups, // <-- updated to receive grouped data directly
+  activeTimers,
+  toggleTimer,
+  getTimeLeft,
+  openCustomTimer,
+}) => {
+  // No need to fetch or group items here anymore
+  // This component simply renders grouped data passed as props
 
   return (
     <div className="all-groups">
