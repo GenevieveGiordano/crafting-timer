@@ -250,6 +250,24 @@ const itemGroups = {
       { name: 'Body', image: '/images/resources/frost/crafting-ice-body-shell-icon.png', duration: 43200 },
       { name: 'Helm', image: '/images/resources/frost/crafting-ice-helm-shell-icon.png', duration: 43200 }
     ],
+    "Coral": [
+      { name: 'Coral Chunk', image: '/images/resources/coral/crafting-coral-chunk-icon.png', duration: 7200 }, //1hr
+      { name: 'Coral Slab', image: '/images/resources/coral/crafting-coral-slab-icon.png', duration: 14400 }, //4hr
+      { name: 'Coral Plate', image: '/images/resources/coral/crafting-coral-plate-icon.png', duration: 21600 }, //6hr
+      { name: 'Infused Coral Plate', image: '/images/resources/coral/crafting-coral-plate-reinforced-icon.png', duration: 28800 }, //8hr
+      { name: 'Coral Cube', image: '/images/resources/coral/crafting-coral-cube-icon.png', duration: 43200 }, //12hr
+      { name: 'Coral Hypercube', image: '/images/resources/coral/crafting-coral-cube-hyper-icon.png', duration: 43200 }, //16hr
+      { name: 'Hypercube of the Sea', image: '/images/resources/coral/crafting-sea-cube-hyper-icon.png', duration: 43200 } //24hr
+    ],
+    "Salt": [
+      { name: 'Salt  Clump', image: '/images/resources/salt/crafting-salt-chunk-icon.png', duration: 7200 }, //1hr
+      { name: 'Salt Slab', image: '/images/resources/salt/crafting-salt-slab-icon.png', duration: 14400 }, //4hr
+      { name: 'Salt Plate', image: '/images/resources/salt/crafting-salt-plate-icon.png', duration: 21600 }, //6hr
+      { name: 'Infused Salt Plate', image: '/images/resources/salt/crafting-salt-plate-reinforced-icon.png', duration: 28800 }, //8hr
+      { name: 'Salt Cube', image: '/images/resources/salt/crafting-salt-cube-icon.png', duration: 43200 }, //12hr
+      { name: 'Salt Hypercube', image: '/images/resources/salt/crafting-salt-cube-hyper-icon.png', duration: 43200 }, //16hr
+      { name: 'Hypercube of the Sea', image: '/images/resources/salt/crafting-sea-cube-hyper-icon.png', duration: 43200 } //24hr
+    ],
     "Marble": [
       { name: 'Marble Chunk', image: '/images/resources/marble/crafting-marble-chunk-icon.png', duration: 7200 }, //2hrs
       { name: 'Marble Slab', image: '/images/resources/marble/crafting-marble-slab-icon.png', duration: 14400 }, //4hrs
