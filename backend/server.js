@@ -20,9 +20,9 @@ app.get('/', (req, res) => {
   res.send('Backend is running');
 });
 
-app.get('/items', async (req, res) => {
+app.get('/api/items', async (req, res) => {
   try {
-    const db = client.db('fo2Database');  // Make sure this matches your actual DB name in Atlas!
+    const db = client.db('fo2Database');
     const items = await db.collection('items').find().toArray();
     console.log('Fetched items:', items.length);
     res.json(items);
@@ -31,6 +31,7 @@ app.get('/items', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
 
 const PORT = 5000;
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
