@@ -6,7 +6,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const uri = 'mongodb+srv://genevievehgiordano:GhoulYuki3798@fo2-items.znqy7hf.mongodb.net/fo2Database?retryWrites=true&w=majority&appName=FO2-items';
+const uri = 'mongodb://genevievehgiordano:GhoulYuki3798@ac-yiawmah-shard-00-00.znqy7hf.mongodb.net:27017,ac-yiawmah-shard-00-01.znqy7hf.mongodb.net:27017,ac-yiawmah-shard-00-02.znqy7hf.mongodb.net:27017/fo2Database?ssl=true&replicaSet=atlas-pacrwz-shard-0&authSource=admin&retryWrites=true&w=majority';
+
 
 // Removed tls options for MongoClient — the driver handles TLS automatically with mongodb+srv://
 const client = new MongoClient(uri, {
