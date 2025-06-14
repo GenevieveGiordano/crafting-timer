@@ -5,11 +5,12 @@ const Header = () => {
 
 return (
 <div className='header'>
-    <div className='title'>
-        <h1>Fantasy Online 2 Crafting Timers</h1>
-    </div>
-    <Updates/>
     <Banner/>
+    <Updates/>
+
+        <div className='title'>
+        <div>Fantasy Online 2 Crafting Timers</div>
+    </div>
 </div>
 
 

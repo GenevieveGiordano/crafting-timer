@@ -161,6 +161,49 @@ const itemGroups = {
       { name: 'Crucified Knight Pauldrons', image: '/images/armor-t4-str-shoulder-icon.png', duration: 54000 } //16hrs
     ]
   },
+  T5: {
+    "T5 Starforged Antimatter": [
+      { name: 'Starforged Antimatter Legs', image: '/images/.png', duration: 28800 }, //8hrs
+      { name: 'Starforged Antimatter Body', image: '/images/.png', duration: 28800 }, //8hrs
+      { name: 'Starforged Antimatter Helm', image: '/images/.png', duration: 28800 } //8hrs
+    ],
+    "T5 Agi": [
+      { name: 'Tiamat Legs', image: '/images/armor/armor-t5-agi-legs-icon.png', duration: 86400 }, //24hrs
+      { name: 'Tiamat Body', image: '/images/armor/armor-t5-agi-body-icon.png', duration: 86400 }, //24hrs
+      { name: 'Tiamat Helm', image: '/images/armor/armor-t5-agi-helmet-icon.png', duration: 86400 }, //24hrs
+      { name: 'Tiamat Face', image: '/images/armor/armor-t5-agi-face-icon.png', duration: 86400 }, //24hrs
+      { name: 'Tiamat Mantleplate', image: '/images/armor/armor-t5-agi-shoulder-icon.png', duration: 86400 }, //24hrs
+      { name: 'Pegasus Wings', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+      { name: 'Drakepiercer', image: '/images/weapons/.png', duration: 86400 } //24hrs
+    ],
+    "T5 Int": [
+      { name: 'Archmage Legs', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Body', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Hat', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Face', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Necklace', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Soul Releaser', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+      { name: 'The Monarch', image: '/images/weapons/.png', duration: 86400 } //24hrs
+    ],
+    "T5 Sta": [
+      { name: 'Colossus Legs', image: '/images/.png', duration: 86400 },  //24hrs
+      { name: 'Colossus Body', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Helmet', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Face', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Pauldrons', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Morning Star', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+      { name: 'Skullcradle', image: '/images/weapons/.png', duration: 86400 } //24hrs
+    ],
+    "T5 Str": [
+      { name: 'Paladin Legs', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Body', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Helmet', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Face', image: '/images/', duration: 86400 }, //24hrs
+      { name: 'Paladin Pauldrons', image: '/images/.png', duration: 86400 }, //24hrs
+      { name: 'Divine Claymore', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+      { name: 'Axe of Honor', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+    ]
+  },
   Resources: {
     Iron: [
       { name: 'Iron Chunk', image: '/images/resources/iron/item-iron-chunk-icon.png', duration: 300 },
@@ -265,16 +308,6 @@ const itemGroups = {
       { name: 'Crystal Halberd', image: '/images/weapons/weapon-t4-agi-one-hand-icon.png', duration: 57600 }, //16hrs
       { name: 'Gracebreaker', image: '/images/weapons/.png', duration: 57600 }, //16hrs
       { name: 'Blunt Stick of Doom', image: '/images/weapons/.png', duration: 57600 } //16hrs
-    ],
-    T5 : [
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
-      { name: '', image: '/images/weapons/.png', duration: 1 },
     ]
   },
   Rings: {
@@ -297,10 +330,10 @@ const itemGroups = {
       { name: 'Divine Mage Ring', image: '/images/rings/ring-t3-int-icon.png', duration: 28800 } //8hrs
     ],
     T5 : [
-      { name: '', image: '/images/rings/.png', duration: 1 },
-      { name: '', image: '/images/rings/.png', duration: 1 },
-      { name: '', image: '/images/rings/.png', duration: 1 },
-      { name: '', image: '/images/rings/.png', duration: 1 }
+      { name: 'Paladin Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
+      { name: 'Colossus Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
+      { name: 'Tiamat Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
+      { name: 'Archmage', image: '/images/rings/.png', duration: 43200 } //12hrs
     ]
   },
   Books: {
@@ -329,10 +362,10 @@ const itemGroups = {
       { name: 'Divine Mage Book', image: '/images/books/trinket-t3-int-book-icon.png', duration: 28800 } //8hrs
     ],
     T5 : [
-      { name: '', image: '/images/books/.png', duration: 1 },
-      { name: '', image: '/images/books/.png', duration: 1 },
-      { name: '', image: '/images/books/.png', duration: 1 },
-      { name: '', image: '/images/books/.png', duration: 1 }
+      { name: 'Paladin', image: '/images/books/.png', duration: 43200 }, //12hrs
+      { name: 'Colossus', image: '/images/books/.png', duration: 43200 }, //12hrs
+      { name: 'Tiamat', image: '/images/books/.png', duration: 43200 }, //12hrs
+      { name: 'Archmage', image: '/images/books/.png', duration: 43200 } //12hrs
     ]
   }
 };

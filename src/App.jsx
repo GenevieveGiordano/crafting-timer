@@ -6,10 +6,12 @@ import ItemGroupList from './components/ItemGroupList';
 import Footer from './components/Footer';
 import './styles.css';
 
-
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentItemId, setCurrentItemId] = useState(null);
+  const [currentItem, setCurrentItem] = useState(null); // <-- keep full item here
+  const [customDays, setCustomDays] = useState('');
+  const [customHours, setCustomHours] = useState('');
   const [customMinutes, setCustomMinutes] = useState('');
   const [customSeconds, setCustomSeconds] = useState('');
 
@@ -73,7 +75,7 @@ function App() {
     });
   };
 
-  // Get time left in seconds
+  // Get time left, now supports days as well
   const getTimeLeft = (endTime) => {
     if (!endTime) return '';
     if (endTime === 'ready') return 'Ready!';
@@ -89,112 +91,109 @@ function App() {
     const totalMinutes = Math.floor(totalSeconds / 60);
     const hours = Math.floor(totalMinutes / 60);
     const minutes = totalMinutes % 60;
+    const days = Math.floor(hours / 24);
+    const remainingHours = hours % 24;
 
+    if (days > 0) return `${days}d ${remainingHours}h ${minutes}m`;
     if (hours > 0) return `${hours}h ${minutes}m`;
     return `${minutes}m`;
   };
 
-// Modal Opener
-const openCustomTimer = (item) => {
-  setCurrentItemId(item.id);
-  setModalOpen(true);
-};
+  // Modal opener sets both ID and full item
+  const openCustomTimer = (item) => {
+    setCurrentItemId(item.id);
+    setCurrentItem(item);
+    setModalOpen(true);
+  };
 
-// Sets Custom Timer
-const setCustomTimer = () => {
-  const minutes = parseInt(customMinutes, 10) || 0;
-  const seconds = parseInt(customSeconds, 10) || 0;
-  const totalSeconds = minutes * 60 + seconds;
+  // Set custom timer from days/hours/minutes/seconds input
+  const setCustomTimer = () => {
+    const days = parseInt(customDays, 10) || 0;
+    const hours = parseInt(customHours, 10) || 0;
+    const minutes = parseInt(customMinutes, 10) || 0;
+    const seconds = parseInt(customSeconds, 10) || 0;
 
-  if (currentItemId && totalSeconds > 0) {
-    setActiveTimers(prev => ({
-      ...prev,
-      [currentItemId]: Date.now() + totalSeconds * 1000
-    }));
-  }
+    const totalSeconds = days * 86400 + hours * 3600 + minutes * 60 + seconds;
 
-  // Clear and close
-  setModalOpen(false);
-  setCurrentItemId(null);
-  setCustomMinutes('');
-  setCustomSeconds('');
-};
+    if (currentItemId && totalSeconds > 0) {
+      setActiveTimers(prev => ({
+        ...prev,
+        [currentItemId]: Date.now() + totalSeconds * 1000
+      }));
+    }
 
+    closeModal();
+  };
 
+  // Close modal and reset all relevant states
+  const closeModal = () => {
+    setModalOpen(false);
+    setCurrentItemId(null);
+    setCurrentItem(null);
+    setCustomDays('');
+    setCustomHours('');
+    setCustomMinutes('');
+    setCustomSeconds('');
+  };
 
-return (
+  return (
+    <div className="container">
+      <Header />
 
-  
-  <div className='container'>
+      <div className="core-page">
+        {/* Hidden due to WIP */}
+        {/* <SideBar /> */} 
 
-    <Header />
-    
-    <div className='core-page'>
-      
-      <SideBar />
-      
-      <div className='main-content'>
-        <audio ref={audioRef} src="/done.mp3" preload="auto" />
-        <ItemGroupList
-          activeTimers={activeTimers}
-          toggleTimer={toggleTimer}
-          getTimeLeft={getTimeLeft}
-          openCustomTimer={openCustomTimer}
-        />
+        <div className="main-content">
+          <audio ref={audioRef} src="/done.mp3" preload="auto" />
+          <ItemGroupList
+            activeTimers={activeTimers}
+            toggleTimer={toggleTimer}
+            getTimeLeft={getTimeLeft}
+            openCustomTimer={openCustomTimer}
+          />
+        </div>
       </div>
+
+      <Footer />
+
+      {/* Modal */}
+      {modalOpen && (
+        <div
+          className="modal-backdrop"
+          onClick={closeModal}
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100vw',
+            height: '100vh',
+            backgroundColor: 'rgba(0,0,0,0.5)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 9999,
+          }}
+        >
+          <div onClick={(e) => e.stopPropagation()}>
+            <Form
+              item={currentItem}
+              customDays={customDays}
+              setCustomDays={setCustomDays}
+              customHours={customHours}
+              setCustomHours={setCustomHours}
+              customMinutes={customMinutes}
+              setCustomMinutes={setCustomMinutes}
+              customSeconds={customSeconds}
+              setCustomSeconds={setCustomSeconds}
+              onSubmit={setCustomTimer}
+              onCancel={closeModal}
+            />
+          </div>
+        </div>
+      )}
     </div>
-    <Footer />
-
-    {/* Modal goes h4ere */}
-    
-{modalOpen && (
-  <div
-    className="modal-backdrop"
-    onClick={() => setModalOpen(false)}
-    style={{ 
-      position: 'fixed', top: 0, left: 0, width: '100vw', height: '100vh', backgroundColor: 'rgba(0,0,0,0.5)',
-      display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 9999
-    }}
-  >
-    <div
-      className="modal"
-      onClick={e => e.stopPropagation()}
-      style={{ 
-        backgroundColor: 'white', padding: '20px', borderRadius: '8px', maxWidth: '400px', width: '90%' 
-      }}
-    >
-      <Form/>
-      <h3>Set Custom Timer</h3>
-      <div className="modal-inputs">
-        <input
-          type="number"
-          placeholder="Minutes"
-          value={customMinutes}
-          onChange={e => setCustomMinutes(e.target.value)}
-          style={{ marginRight: '8px', width: '100px' }}
-        />
-
-        <input
-          type="number"
-          placeholder="Seconds"
-          value={customSeconds}
-          onChange={e => setCustomSeconds(e.target.value)}
-          style={{ width: '100px' }}
-        />
-      </div>
-      <div className="modal-buttons" style={{ marginTop: '12px' }}>
-        <button onClick={setCustomTimer} style={{ marginRight: '8px' }}>Start</button>
-        <button onClick={() => setModalOpen(false)}>Cancel</button>
-      </div>
-    </div>
-  </div>
-)}
-
-
-
-  </div>
-);
-
+  );
 }
 
 export default App;

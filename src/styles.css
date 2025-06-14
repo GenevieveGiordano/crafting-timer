@@ -33,37 +33,71 @@ html, body {
   justify-self: center; /*works to center*/
 }
 
-h1 {
-  font-weight: bolder;
-}
-
-h3 {
-  margin: 0px;
-  font-weight:bold;
-}
-
 .title {
-  color: #e8dada;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #407207;
-  padding: 20px;
+  margin-top: 40px;
+  padding: 24px 16px;
+  color: #fff;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
 
 .banner {
-  color: #00000085;
-  font-size: .25rem;
+  width: 100%;
+  padding: 8px 0;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #845cf1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: linear-gradient(270deg, #ff6ec4, #7873f5, #6bf5f2, #ff6ec4);
+  background-size: 600% 600%;
+  animation: rippleGradient 18s ease infinite;
+  letter-spacing: 0.5px;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
 }
+
+/* Slower ripple animation */
+@keyframes rippleGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .updates {
-  color: #00000085;
-  font-size: .25rem;
+  color: hsl(0, 0%, 100%);
+  padding: 5px 0px;
+  font-size: 0.9rem;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #845cf1;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  background: linear-gradient(270deg, #37129c, #7b6cf9);
+  background-color: #37129c;
+
+
+  margin-top: 59px; /* match banner height */
+  z-index: 1000;
 }
 
 .sidebar {
@@ -97,10 +131,8 @@ h3 {
   border-style: solid;
   border-width: 5px;
   border:rgb(132, 255, 84);
-  max-width: 20%;
   align-self: center;
   padding: 10px 5px;
-  margin: 15px;
   text-align: center;
   background-color: #845cf1;
   border-radius: 16px; /*rounded*/
@@ -110,30 +142,38 @@ h3 {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: larger;
-  text-align: left;
-  width:100%;
-  /* padding-bottom: 15px; */
+  text-align: center;
+  /* display: flex;  */
 }
 
 .label-group {
   display: flex;
+  align-items: center; /* Vertically center label & input */
+  /* justify-self: center; */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: larger;
   text-align: center;
   justify-self: center;
-  align-items: center;
+  padding: 5px 25px;
+  width: 70%;
 }
 
 .label-title {
-  padding: 25px;
+  padding: 5px;
+  flex-shrink: 0;
+  width: 70%; /* Ensure all titles align to the left uniformly */
+  padding-right: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: larger;
+  text-align: left;
 }
 
 .input-group {
-  /* align-items: center;
-  align-self: center;
-  align-content: center;
-  justify-items: center;
   justify-self: center;
-  justify-content: center; */
-    margin: 15px 25px;
+  justify-content: center;
+  margin: 15px 25px;
 }
 
 .form-input {
@@ -141,9 +181,13 @@ h3 {
   border-style: solid;
   border-width: 2px;
   border-radius: 14px; /*rounded*/
+  width: 50%;
+  flex: 1;
+  padding: 5px;
+  min-width: 0;
   text-align: center;
-  
 }
+
 .btn {
   padding: 10px;
   background-color:rgb(86, 33, 209);
@@ -151,6 +195,42 @@ h3 {
   font-weight: bold;
 }
 
+.btn-submit {
+  padding: 10px;
+  background-color:rgb(86, 33, 209);
+  color: white;
+  font-weight: bold;
+  margin-right: calc(-1 * var(--bs-border-width));
+  border-style: none;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-cancel {
+  padding: 10px;
+  background-color:rgb(86, 33, 209);
+  color: white;
+  font-weight: bold;
+  margin-left: calc(-1 * var(--bs-border-width));
+  border-style: none;
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-submit:hover {
+  background-color:rgb(125, 211, 45);
+  color: white;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-cancel:hover {
+  background-color:rgb(211, 45, 45);
+  color: white;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
 /* Container holding all tiers horizontally */
 .all-groups {
   max-width: 100%;
@@ -225,11 +305,42 @@ h3 {
 }
 
 .item-card.ready {
-  background-color: rgb(132, 255, 84);
+  background: linear-gradient(90deg, #00e676, #00c853, #1de9b6);
+  background-size: 600% 600%;
+  animation: readyGradient 8s ease infinite;
+}
+
+/* Slower ripple animation */
+@keyframes readyGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .item-card.active {
-  background-color: rgba(216, 43, 43, 0.79);
+  background: linear-gradient(90deg, #ff1744, #ff6d00, #bb8000, #ff1744);
+
+  background-size: 600% 600%;
+  animation: craftingGradient 8s ease infinite;
+}
+
+/* Slower ripple animation */
+@keyframes craftingGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .item-card-overlay {
@@ -238,7 +349,7 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(61, 6, 6, 0.47);
+  background-color: rgba(56, 54, 51, 0.507);
   color: white;
   display: flex;
   align-items: center;

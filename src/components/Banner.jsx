@@ -4,7 +4,8 @@ const Banner = () => {
 
 return (
 <div className='banner'>
-    <h3>Coming Next (Hopefully): Mobile Responsiveness + Custom Durations</h3>
+    <div>Coming Next (Hopefully): Mobile Responsiveness</div>
+    <div>New: Click and Hold to Custom input!</div>
 </div>
 );
 };
