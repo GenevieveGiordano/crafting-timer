@@ -4,7 +4,7 @@ const Updates = () => {
 
 return (
 <div className='updates'>
-    Timers Last Updated 6/12/2025
+    Timers Last Updated 6/13/2025
 </div>
 );
 };
