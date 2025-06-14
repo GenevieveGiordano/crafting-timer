@@ -15,16 +15,19 @@ function App() {
   const [customMinutes, setCustomMinutes] = useState('');
   const [customSeconds, setCustomSeconds] = useState('');
 
+  // Backend data
+  const [itemGroups, setItemGroups] = useState({});
+  const [loading, setLoading] = useState(true);
+
   const audioRef = useRef(null);
 
-  // Load from localStorage on first render
+  // Load timers from localStorage on first render, removing expired timers
   const [activeTimers, setActiveTimers] = useState(() => {
     const saved = localStorage.getItem('activeTimers');
     if (!saved) return {};
     const parsed = JSON.parse(saved);
     const now = Date.now();
 
-    // Remove expired timers
     const validTimers = {};
     for (const [id, endTime] of Object.entries(parsed)) {
       if (endTime > now) {
@@ -34,15 +37,32 @@ function App() {
     return validTimers;
   });
 
-  // Save to localStorage whenever timers change
+  // Save timers to localStorage whenever they change
   useEffect(() => {
     localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
   }, [activeTimers]);
 
-  // Timer interval: update every second and play sound if done
+  // Fetch items from backend
+  useEffect(() => {
+    const fetchItems = async () => {
+      try {
+        const response = await fetch('http://localhost:3001/api/items'); // Adjust URL if needed
+        const data = await response.json();
+        setItemGroups(data);
+      } catch (error) {
+        console.error('Failed to fetch items:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchItems();
+  }, []);
+
+  // Timer interval: update every second and mark timers as 'ready' if done
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveTimers(prev => {
+      setActiveTimers((prev) => {
         const updated = { ...prev };
         const now = Date.now();
 
@@ -64,7 +84,7 @@ function App() {
 
   // Start or cancel a timer
   const toggleTimer = (id, duration) => {
-    setActiveTimers(prev => {
+    setActiveTimers((prev) => {
       const updated = { ...prev };
       if (updated[id]) {
         delete updated[id];
@@ -75,7 +95,7 @@ function App() {
     });
   };
 
-  // Get time left, now supports days as well
+  // Get time left string (supports days)
   const getTimeLeft = (endTime) => {
     if (!endTime) return '';
     if (endTime === 'ready') return 'Ready!';
@@ -99,14 +119,19 @@ function App() {
     return `${minutes}m`;
   };
 
-  // Modal opener sets both ID and full item
+  // Open modal and reset custom input fields on open
   const openCustomTimer = (item) => {
-    setCurrentItemId(item.id);
+    console.log('Opening custom timer for:', item._id, item.name);
+    setCurrentItemId(item._id);
     setCurrentItem(item);
+    setCustomDays('');
+    setCustomHours('');
+    setCustomMinutes('');
+    setCustomSeconds('');
     setModalOpen(true);
   };
 
-  // Set custom timer from days/hours/minutes/seconds input
+  // Set custom timer from inputs
   const setCustomTimer = () => {
     const days = parseInt(customDays, 10) || 0;
     const hours = parseInt(customHours, 10) || 0;
@@ -115,17 +140,20 @@ function App() {
 
     const totalSeconds = days * 86400 + hours * 3600 + minutes * 60 + seconds;
 
-    if (currentItemId && totalSeconds > 0) {
-      setActiveTimers(prev => ({
-        ...prev,
-        [currentItemId]: Date.now() + totalSeconds * 1000
-      }));
-    }
+    console.log('Setting custom timer for', currentItemId, 'duration (sec):', totalSeconds);
 
-    closeModal();
+    if (currentItemId && totalSeconds > 0) {
+      setActiveTimers((prev) => ({
+        ...prev,
+        [currentItemId]: Date.now() + totalSeconds * 1000,
+      }));
+      closeModal();
+    } else {
+      alert('Please enter a valid custom duration.');
+    }
   };
 
-  // Close modal and reset all relevant states
+  // Close modal and reset states
   const closeModal = () => {
     setModalOpen(false);
     setCurrentItemId(null);
@@ -142,16 +170,22 @@ function App() {
 
       <div className="core-page">
         {/* Hidden due to WIP */}
-        {/* <SideBar /> */} 
+        {/* <SideBar /> */}
 
         <div className="main-content">
           <audio ref={audioRef} src="/done.mp3" preload="auto" />
-          <ItemGroupList
-            activeTimers={activeTimers}
-            toggleTimer={toggleTimer}
-            getTimeLeft={getTimeLeft}
-            openCustomTimer={openCustomTimer}
-          />
+
+          {loading ? (
+            <p>Loading items...</p>
+          ) : (
+            <ItemGroupList
+              itemGroups={itemGroups} // <- pass the fetched data
+              activeTimers={activeTimers}
+              toggleTimer={toggleTimer}
+              getTimeLeft={getTimeLeft}
+              openCustomTimer={openCustomTimer}
+            />
+          )}
         </div>
       </div>
 

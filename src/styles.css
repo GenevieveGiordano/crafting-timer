@@ -286,7 +286,8 @@ html, body {
   gap: 10px;
 }
 
-img {
+/* Makes it so the image doesn't drag when clicked and moved--annoying for mobile users */
+img, .item-card {
   -webkit-user-drag: none;
   user-select: none;
 }

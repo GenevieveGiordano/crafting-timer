@@ -3,14 +3,14 @@ import '../styles.css';
 
 const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
   const holdTimeout = useRef(null);
-  const didHold = useRef(false); // NEW: flag to track long press
+  const didHold = useRef(false);
 
   const handleMouseDown = () => {
     didHold.current = false;
     holdTimeout.current = setTimeout(() => {
       didHold.current = true;
-      onHold(item); // Open custom timer modal
-    }, 800); // Long press duration
+      onHold(item);
+    }, 800);
   };
 
   const handleMouseUp = () => {
@@ -19,7 +19,7 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
 
   const handleClick = () => {
     if (!didHold.current) {
-      onClick(); // Only run if it wasn't a long press
+      onClick();
     }
   };
 
