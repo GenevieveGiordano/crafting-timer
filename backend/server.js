@@ -13,7 +13,7 @@ const client = new MongoClient(uri, {
   maxPoolSize: 10,
   minPoolSize: 1,
   serverSelectionTimeoutMS: 5000, // optional: reduce wait time for connection errors
-  minTLSVersion: 'TLS1_2',
+  // minTLSVersion: 'TLS1_2',
 });
 
 const PORT = 5000;
