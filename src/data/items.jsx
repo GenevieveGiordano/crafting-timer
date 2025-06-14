@@ -163,9 +163,9 @@ const itemGroups = {
   },
   T5: {
     "T5 Starforged Antimatter": [
-      { name: 'Starforged Antimatter Legs', image: '/images/.png', duration: 28800 }, //8hrs
-      { name: 'Starforged Antimatter Body', image: '/images/.png', duration: 28800 }, //8hrs
-      { name: 'Starforged Antimatter Helm', image: '/images/.png', duration: 28800 } //8hrs
+      { name: 'Starforged Antimatter Legs', image: '/images/starforged/crafting-antimatter-leg-shell-icon.png', duration: 28800 }, //8hrs
+      { name: 'Starforged Antimatter Body', image: '/images/starforged/crafting-antimatter-body-shell-icon.png', duration: 28800 }, //8hrs
+      { name: 'Starforged Antimatter Helm', image: '/images/starforged/crafting-antimatter-helm-shell-icon.png', duration: 28800 } //8hrs
     ],
     "T5 Agi": [
       { name: 'Tiamat Legs', image: '/images/armor/armor-t5-agi-legs-icon.png', duration: 86400 }, //24hrs
@@ -173,35 +173,35 @@ const itemGroups = {
       { name: 'Tiamat Helm', image: '/images/armor/armor-t5-agi-helmet-icon.png', duration: 86400 }, //24hrs
       { name: 'Tiamat Face', image: '/images/armor/armor-t5-agi-face-icon.png', duration: 86400 }, //24hrs
       { name: 'Tiamat Mantleplate', image: '/images/armor/armor-t5-agi-shoulder-icon.png', duration: 86400 }, //24hrs
-      { name: 'Pegasus Wings', image: '/images/weapons/.png', duration: 86400 }, //24hrs
-      { name: 'Drakepiercer', image: '/images/weapons/.png', duration: 86400 } //24hrs
+      { name: 'Pegasus Wings', image: '/images/weapons/weapon-t5-agi-bow-icon.png', duration: 86400 }, //24hrs
+      { name: 'Drakepiercer', image: '/images/weapons/weapon-t5-agi-one-hand-icon.png', duration: 86400 } //24hrs
     ],
     "T5 Int": [
-      { name: 'Archmage Legs', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Archmage Body', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Archmage Hat', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Archmage Face', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Archmage Necklace', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Soul Releaser', image: '/images/weapons/.png', duration: 86400 }, //24hrs
-      { name: 'The Monarch', image: '/images/weapons/.png', duration: 86400 } //24hrs
+      { name: 'Archmage Legs', image: '/images/armor/armor-t5-int-legs-icon.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Body', image: '/images/armor/armor-t5-int-body-icon.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Hat', image: '/images/armor/armor-t5-int-hat-icon.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Face', image: '/images/armor/armor-t5-int-face-icon.png', duration: 86400 }, //24hrs
+      { name: 'Archmage Necklace', image: '/images/armor/armor-t5-int-shoulder-icon.png', duration: 86400 }, //24hrs
+      { name: 'Soul Releaser', image: '/images/weapons/weapon-t5-int-staff-icon.png', duration: 86400 }, //24hrs
+      { name: 'The Monarch', image: '/images/weapons/weapon-t5-int-wand-icon.png', duration: 86400 } //24hrs
     ],
     "T5 Sta": [
-      { name: 'Colossus Legs', image: '/images/.png', duration: 86400 },  //24hrs
-      { name: 'Colossus Body', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Colossus Helmet', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Colossus Face', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Colossus Pauldrons', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Morning Star', image: '/images/weapons/.png', duration: 86400 }, //24hrs
-      { name: 'Skullcradle', image: '/images/weapons/.png', duration: 86400 } //24hrs
+      { name: 'Colossus Legs', image: '/images/armor/armor-t5-sta-legs-icon.png', duration: 86400 },  //24hrs
+      { name: 'Colossus Body', image: '/images/armor/armor-t5-sta-body-icon.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Helmet', image: '/images/armor/armor-t5-sta-helm-icon.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Face', image: '/images/armor/armor-t5-sta-face-icon.png', duration: 86400 }, //24hrs
+      { name: 'Colossus Pauldrons', image: '/images/armor/armor-t5-sta-shoulder-icon.png', duration: 86400 }, //24hrs
+      { name: 'Morning Star', image: '/images/weapons/weapon-t5-sta-mace-icon.png', duration: 86400 }, //24hrs
+      { name: 'Skullcradle', image: '/images/weapons/weapon-t5-sta-one-hand-icon.png', duration: 86400 } //24hrs
     ],
     "T5 Str": [
-      { name: 'Paladin Legs', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Paladin Body', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Paladin Helmet', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Paladin Face', image: '/images/', duration: 86400 }, //24hrs
-      { name: 'Paladin Pauldrons', image: '/images/.png', duration: 86400 }, //24hrs
-      { name: 'Divine Claymore', image: '/images/weapons/.png', duration: 86400 }, //24hrs
-      { name: 'Axe of Honor', image: '/images/weapons/.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Legs', image: '/images/armor/armor-t5-str-legs-icon.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Body', image: '/images/armor/armor-t5-str-body-icon.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Helmet', image: '/images/armor/armor-t5-str-helmet-icon.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Face', image: '/images/armor/armor-t5-str-face-icon.png', duration: 86400 }, //24hrs
+      { name: 'Paladin Pauldrons', image: '/images/armor/armor-t5-str-shoulder-icon.png', duration: 86400 }, //24hrs
+      { name: 'Divine Claymore', image: '/images/weapons/weapon-t5-str-sword-icon.png', duration: 86400 }, //24hrs
+      { name: 'Axe of Honor', image: '/images/weapons/weapon-t5-str-one-hand-icon.png', duration: 86400 }, //24hrs
     ]
   },
   Resources: {
@@ -255,9 +255,9 @@ const itemGroups = {
       { name: 'Marble Slab', image: '/images/resources/marble/crafting-marble-slab-icon.png', duration: 14400 }, //4hrs
       { name: 'Marble Plate', image: '/images/resources/marble/crafting-marble-plate-icon.png', duration: 21600 }, //6hrs
       { name: 'Reinforced Marble Plate', image: '/images/resources/marble/crafting-marble-plate-rf-icon.png', duration: 28800 }, //8hrs
-      { name: 'Legs', image: '/images/resources/marble/.png', duration: 43200 }, //12hrs
-      { name: 'Body', image: '/images/resources/marble/.png', duration: 43200 }, //12hrs
-      { name: 'Helm', image: '/images/resources/marble/.png', duration: 43200 } //12hrs
+      { name: 'Legs', image: '/images/resources/marble/crafting-marble-leg-shell-icon.png', duration: 43200 }, //12hrs
+      { name: 'Body', image: '/images/resources/marble/crafting-marble-body-shell-icon.png', duration: 43200 }, //12hrs
+      { name: 'Helm', image: '/images/resources/marble/crafting-marble-helm-shell-icon.png', duration: 43200 } //12hrs
     ],
     "Soul": [
       { name: 'Soul Fragment', image: '/images/resources/soul/item-dark-soul-fragment-icon.png', duration: 7200 }, //2hrs
@@ -270,44 +270,44 @@ const itemGroups = {
   },
   Weapons: {
     T1 : [
-      { name: 'Epic Pearl Staff', image: '/images/weapons/.png', duration: 14400 }, //4hrs
+      { name: 'Epic Pearl Staff', image: '/images/weapons/weapon-t1-int-staff-icon.png', duration: 14400 }, //4hrs
       { name: 'Dragon Bow', image: '/images/weapons/weapon-t1-agi-bow-icon.png', duration: 14400 }, //4hrs
       { name: 'Holy Deathbringer', image: '/images/weapons/weapon-t1-str-sword-icon.png', duration: 14400 }, //4hrs
       { name: 'Hammer of Doom', image: '/images/weapons/weapon-t1-sta-hammer-icon.png', duration: 14400 }, //4hrs
       { name: 'Epic Pearl Wand', image: '/images/weapons/weapon-t1-int-wand-icon.png', duration: 14400 }, //4hrs
       { name: 'Draco Scythe', image: '/images/weapons/weapon-t1-agi-one-hand-icon.png', duration: 14400 }, //4hrs
-      { name: 'Squire Sword', image: '/images/weapons/.png', duration: 14400 }, //4hrs
-      { name: 'Mallet of Doom', image: '/images/weapons/.png', duration: 14400 } //4hrs
+      { name: 'Squire Sword', image: '/images/weapons/weapon-t1-str-one-hand-icon.png', duration: 14400 }, //4hrs
+      { name: 'Mallet of Doom', image: '/images/weapons/weapon-t1-sta-one-hand-icon.png', duration: 14400 } //4hrs
     ],
     T2 : [
       { name: 'Staff of Life', image: '/images/weapons/weapon-t2-int-staff-icon.png', duration: 21600 }, //6hrs
       { name: 'Artemis Bow', image: '/images/weapons/weapon-t2-agi-bow-icon.png', duration: 21600 }, //6hrs
       { name: 'Blade of the Forgotten', image: '/images/weapons/weapon-t2-str-sword-icon.png', duration: 21600 }, //6hrs
       { name: 'Hammer of Ruin', image: '/images/weapons/weapon-t2-sta-hammer-icon.png', duration: 21600 }, //6hrs
-      { name: 'Wand of Hate', image: '/images/weapons/.png', duration: 21600 }, //6hrs
+      { name: 'Wand of Hate', image: '/images/weapons/weapon-t2-int-wand-icon.png', duration: 21600 }, //6hrs
       { name: 'Twin Talon', image: '/images/weapons/weapon-t2-agi-one-hand-icon.png', duration: 21600 }, //6hrs
-      { name: 'Ironjaw', image: '/images/weapons/.png', duration: 21600 }, //6hrs
-      { name: 'Thorn of Dread', image: '/images/weapons/.png', duration: 21600 } //6hrs
+      { name: 'Ironjaw', image: '/images/weapons/weapon-t2-str-one-hand-icon.png', duration: 21600 }, //6hrs
+      { name: 'Thorn of Dread', image: '/images/weapons/weapon-t2-sta-one-hand-icon.png', duration: 21600 } //6hrs
     ],
     T3 : [
       { name: 'Druid Nature Staff', image: '/images/weapons/weapon-t3-int-staff-icon.png', duration: 28800 }, //8hrs
       { name: 'Elder Dragon Bow', image: '/images/weapons/weapon-t3-agi-bow-icon.png', duration: 28800 }, //8hrs
       { name: 'The Unstable Twin', image: '/images/weapons/weapon-t3-str-sword-icon.png', duration: 28800 }, //8hrs
       { name: 'Battle Axe of Doom', image: '/images/weapons/weapon-t3-sta-axe-icon.png', duration: 28800 }, //8hrs
-      { name: 'Riptide Wand', image: '/images/weapons/.png', duration: 28800 }, //8hrs
+      { name: 'Riptide Wand', image: '/images/weapons/weapon-t3-int-wand-icon.png', duration: 28800 }, //8hrs
       { name: 'Death Scythe', image: '/images/weapons/weapon-t3-agi-one-hand-icon.png', duration: 28800 }, //8hrs
-      { name: 'Crowncleaver', image: '/images/weapons/.png', duration: 28800 }, //8hrs
-      { name: 'Battle Mace of the Fallen', image: '/images/weapons/.png', duration: 28800 } //8hrs
+      { name: 'Crowncleaver', image: '/images/weapons/weapon-t3-str-one-hand-icon.png', duration: 28800 }, //8hrs
+      { name: 'Battle Mace of the Fallen', image: '/images/weapons/weapon-t3-sta-one-hand-icon.png', duration: 28800 } //8hrs
     ],
     T4 : [
       { name: 'Secret Keeper', image: '/images/weapons/weapon-t4-int-icon.png', duration: 57600 }, //16hrs
       { name: 'Bow of the Dragon Gods', image: '/images/weapons/weapon-t4-agi-icon.png', duration: 57600 }, //16hrs
       { name: 'The Holy Destroyer', image: '/images/weapons/weapon-t4-str-icon.png', duration: 57600 }, //16hrs
       { name: 'The Dominator', image: '/images/weapons/weapon-t4-sta-icon.png', duration: 57600 }, //16hrs
-      { name: 'Lumenroot', image: '/images/weapons/.png', duration: 57600 }, //16hrs
+      { name: 'Lumenroot', image: '/images/weapons/weapon-t4-int-wand-icon.png', duration: 57600 }, //16hrs
       { name: 'Crystal Halberd', image: '/images/weapons/weapon-t4-agi-one-hand-icon.png', duration: 57600 }, //16hrs
-      { name: 'Gracebreaker', image: '/images/weapons/.png', duration: 57600 }, //16hrs
-      { name: 'Blunt Stick of Doom', image: '/images/weapons/.png', duration: 57600 } //16hrs
+      { name: 'Gracebreaker', image: '/images/weapons/weapon-t4-str-one-hand-icon.png', duration: 57600 }, //16hrs
+      { name: 'Blunt Stick of Doom', image: '/images/weapons/weapon-t4-sta-one-hand-icon.png', duration: 57600 } //16hrs
     ]
   },
   Rings: {
@@ -330,10 +330,10 @@ const itemGroups = {
       { name: 'Divine Mage Ring', image: '/images/rings/ring-t3-int-icon.png', duration: 28800 } //8hrs
     ],
     T5 : [
-      { name: 'Paladin Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
-      { name: 'Colossus Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
-      { name: 'Tiamat Ring', image: '/images/rings/.png', duration: 43200 }, //12hrs
-      { name: 'Archmage', image: '/images/rings/.png', duration: 43200 } //12hrs
+      { name: 'Paladin Ring', image: '/images/rings/ring-t5-str-icon.png', duration: 43200 }, //12hrs
+      { name: 'Colossus Ring', image: '/images/rings/ring-t5-sta-icon.png', duration: 43200 }, //12hrs
+      { name: 'Tiamat Ring', image: '/images/rings/ring-t5-agi-icon.png', duration: 43200 }, //12hrs
+      { name: 'Archmage', image: '/images/rings/ring-t5-int-icon.png', duration: 43200 } //12hrs
     ]
   },
   Books: {
@@ -362,10 +362,10 @@ const itemGroups = {
       { name: 'Divine Mage Book', image: '/images/books/trinket-t3-int-book-icon.png', duration: 28800 } //8hrs
     ],
     T5 : [
-      { name: 'Paladin', image: '/images/books/.png', duration: 43200 }, //12hrs
-      { name: 'Colossus', image: '/images/books/.png', duration: 43200 }, //12hrs
-      { name: 'Tiamat', image: '/images/books/.png', duration: 43200 }, //12hrs
-      { name: 'Archmage', image: '/images/books/.png', duration: 43200 } //12hrs
+      { name: 'Paladin', image: '/images/books/trinket-t5-str-book-icon.png', duration: 43200 }, //12hrs
+      { name: 'Colossus', image: '/images/books/trinket-t5-sta-book-icon.png', duration: 43200 }, //12hrs
+      { name: 'Tiamat', image: '/images/books/trinket-t5-agi-book-icon.png', duration: 43200 }, //12hrs
+      { name: 'Archmage', image: '/images/books/trinket-t5-int-book-icon.png', duration: 43200 } //12hrs
     ]
   }
 };
