@@ -286,6 +286,11 @@ html, body {
   gap: 10px;
 }
 
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 /* Item Card remains unchanged */
 .item-card {
   width: 80px;
