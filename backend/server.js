@@ -7,13 +7,14 @@ app.use(cors());
 app.use(express.json());
 
 const uri = 'mongodb+srv://genevievehgiordano:GhoulYuki3798@fo2-items.znqy7hf.mongodb.net/fo2Database?retryWrites=true&w=majority&appName=FO2-items';
+
+// Removed tls options for MongoClient — the driver handles TLS automatically with mongodb+srv://
 const client = new MongoClient(uri, {
-  tls: true,
-  tlsAllowInvalidCertificates: false, // change to true ONLY for testing
   maxPoolSize: 10,
   minPoolSize: 1,
-  serverSelectionTimeoutMS: 5000, // optional: reduce wait time for connection errors
-  // minTLSVersion: 'TLS1_2',
+  serverSelectionTimeoutMS: 5000,
+  // Removed tls: true and tlsAllowInvalidCertificates
+  // Removed minTLSVersion option
 });
 
 const PORT = 5000;
