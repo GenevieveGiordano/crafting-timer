@@ -46,7 +46,12 @@ function App() {
   useEffect(() => {
     const fetchItems = async () => {
       try {
-        const response = await fetch('http://localhost:3001/api/items'); // Adjust URL if needed
+        const API_URL =
+            process.env.NODE_ENV === 'development'
+            ? 'http://localhost:5000/api/items'
+            : 'https://crafting-timer.onrender.com/api/items';
+
+    const response = await fetch(API_URL);
         const data = await response.json();
         setItemGroups(data);
       } catch (error) {
