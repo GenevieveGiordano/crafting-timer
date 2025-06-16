@@ -1,12 +1,29 @@
+import React, { useState } from 'react';
+
 import ItemGroupList from "./ItemGroupList";
+import SideBar from "./SideBar";
 
 import CraftingPageStyle from '../styles/CraftingPage.module.scss';
 
+const CraftingPage = ({ 
+  itemGroups, loading, 
+  activeTimers, toggleTimer, getTimeLeft, openCustomTimer, audioRef, 
+  clearAllTimers, clearReadyTimers, clearUnreadyTimers 
+}) => {
 
-const CraftingPage = ({ itemGroups, loading, activeTimers, toggleTimer, getTimeLeft, openCustomTimer, audioRef }) => {
+  const clearAll = () => clearAllTimers();
+  const clearReady = () => clearReadyTimers();
+  const clearUnready = () => clearUnreadyTimers();
+
   return (
     <div className={CraftingPageStyle['craft-page']}>
-      {/* <SideBar /> */}
+
+      <SideBar 
+        clearAll={clearAll} 
+        clearReady={clearReady} 
+        clearUnready={clearUnready}
+      />
+
       <div className={CraftingPageStyle['main-content']}>
         <audio ref={audioRef} src="/done.mp3" preload="auto" />
         {loading ? (

@@ -23,7 +23,16 @@ function App() {
   const [customMinutes, setCustomMinutes] = useState('');
   const [customSeconds, setCustomSeconds] = useState('');
 
-  const { activeTimers, toggleTimer, getTimeLeft, audioRef } = useTimers();
+  const {
+  activeTimers,
+  toggleTimer,
+  getTimeLeft,
+  audioRef,
+  clearAllTimers,
+  clearReadyTimers,
+  clearUnreadyTimers
+  } = useTimers();
+
   const { itemGroups, loading } = useItems();
 
   const openCustomTimer = (item) => {
@@ -77,6 +86,9 @@ function App() {
               getTimeLeft={getTimeLeft}
               openCustomTimer={openCustomTimer}
               audioRef={audioRef}
+              clearAllTimers={clearAllTimers}
+              clearReadyTimers={clearReadyTimers}
+              clearUnreadyTimers={clearUnreadyTimers}
             />
           }
         />

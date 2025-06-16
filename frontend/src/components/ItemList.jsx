@@ -1,84 +1,110 @@
-// fetches your item groups from the backend API,
-// manages timers per item,
-// passes down props to your existing ItemGroup and ItemCard,
-// includes simple toggle timer logic,
-// calculates time left,
-// handles opening a custom timer on long press (just a placeholder function for now).
 import React, { useState, useEffect, useRef } from 'react';
 import ItemGroup from './ItemGroup';
-
 import ItemListStyle from '../styles/ItemList.module.scss';
 
 const ItemList = () => {
   const [itemGroups, setItemGroups] = useState({});
-  const [activeTimers, setActiveTimers] = useState({}); // { itemId: endTimestamp }
-  const timersRef = useRef({}); // To hold interval IDs so we can clear them
+  const [activeTimers, setActiveTimers] = useState({});
+  const timersRef = useRef({});
 
-  // Fetch items from backend on mount
+  // Fetch items on mount
   useEffect(() => {
-    fetch('http://localhost:5000/items') // adjust your backend URL
+    fetch('http://localhost:5000/items')
       .then(res => res.json())
       .then(data => setItemGroups(data))
       .catch(console.error);
   }, []);
 
-  // Cleanup intervals on unmount
+  // Restore timers on mount
+  useEffect(() => {
+    const saved = localStorage.getItem('activeTimers');
+    if (!saved) return;
+
+    const parsed = JSON.parse(saved);
+    const now = Date.now();
+    const restored = {};
+
+    for (const [id, endTime] of Object.entries(parsed)) {
+      if (endTime === 'Ready!') {
+        restored[id] = 'Ready!';
+      } else if (typeof endTime === 'number') {
+        if (endTime <= now) {
+          restored[id] = 'Ready!';
+        } else {
+          restored[id] = endTime;
+
+          timersRef.current[id] = setInterval(() => {
+            setActiveTimers(prev => {
+              const updated = { ...prev };
+              if (Date.now() >= endTime) {
+                clearInterval(timersRef.current[id]);
+                updated[id] = 'Ready!';
+              }
+              return updated;
+            });
+          }, 1000);
+        }
+      }
+    }
+
+    setActiveTimers(restored);
+  }, []);
+
+  // Save timers to localStorage on every change
+  useEffect(() => {
+    localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
+  }, [activeTimers]);
+
+  // Cleanup on unmount
   useEffect(() => {
     return () => {
       Object.values(timersRef.current).forEach(clearInterval);
     };
   }, []);
 
-  // Toggle timer for an item by id and duration (seconds)
   const toggleTimer = (id, duration) => {
-    if (activeTimers[id]) {
-      // Timer running — stop it
+    if (activeTimers[id] && activeTimers[id] !== 'Ready!') {
+      // Cancel running timer
       clearInterval(timersRef.current[id]);
       timersRef.current[id] = null;
 
       setActiveTimers(prev => {
-        const newTimers = { ...prev };
-        delete newTimers[id];
-        return newTimers;
+        const updated = { ...prev };
+        delete updated[id];
+        return updated;
       });
     } else {
-      // Start timer — end time is now + duration * 1000ms
       const endTime = Date.now() + duration * 1000;
 
-      // Setup interval to update every second
       timersRef.current[id] = setInterval(() => {
         setActiveTimers(prev => {
-          // If timer expired, remove it
+          const updated = { ...prev };
           if (Date.now() >= endTime) {
             clearInterval(timersRef.current[id]);
-            timersRef.current[id] = null;
-
-            const updated = { ...prev };
-            delete updated[id];
-            return updated;
+            updated[id] = 'Ready!';
           }
-          return prev;
+          return updated;
         });
       }, 1000);
 
-      setActiveTimers(prev => ({ ...prev, [id]: endTime }));
+      setActiveTimers(prev => ({
+        ...prev,
+        [id]: endTime,
+      }));
     }
   };
 
-  // Calculate time left string for timer (or 'Ready!' if none)
   const getTimeLeft = (endTimestamp) => {
-    if (!endTimestamp) return 'Ready!';
+    if (!endTimestamp || endTimestamp === 'Ready!') return 'Ready!';
 
     const secondsLeft = Math.max(0, Math.floor((endTimestamp - Date.now()) / 1000));
     if (secondsLeft <= 0) return 'Ready!';
 
     const mins = Math.floor(secondsLeft / 60);
     const secs = secondsLeft % 60;
-
     return `${mins}m ${secs}s`;
   };
 
-  // Placeholder for long press action
   const openCustomTimer = (item) => {
     alert(`Open custom timer modal for ${item.name}`);
   };

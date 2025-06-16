@@ -45,6 +45,37 @@ $shadow:  rgba(0, 0, 0, 0.5);
 
 // Sidebar
 .sidebar {
+  position: fixed;
+  top: 25vh;
+  height: 25vh;
   background-color:$sidebar-color;
-  min-width: 55px;
+  max-width: 5vw;
+  z-index: 1000;
+  border: 1px;
+  border-style: solid;
+  border-left: 0px;
+  border-color: #30c4ff;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.icon-container {
+display: flex;
+flex-direction: column;
+gap: 25px;
+height: 100%;
+justify-content: center;
+
+}
+
+.icon {
+  padding: 15px;
+  text-align: center;
+  color: $white;
+  background-color: $sidebar-color;
+
+      &:hover {
+      background-color: #158824;
+      color: $white;
+    }
 }

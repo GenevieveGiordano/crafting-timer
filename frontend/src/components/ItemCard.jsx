@@ -12,7 +12,7 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
     holdTimeout.current = setTimeout(() => {
       didHold.current = true;
       onHold(item);
-    }, 800);
+    }, 400);
   };
 
   const handleMouseUp = () => {

@@ -4,61 +4,92 @@ export default function useTimers() {
   const [activeTimers, setActiveTimers] = useState(() => {
     const saved = localStorage.getItem('activeTimers');
     if (!saved) return {};
+
     const parsed = JSON.parse(saved);
     const now = Date.now();
-    const validTimers = {};
-    for (const [id, endTime] of Object.entries(parsed)) {
-      if (endTime > now) validTimers[id] = endTime;
+    const restored = {};
+
+    for (const [id, val] of Object.entries(parsed)) {
+      if (val === 'ready') {
+        restored[id] = 'ready';
+      } else if (typeof val === 'number') {
+        if (val <= now) {
+          restored[id] = 'ready';
+        } else {
+          restored[id] = val;
+        }
+      }
     }
-    return validTimers;
+    return restored;
   });
 
+  const timersRef = useRef({}); // store interval IDs
   const audioRef = useRef(null);
 
+  // Save to localStorage on activeTimers change
   useEffect(() => {
     localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
   }, [activeTimers]);
 
+  // Setup intervals for running timers on mount and when activeTimers change
   useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveTimers((prev) => {
-        const updated = { ...prev };
-        const now = Date.now();
+    // Clear all existing intervals first
+    Object.values(timersRef.current).forEach(clearInterval);
+    timersRef.current = {};
 
-        for (const id in prev) {
-          if (typeof prev[id] === 'number' && prev[id] <= now) {
-            updated[id] = 'ready';
-            if (audioRef.current) {
-              audioRef.current.play().catch(() => {});
+    const now = Date.now();
+
+    Object.entries(activeTimers).forEach(([id, val]) => {
+      if (typeof val === 'number' && val > now) {
+        timersRef.current[id] = setInterval(() => {
+          setActiveTimers(prev => {
+            const updated = { ...prev };
+            if (Date.now() >= val) {
+              clearInterval(timersRef.current[id]);
+              delete timersRef.current[id];
+              updated[id] = 'ready';
+              if (audioRef.current) {
+                audioRef.current.play().catch(() => {});
+              }
             }
-          }
-        }
+            return updated;
+          });
+        }, 1000);
+      }
+    });
 
-        return updated;
-      });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
+    return () => {
+      Object.values(timersRef.current).forEach(clearInterval);
+      timersRef.current = {};
+    };
+  }, [activeTimers]);
 
   const toggleTimer = (id, duration) => {
-    setActiveTimers((prev) => {
+    setActiveTimers(prev => {
       const updated = { ...prev };
-      if (updated[id]) {
+
+      // If timer exists and is running, cancel it
+      if (updated[id] && updated[id] !== 'ready') {
+        if (timersRef.current[id]) {
+          clearInterval(timersRef.current[id]);
+          delete timersRef.current[id];
+        }
         delete updated[id];
       } else {
-        updated[id] = Date.now() + duration * 1000;
+        // Start new timer
+        const endTime = Date.now() + duration * 1000;
+        updated[id] = endTime;
       }
       return updated;
     });
   };
 
-  const getTimeLeft = (endTime) => {
-    if (!endTime) return '';
-    if (endTime === 'ready') return 'Ready!';
+  const getTimeLeft = (val) => {
+    if (!val) return '';
+    if (val === 'ready') return 'Ready!';
 
-    const diff = endTime - Date.now();
-    if (diff <= 0) return 'Done';
+    const diff = val - Date.now();
+    if (diff <= 0) return 'Ready!';
 
     const totalSeconds = Math.ceil(diff / 1000);
     if (totalSeconds < 60) return `${totalSeconds}s`;
@@ -74,5 +105,47 @@ export default function useTimers() {
     return `${minutes}m`;
   };
 
-  return { activeTimers, toggleTimer, getTimeLeft, audioRef };
+  const clearAllTimers = () => {
+    // Clear all intervals too
+    Object.values(timersRef.current).forEach(clearInterval);
+    timersRef.current = {};
+    setActiveTimers({});
+  };
+
+  const clearReadyTimers = () => {
+    setActiveTimers(prev => {
+      const updated = {};
+      for (const [id, val] of Object.entries(prev)) {
+        if (val !== 'ready') updated[id] = val;
+      }
+      return updated;
+    });
+  };
+
+  const clearUnreadyTimers = () => {
+    // Clear intervals for unready timers to avoid memory leaks
+    Object.entries(activeTimers).forEach(([id, val]) => {
+      if (val !== 'ready' && timersRef.current[id]) {
+        clearInterval(timersRef.current[id]);
+        delete timersRef.current[id];
+      }
+    });
+    setActiveTimers(prev => {
+      const updated = {};
+      for (const [id, val] of Object.entries(prev)) {
+        if (val === 'ready') updated[id] = val;
+      }
+      return updated;
+    });
+  };
+
+  return {
+    activeTimers,
+    toggleTimer,
+    getTimeLeft,
+    audioRef,
+    clearAllTimers,
+    clearReadyTimers,
+    clearUnreadyTimers,
+  };
 }
