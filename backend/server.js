@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const { MongoClient } = require('mongodb');
 const cors = require('cors');
 
@@ -19,6 +20,11 @@ const client = new MongoClient(uri, {
 });
 
 const PORT = 5000;
+
+// Serve static images from /public/images
+app.use('/images', express.static(path.join(__dirname, 'public/images')));
+
+
 
 async function startServer() {
   try {
@@ -49,5 +55,7 @@ app.get('/api/items', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+
 
 startServer();

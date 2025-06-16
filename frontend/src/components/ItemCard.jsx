@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import Tooltip from './Tooltip';
 import '../styles.css';
 
 const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
@@ -26,6 +27,9 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
   const isReady = timeLeft === 'Ready!';
   const cardClasses = `item-card ${isReady ? 'ready' : isActive ? 'active' : ''}`;
 
+
+  const backendUrl = 'https://crafting-timer.onrender.com';
+
   return (
     <div
       onMouseDown={handleMouseDown}
@@ -41,9 +45,30 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
       }}
       className={cardClasses}
     >
-      <img src={item.image} alt={item.name} style={{ width: '60px', height: '60px' }} />
+
+      {/* Insert Tooltip */}
+      <Tooltip content={
+        <div className='item-list'>
+          <strong>{item.name}</strong><br />
+          <div className="item-card">
+            <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
+          </div>
+          Recipe: {item.recipe}<br />
+          Cost: {item.price}<br />
+          
+          Vendor: {item.vendor}<br />
+          Location: {item.location}<br />
+        </div>
+      }>
+              <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
+      </Tooltip>
+      {/* End Tooltip */}
+
       {isActive && <div className="item-card-overlay">{timeLeft}</div>}
     </div>
+
+
+
   );
 };
 

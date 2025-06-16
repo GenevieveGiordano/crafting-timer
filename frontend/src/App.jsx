@@ -189,10 +189,10 @@ function App() {
 
         <div className="main-content">
           <audio ref={audioRef} src="/done.mp3" preload="auto" />
-
           {loading ? (
-            <p>Loading items...</p>
-          ) : (
+            <div className='loading-screen'>Loading items...</div>
+          ) : 
+          (
             <ItemGroupList
               itemGroups={itemGroups} // <- grouped data now
               activeTimers={activeTimers}
