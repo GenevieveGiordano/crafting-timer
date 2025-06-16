@@ -64,25 +64,30 @@ export default function useTimers() {
     };
   }, [activeTimers]);
 
-  const toggleTimer = (id, duration) => {
-    setActiveTimers(prev => {
-      const updated = { ...prev };
+const toggleTimer = (id, duration) => {
+  setActiveTimers(prev => {
+    const updated = { ...prev };
+    const val = updated[id];
 
-      // If timer exists and is running, cancel it
-      if (updated[id] && updated[id] !== 'ready') {
-        if (timersRef.current[id]) {
-          clearInterval(timersRef.current[id]);
-          delete timersRef.current[id];
-        }
-        delete updated[id];
-      } else {
-        // Start new timer
-        const endTime = Date.now() + duration * 1000;
-        updated[id] = endTime;
+    if (val && val !== 'ready') {
+      // Timer running: cancel it
+      if (timersRef.current[id]) {
+        clearInterval(timersRef.current[id]);
+        delete timersRef.current[id];
       }
-      return updated;
-    });
-  };
+      delete updated[id];
+    } else if (val === 'ready') {
+      // Timer is ready: reset to neutral (remove)
+      delete updated[id];
+    } else {
+      // No timer: start new timer
+      const endTime = Date.now() + duration * 1000;
+      updated[id] = endTime;
+    }
+
+    return updated;
+  });
+};
 
   const getTimeLeft = (val) => {
     if (!val) return '';
