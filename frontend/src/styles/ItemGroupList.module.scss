@@ -31,8 +31,8 @@ $font-primary: 'Segoe UI', 'Poppins', sans-serif;
 $font-size-base: 1rem; // 16px approx
 $font-size-sm: 0.9rem;
 $font-size-lg: 1.25rem;
-$font-size-xl: 3rem;
-$font-size-xxl: 2rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 3rem;
 
 //BASIC COLORS
 $white: #fff;
@@ -67,7 +67,7 @@ $shadow:  rgba(0, 0, 0, 0.5);
 
 .tier-title {
   width: 100%;
-  font-size: $font-size-xxl;
+  font-size: $font-size-xl;
   margin-bottom: 16px;
   color: $white;
   padding-bottom: 6px;

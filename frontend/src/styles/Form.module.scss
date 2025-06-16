@@ -1,6 +1,17 @@
+// $primary-color: #ffffff;
 $primary-color: #0d0227;
 $secondary-color: #b283ff;
 
+//PANELS
+$banner-gradient: linear-gradient(270deg, #ff6ec4, #7873f5, #6bf5f2, #ff6ec4);
+$updates-gradient: linear-gradient(270deg, #37129c, #7b6cf9);
+$updates-color: #37129c;
+$sidebar-color: #80c93d;
+
+//TIER
+$tier-title-bg: #845cf1;
+//GROUP
+$group-title-bg: #845cf1;
 //FORMS
 $form-bg-color: #845cf1;
 $card-bg-color: #431d9c;
@@ -11,13 +22,17 @@ $btn-cancel: #d32d2d;
 $btn-submit: #7dd32d;
 $btn-edit: #3498db;
 
+//READY/UNREADY
+$ready-background: linear-gradient(90deg, #00e676, #00c853, #1de9b6);
+$not-ready-background: linear-gradient(90deg, #ff1744, #ff6d00, #bb8000, #ff1744);
+
 //FONTS
 $font-primary: 'Segoe UI', 'Poppins', sans-serif;
 $font-size-base: 1rem; // 16px approx
 $font-size-sm: 0.9rem;
 $font-size-lg: 1.25rem;
-$font-size-xl: 3rem;
-$font-size-xxl: 2rem;
+$font-size-xl: 2rem;
+$font-size-xxl: 3rem;
 
 //BASIC COLORS
 $white: #fff;
@@ -25,12 +40,14 @@ $black: #000;
 $gray-light: #ccc;
 $gray-dark: #444;
 
+//BOX SHADOWS
+$shadow:  rgba(0, 0, 0, 0.5);
+
 // Form container
 .form-container {
-  border: 5px solid $secondary-color;
   background-color: $form-bg-color;
   border-radius: 16px;
-  padding: 10px 5px;
+  padding: 25px 50px;
   text-align: center;
   align-self: center;
   
@@ -59,7 +76,7 @@ $gray-dark: #444;
 .label-group {
   display: flex;
   align-items: center;
-  padding: 5px 25px;
+  padding: 15px 25px;
   width: 100%;
   text-align: center;
   justify-self: center;
@@ -74,7 +91,7 @@ $gray-dark: #444;
 
 //Used in modal form
 .item {
-  padding: '10px';
+  padding: 15px;
   text-align: 'center'; 
   justify-items: center;
   pointer-events: 'none';

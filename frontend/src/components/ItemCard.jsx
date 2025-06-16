@@ -55,18 +55,19 @@ const cardClasses = [
       <Tooltip content={
         <div className={ItemCardStyles['item-list']}>
 
-          <strong>{item.name}</strong><br />
+          <p className={ItemCardStyles['item-name']}>{item.name}</p>
 
           <div className={ItemCardStyles['item-card']}>
             <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
           </div>
 
-          Recipe: {item.recipe}<br />
-          Cost: {item.price}<br />
-          
-          Vendor: {item.vendor}<br />
-          Location: {item.location}<br />
-          
+          <div className={ItemCardStyles['item-stats']}>
+            <p className={ItemCardStyles['item-recipe']}>Recipe: {item.recipe}</p>
+            <p className={ItemCardStyles['item-cost']}>Cost: {item.price}</p>
+            <p className={ItemCardStyles['item-vendor']}>Vendor: {item.vendor}</p>
+            <p className={ItemCardStyles['item-location']}>Location: {item.location}</p>
+          </div>
+
         </div>
       }>
               <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
