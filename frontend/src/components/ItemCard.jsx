@@ -19,7 +19,10 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
     clearTimeout(holdTimeout.current);
   };
 
-  const handleClick = () => {
+  const handleClick = (event) => {
+    // Only react to left click (button 0)
+    if (event && event.button !== 0) return;
+
     if (!didHold.current) {
       onClick();
     }
@@ -38,16 +41,18 @@ const cardClasses = [
   return (
     <div
       onMouseDown={handleMouseDown}
-      onMouseUp={() => {
+      onMouseUp={(e) => {
         handleMouseUp();
-        handleClick();
+        handleClick(e);
       }}
       onMouseLeave={handleMouseUp}
       onTouchStart={handleMouseDown}
       onTouchEnd={() => {
         handleMouseUp();
         handleClick();
+      
       }}
+      onContextMenu={(e) => e.preventDefault()} //stops right click default menus like save image
       className={cardClasses}
     >
 
