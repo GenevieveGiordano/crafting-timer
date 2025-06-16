@@ -1,0 +1,118 @@
+// $primary-color: #ffffff;
+$primary-color: #0d0227;
+$secondary-color: #b283ff;
+
+//PANELS
+$banner-gradient: linear-gradient(270deg, #ff6ec4, #7873f5, #6bf5f2, #ff6ec4);
+$updates-gradient: linear-gradient(270deg, #37129c, #7b6cf9);
+$updates-color: #37129c;
+$sidebar-color: #80c93d;
+
+//TIER
+$tier-title-bg: #845cf1;
+//GROUP
+$group-title-bg: #845cf1;
+//FORMS
+$form-bg-color: #845cf1;
+$card-bg-color: #431d9c;
+
+//BUTTONS
+$btn-color: #5621d1;
+$btn-cancel: #d32d2d;
+$btn-submit: #7dd32d;
+$btn-edit: #3498db;
+
+//READY/UNREADY
+$ready-background: linear-gradient(90deg, #00e676, #00c853, #1de9b6);
+$not-ready-background: linear-gradient(90deg, #ff1744, #ff6d00, #bb8000, #ff1744);
+
+//FONTS
+$font-primary: 'Segoe UI', 'Poppins', sans-serif;
+$font-size-base: 1rem; // 16px approx
+$font-size-sm: 0.9rem;
+$font-size-lg: 1.25rem;
+$font-size-xl: 3rem;
+$font-size-xxl: 2rem;
+
+//BASIC COLORS
+$white: #fff;
+$black: #000;
+$gray-light: #ccc;
+$gray-dark: #444;
+
+//BOX SHADOWS
+$shadow:  rgba(0, 0, 0, 0.5);
+
+
+
+// Items layout
+.items-list {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+// Item card styles
+.item-card {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  border: 1px solid rgba($secondary-color, 0.55);
+  border-radius: 8px;
+  background-color: $card-bg-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: center;
+  transition: background-color 0.3s ease;
+  position: relative;
+  box-sizing: border-box;
+
+
+  &.ready {
+    background: $ready-background;
+    background-size: 600% 600%;
+    animation: readyGradient 8s ease infinite;
+  }
+
+  &.active {
+    background: $not-ready-background;
+    background-size: 600% 600%;
+    animation: craftingGradient 8s ease infinite;
+  }
+}
+
+@keyframes readyGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes craftingGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.item-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 54, 51, 0.5);
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+img, .item-card {
+  -webkit-user-drag: none;
+  user-select: none;
+}

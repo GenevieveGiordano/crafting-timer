@@ -106,7 +106,7 @@ html, body {
   /* position: sticky; */
 }
 
-.core-page {
+.craft-page {
   display: flex;
   width: 100%;
   height: 100%;

@@ -1,9 +1,9 @@
-import '../styles.css';
+import FooterStyle from '../styles/Footer.module.scss';
 
 const Footer = () => {
 
 return (
-    <footer className="footer">Made by MajorasMask Courtesy of Catacomb Saints</footer>
+    <footer className={FooterStyle['footer']}>Made by MajorasMask Courtesy of Catacomb Saints</footer>
 );
 };
 export default Footer;

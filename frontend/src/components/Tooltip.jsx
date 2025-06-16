@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
-import '../styles.css'; // Make sure you create this CSS file
+
+import TooltipStyle from '../styles/Tooltip.module.scss'
 
 const Tooltip = ({ children, content }) => {
   const [visible, setVisible] = useState(false);
@@ -18,13 +19,13 @@ const Tooltip = ({ children, content }) => {
 
   return (
     <div
-      className="tooltip-container"
+      className={TooltipStyle['tooltip-container']}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       {children}
       {visible && (
-        <div className="tooltip-box">
+        <div className={TooltipStyle['tooltip-box']}>
           {content}
         </div>
       )}

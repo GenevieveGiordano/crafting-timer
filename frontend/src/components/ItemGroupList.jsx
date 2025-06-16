@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 import ItemGroup from './ItemGroup';
+import ItemGroupListStyles from '../styles/ItemGroupList.module.scss'
 
 const ItemGroupList = ({
   itemGroups, // <-- updated to receive grouped data directly
@@ -12,11 +13,11 @@ const ItemGroupList = ({
   // This component simply renders grouped data passed as props
 
   return (
-    <div className="all-groups">
+    <div className={ItemGroupListStyles['all-groups']}>
       {Object.entries(itemGroups).map(([tierName, tierData]) => (
-        <div key={tierName} className="tier-section">
-          <h1 className="tier-title">{tierName}</h1>
-          <div className="groups-row">
+        <div key={tierName} className={ItemGroupListStyles['tier-section']}>
+          <h1 className={ItemGroupListStyles['tier-title']}>{tierName}</h1>
+          <div className={ItemGroupListStyles['groups-row']}>
             {typeof tierData === 'object' && !Array.isArray(tierData) ? (
               Object.entries(tierData).map(([groupName, items]) => (
                 <ItemGroup

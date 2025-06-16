@@ -7,6 +7,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ItemGroup from './ItemGroup';
 
+import ItemListStyle from '../styles/ItemList.module.scss';
+
 const ItemList = () => {
   const [itemGroups, setItemGroups] = useState({});
   const [activeTimers, setActiveTimers] = useState({}); // { itemId: endTimestamp }
@@ -82,7 +84,7 @@ const ItemList = () => {
   };
 
   return (
-    <div className="item-list">
+    <div className={ItemListStyle['item-list']}>
       {Object.entries(itemGroups).map(([groupName, items]) => (
         <ItemGroup
           key={groupName}

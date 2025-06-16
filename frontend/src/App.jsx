@@ -1,142 +1,32 @@
-import React, { useState, useEffect, useRef } from 'react';
+// App.jsx
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
-import SideBar from './components/SideBar';
-import Form from './components/Form';
-import ItemGroupList from './components/ItemGroupList';
+import CraftingPage from './components/CraftingPage';
+import AdminPage from './components/AdminPage';
 import Footer from './components/Footer';
-import './styles.css';
+import Form from './components/Form';
+import Modal from './components/Modal';
+
+import useTimers from './hooks/useTimers';
+import useItems from './hooks/useItems';
+
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [currentItemId, setCurrentItemId] = useState(null);
   const [currentItem, setCurrentItem] = useState(null);
+
   const [customDays, setCustomDays] = useState('');
   const [customHours, setCustomHours] = useState('');
   const [customMinutes, setCustomMinutes] = useState('');
   const [customSeconds, setCustomSeconds] = useState('');
 
-  const [itemGroups, setItemGroups] = useState({});
-  const [loading, setLoading] = useState(true);
+  const { activeTimers, toggleTimer, getTimeLeft, audioRef } = useTimers();
+  const { itemGroups, loading } = useItems();
 
-  const audioRef = useRef(null);
-
-  // Load timers from localStorage on first render, removing expired timers
-  const [activeTimers, setActiveTimers] = useState(() => {
-    const saved = localStorage.getItem('activeTimers');
-    if (!saved) return {};
-    const parsed = JSON.parse(saved);
-    const now = Date.now();
-
-    const validTimers = {};
-    for (const [id, endTime] of Object.entries(parsed)) {
-      if (endTime > now) {
-        validTimers[id] = endTime;
-      }
-    }
-    return validTimers;
-  });
-
-  // Save timers to localStorage whenever they change
-  useEffect(() => {
-    localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
-  }, [activeTimers]);
-
-  // Fetch items from backend and group them by tier and group
-  useEffect(() => {
-    const groupItemsByTierAndGroup = (items) => {
-      return items.reduce((acc, item) => {
-        const tier = item.tier || 'defaultTier';
-        const group = item.group || 'defaultGroup';
-
-        if (!acc[tier]) acc[tier] = {};
-        if (!acc[tier][group]) acc[tier][group] = [];
-
-        acc[tier][group].push(item);
-        return acc;
-      }, {});
-    };
-
-    const fetchItems = async () => {
-      try {
-        const API_URL = 'https://crafting-timer.onrender.com/api/items';
-        const response = await fetch(API_URL);
-        const data = await response.json();
-
-        const groupedData = groupItemsByTierAndGroup(data);
-        setItemGroups(groupedData);
-      } catch (error) {
-        console.error('Failed to fetch items:', error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchItems();
-  }, []);
-
-  // Timer interval: update every second and mark timers as 'ready' if done
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setActiveTimers((prev) => {
-        const updated = { ...prev };
-        const now = Date.now();
-
-        for (const id in prev) {
-          if (typeof prev[id] === 'number' && prev[id] <= now) {
-            updated[id] = 'ready';
-            if (audioRef.current) {
-              audioRef.current.play().catch(() => {});
-            }
-          }
-        }
-
-        return updated;
-      });
-    }, 1000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  // Start or cancel a timer
-  const toggleTimer = (id, duration) => {
-    setActiveTimers((prev) => {
-      const updated = { ...prev };
-      if (updated[id]) {
-        delete updated[id];
-      } else {
-        updated[id] = Date.now() + duration * 1000;
-      }
-      return updated;
-    });
-  };
-
-  // Get time left string (supports days)
-  const getTimeLeft = (endTime) => {
-    if (!endTime) return '';
-    if (endTime === 'ready') return 'Ready!';
-
-    const diff = endTime - Date.now();
-    if (diff <= 0) return 'Done';
-
-    const totalSeconds = Math.ceil(diff / 1000);
-    if (totalSeconds < 60) {
-      return `${totalSeconds}s`;
-    }
-
-    const totalMinutes = Math.floor(totalSeconds / 60);
-    const hours = Math.floor(totalMinutes / 60);
-    const minutes = totalMinutes % 60;
-    const days = Math.floor(hours / 24);
-    const remainingHours = hours % 24;
-
-    if (days > 0) return `${days}d ${remainingHours}h ${minutes}m`;
-    if (hours > 0) return `${hours}h ${minutes}m`;
-    return `${minutes}m`;
-  };
-
-  // Open modal and reset custom input fields on open
   const openCustomTimer = (item) => {
-    console.log('Opening custom timer for:', item._id, item.name);
     setCurrentItemId(item._id);
     setCurrentItem(item);
     setCustomDays('');
@@ -146,7 +36,6 @@ function App() {
     setModalOpen(true);
   };
 
-  // Set custom timer from inputs
   const setCustomTimer = () => {
     const days = parseInt(customDays, 10) || 0;
     const hours = parseInt(customHours, 10) || 0;
@@ -155,20 +44,14 @@ function App() {
 
     const totalSeconds = days * 86400 + hours * 3600 + minutes * 60 + seconds;
 
-    console.log('Setting custom timer for', currentItemId, 'duration (sec):', totalSeconds);
-
     if (currentItemId && totalSeconds > 0) {
-      setActiveTimers((prev) => ({
-        ...prev,
-        [currentItemId]: Date.now() + totalSeconds * 1000,
-      }));
+      toggleTimer(currentItemId, totalSeconds);
       closeModal();
     } else {
       alert('Please enter a valid custom duration.');
     }
   };
 
-  // Close modal and reset states
   const closeModal = () => {
     setModalOpen(false);
     setCurrentItemId(null);
@@ -180,68 +63,43 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <Router>
       <Header />
-
-      <div className="core-page">
-        {/* Hidden due to WIP */}
-        {/* <SideBar /> */}
-
-        <div className="main-content">
-          <audio ref={audioRef} src="/done.mp3" preload="auto" />
-          {loading ? (
-            <div className='loading-screen'>Loading items...</div>
-          ) : 
-          (
-            <ItemGroupList
-              itemGroups={itemGroups} // <- grouped data now
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <CraftingPage
+              itemGroups={itemGroups}
+              loading={loading}
               activeTimers={activeTimers}
               toggleTimer={toggleTimer}
               getTimeLeft={getTimeLeft}
               openCustomTimer={openCustomTimer}
+              audioRef={audioRef}
             />
-          )}
-        </div>
-      </div>
-
+          }
+        />
+        <Route path="/admin" element={<AdminPage />} />
+      </Routes>
       <Footer />
 
-      {/* Modal */}
-      {modalOpen && (
-        <div
-          className="modal-backdrop"
-          onClick={closeModal}
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            width: '100vw',
-            height: '100vh',
-            backgroundColor: 'rgba(0,0,0,0.5)',
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            zIndex: 9999,
-          }}
-        >
-          <div onClick={(e) => e.stopPropagation()}>
-            <Form
-              item={currentItem}
-              customDays={customDays}
-              setCustomDays={setCustomDays}
-              customHours={customHours}
-              setCustomHours={setCustomHours}
-              customMinutes={customMinutes}
-              setCustomMinutes={setCustomMinutes}
-              customSeconds={customSeconds}
-              setCustomSeconds={setCustomSeconds}
-              onSubmit={setCustomTimer}
-              onCancel={closeModal}
-            />
-          </div>
-        </div>
-      )}
-    </div>
+      <Modal isOpen={modalOpen} onClose={closeModal}>
+        <Form
+          item={currentItem}
+          customDays={customDays}
+          setCustomDays={setCustomDays}
+          customHours={customHours}
+          setCustomHours={setCustomHours}
+          customMinutes={customMinutes}
+          setCustomMinutes={setCustomMinutes}
+          customSeconds={customSeconds}
+          setCustomSeconds={setCustomSeconds}
+          onSubmit={setCustomTimer}
+          onCancel={closeModal}
+        />
+      </Modal>
+    </Router>
   );
 }
 

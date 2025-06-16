@@ -1,12 +1,12 @@
 import React from 'react';
 import ItemCard from './ItemCard';
-import '../styles.css';
+import ItemGroupStyles from '../styles/ItemGroup.module.scss';
 
 const ItemGroup = ({ groupName, items, activeTimers, toggleTimer, getTimeLeft, openCustomTimer }) => {
   return (
-    <div className="item-group">
-      <h2 className="group-name">{groupName}</h2>
-      <div className="items-list">
+
+      <div className={ItemGroupStyles['item-list']}>
+        <h2 className={ItemGroupStyles['group-name']}>{groupName}</h2>
         {items.map(item => (
           <ItemCard
             key={item._id || item.id} // MongoDB _id or fallback to id
@@ -18,7 +18,7 @@ const ItemGroup = ({ groupName, items, activeTimers, toggleTimer, getTimeLeft, o
           />
         ))}
       </div>
-    </div>
+      
   );
 };
 

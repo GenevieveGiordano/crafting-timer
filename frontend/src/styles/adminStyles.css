@@ -1,0 +1,187 @@
+/* Base reset & theme */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(13, 2, 39);
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+/* Container to center admin content */
+.admin-container {
+  max-width: 1200px;
+  margin: 80px auto 120px; /* space for fixed banner & footer */
+  padding: 20px;
+  /* background-color: #2a1f54; */
+  border-radius: 16px;
+  /* box-shadow: 0 0 20px rgba(132, 92, 241, 0.5); */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Title */
+.admin-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* Section Headers */
+.admin-section-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 2px solid #b283ff;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+  user-select: none;
+}
+
+/* Form styling */
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: linear-gradient(180deg, #7b6cf9, #37129c);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+/* Label and inputs */
+.admin-label {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: #d6bfff;
+}
+
+.admin-input,
+.admin-textarea,
+.admin-select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 14px;
+  border: 2px solid #b283ff;
+  background-color: #4b3e82;
+  color: #eee;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.admin-input:focus,
+.admin-textarea:focus,
+.admin-select:focus {
+  outline: none;
+  border-color: #7fdc7f;
+  background-color: #5c4ca7;
+  color: #fff;
+}
+
+/* Buttons */
+.admin-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.admin-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  user-select: none;
+}
+
+.admin-btn-submit {
+  background-color: rgb(86, 33, 209);
+  color: white;
+  /* box-shadow: 0 0 12px rgb(86, 33, 209); */
+}
+
+.admin-btn-submit:hover {
+  background-color: rgb(125, 211, 45);
+  color: white;
+  box-shadow: 0 0 20px rgb(125, 211, 45);
+}
+
+.admin-btn-cancel {
+  background-color: rgb(86, 33, 209);
+  color: white;
+  /* box-shadow: 0 0 12px rgb(86, 33, 209); */
+}
+
+.admin-btn-cancel:hover {
+  background-color: rgb(211, 45, 45);
+  color: white;
+  box-shadow: 0 0 20px rgb(211, 45, 45);
+}
+
+/* Tables and lists */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #23136b;
+  border-radius: 12px;
+  overflow: hidden;
+  /* box-shadow: 0 0 20px #845cf1aa; */
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #8159f8ce;
+  color: #d6bfff;
+  font-weight: 600;
+}
+
+.admin-table th {
+  /* background: linear-gradient(270deg, #37129c, #7b6cf9); */
+  background-color:#b283ff;
+}
+
+.admin-table tr:hover {
+  background-color: #5236a5cc;
+  cursor: pointer;
+}
+
+/* Scrollbar customization */
+.admin-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.admin-container::-webkit-scrollbar-track {
+  background: #24126d;
+}
+
+.admin-container::-webkit-scrollbar-thumb {
+  background: #845cf1;
+  border-radius: 8px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .admin-container {
+    margin: 60px 12px 100px;
+    padding: 16px;
+  }
+
+  .admin-title {
+    font-size: 2.2rem;
+  }
+
+  .admin-section-header {
+    font-size: 1.4rem;
+  }
+}

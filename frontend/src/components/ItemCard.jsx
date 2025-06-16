@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Tooltip from './Tooltip';
-import '../styles.css';
+import ItemCardStyles from '../styles/ItemCard.module.scss';
+
 
 const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
   const holdTimeout = useRef(null);
@@ -25,7 +26,11 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
   };
 
   const isReady = timeLeft === 'Ready!';
-  const cardClasses = `item-card ${isReady ? 'ready' : isActive ? 'active' : ''}`;
+
+const cardClasses = [
+  ItemCardStyles['item-card'],
+  isReady ? ItemCardStyles['ready'] : isActive ? ItemCardStyles['active'] : ''
+].join(' ');
 
 
   const backendUrl = 'https://crafting-timer.onrender.com';
@@ -48,23 +53,27 @@ const ItemCard = ({ item, isActive, onClick, timeLeft, onHold }) => {
 
       {/* Insert Tooltip */}
       <Tooltip content={
-        <div className='item-list'>
+        <div className={ItemCardStyles['item-list']}>
+
           <strong>{item.name}</strong><br />
-          <div className="item-card">
+
+          <div className={ItemCardStyles['item-card']}>
             <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
           </div>
+
           Recipe: {item.recipe}<br />
           Cost: {item.price}<br />
           
           Vendor: {item.vendor}<br />
           Location: {item.location}<br />
+          
         </div>
       }>
               <img src={`${backendUrl}${item.image}`} alt={item.name} style={{ width: '60px', height: '60px' }} />
       </Tooltip>
       {/* End Tooltip */}
 
-      {isActive && <div className="item-card-overlay">{timeLeft}</div>}
+      {isActive && <div className={ItemCardStyles['item-card-overlay']}>{timeLeft}</div>}
     </div>
 
 

@@ -1,5 +1,7 @@
-import '../styles.css';
 import ItemCard from './ItemCard';
+import FormStyles from '../styles/Form.module.scss';
+import ButtonStyles from '../styles/Buttons.module.scss';
+
 
 const Form = ({   
         item,
@@ -19,14 +21,14 @@ const Form = ({
   };
 
   return (
-    <div className='form-container'>
+    <div className={FormStyles['form-container']}>
       <form onSubmit={handleSubmit}>
 
-        <div className='label-container'>
+        <div className={FormStyles['label-container']}>
 
             {/* ItemCard */}
         {item && (
-          <div style={{ padding: '10px', textAlign: 'center', justifyItems: 'center', pointerEvents: 'none' }}>
+          <div className={FormStyles['item']}>
             <ItemCard
               item={item}
               isActive={false}
@@ -37,21 +39,22 @@ const Form = ({
           </div>
         )}
 
-          <label className='label-group'>
-            <div className='label-title'>Days:</div>
+          <label className={FormStyles['label-group']}>
+            <div className={FormStyles['label-title']}>Days:</div>
             <input
-                className='form-input'
+                className={FormStyles['form-input']}
                 type="number"
                 min="0"
+                max="99"
                 value={customDays}
                 onChange={(e) => setCustomDays(e.target.value)}
             />
           </label>
 
-          <label className='label-group'>
-            <div className='label-title'>Hours:</div>
+          <label className={FormStyles['label-group']}>
+            <div className={FormStyles['label-title']}>Hours:</div>
             <input
-                className='form-input'
+                className={FormStyles['form-input']}
                 type="number"
                 min="0"
                 max="23"
@@ -60,10 +63,10 @@ const Form = ({
             />
           </label>
 
-          <label className='label-group'>
-            <div className='label-title'>Minutes:</div>
+          <label className={FormStyles['label-group']}>
+            <div className={FormStyles['label-title']}>Minutes:</div>
             <input
-                className='form-input'
+                className={FormStyles['form-input']}
                 type="number"
                 min="0"
                 max="59"
@@ -72,10 +75,10 @@ const Form = ({
             />
           </label>
 
-          <label className='label-group'>
-            <div className='label-title'>Seconds:</div>
+          <label className={FormStyles['label-group']}>
+            <div className={FormStyles['label-title']}>Seconds:</div>
             <input
-                className='form-input'
+                className={FormStyles['form-input']}
                 type="number"
                 min="0"
                 max="59"
@@ -87,9 +90,9 @@ const Form = ({
         </div>
 
 
-        <div className='input-group'>
-          <button className='btn-submit' type="submit">Submit</button>
-          <button className='btn-cancel' type="button" onClick={onCancel}>Cancel</button>
+        <div className={FormStyles['label-group']}>
+          <button className={ButtonStyles['btn-submit']} type="submit">Submit</button>
+          <button className={ButtonStyles['btn-cancel']}type="button" onClick={onCancel}>Cancel</button>
         </div>
       </form>
     </div>
