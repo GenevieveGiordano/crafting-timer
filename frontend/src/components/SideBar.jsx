@@ -1,20 +1,23 @@
 import SideBarStyle from '../styles/SideBar.module.scss'
+import ButtonStyles from '../styles/Buttons.module.scss';
 
 const SideBar = ({ clearAll, clearReady, clearUnready }) => {
   return (
     <div className={SideBarStyle['sidebar']}>
       <div className={SideBarStyle['icon-container']}>
 
+      <div className={SideBarStyle['sidebar-title']}>Clear Timers</div>
+
         <div className={SideBarStyle['icon']}>
-          <button onClick={clearAll}>All</button>
+          <button className={ButtonStyles['btn-sidebar']} onClick={clearAll}>All</button>
         </div>
 
         <div className={SideBarStyle['icon']}>
-          <button onClick={clearReady}>Ready</button>
+          <button className={ButtonStyles['btn-sidebar']} onClick={clearReady}>Ready</button>
         </div>
 
         <div className={SideBarStyle['icon']}>
-          <button onClick={clearUnready}>Unready</button>
+          <button className={ButtonStyles['btn-sidebar']} onClick={clearUnready}>Unready</button>
         </div>
 
       </div>

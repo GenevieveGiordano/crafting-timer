@@ -1,6 +1,17 @@
+// $primary-color: #ffffff;
 $primary-color: #0d0227;
 $secondary-color: #b283ff;
 
+//PANELS
+$banner-gradient: linear-gradient(270deg, #ff6ec4, #7873f5, #6bf5f2, #ff6ec4);
+$updates-gradient: linear-gradient(270deg, #37129c, #7b6cf9);
+$updates-color: #37129c;
+$sidebar-color: #80c93d;
+
+//TIER
+$tier-title-bg: #845cf1;
+//GROUP
+$group-title-bg: #845cf1;
 //FORMS
 $form-bg-color: #845cf1;
 $card-bg-color: #431d9c;
@@ -10,6 +21,10 @@ $btn-color: #5621d1;
 $btn-cancel: #d32d2d;
 $btn-submit: #7dd32d;
 $btn-edit: #3498db;
+
+//READY/UNREADY
+$ready-background: linear-gradient(90deg, #00e676, #00c853, #1de9b6);
+$not-ready-background: linear-gradient(90deg, #ff1744, #ff6d00, #bb8000, #ff1744);
 
 //FONTS
 $font-primary: 'Segoe UI', 'Poppins', sans-serif;
@@ -25,16 +40,21 @@ $black: #000;
 $gray-light: #ccc;
 $gray-dark: #444;
 
+//BOX SHADOWS
+$shadow:  rgba(0, 0, 0, 0.5);
+
 button {
   background-color: $btn-color;
   color: $white;
-  font-weight: bold;
+
   cursor: pointer;
   transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
 // Buttons
 .btn {
+    
+
   &-submit {
     border: none;
     border-radius: 8px;
@@ -43,6 +63,7 @@ button {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     background-color: $btn-color;
+    font-weight: bold;
     
 
     &:hover {
@@ -59,10 +80,28 @@ button {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: $btn-color;
+    font-weight: bold;
 
     &:hover {
       background-color: $btn-cancel;
       color: $white;
     }
   }
+}
+
+.btn-sidebar {
+    border: #158824 solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    color: $white;
+    background-color: #158824;
+    box-shadow: $shadow;
+
+        &:hover {
+      background-color: #30c4ff;
+      color: $white;
+      border: #30c4ff solid 2px;
+    }
 }
