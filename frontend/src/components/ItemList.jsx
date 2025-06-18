@@ -7,11 +7,30 @@ const ItemList = () => {
   const [activeTimers, setActiveTimers] = useState({});
   const timersRef = useRef({});
 
+  // Helper to group flat item array into nested structure
+  const groupItemsByCategoryAndGroup = (items) => {
+    const grouped = {};
+    for (const item of items) {
+      const { category, group } = item;
+      if (!grouped[category]) {
+        grouped[category] = {};
+      }
+      if (!grouped[category][group]) {
+        grouped[category][group] = [];
+      }
+      grouped[category][group].push(item);
+    }
+    return grouped;
+  };
+
   // Fetch items on mount
   useEffect(() => {
     fetch('http://localhost:5000/items')
       .then(res => res.json())
-      .then(data => setItemGroups(data))
+      .then(data => {
+        const structured = groupItemsByCategoryAndGroup(data);
+        setItemGroups(structured);
+      })
       .catch(console.error);
   }, []);
 
@@ -50,7 +69,7 @@ const ItemList = () => {
     setActiveTimers(restored);
   }, []);
 
-  // Save timers to localStorage on every change
+  // Save timers to localStorage
   useEffect(() => {
     localStorage.setItem('activeTimers', JSON.stringify(activeTimers));
   }, [activeTimers]);
@@ -64,10 +83,8 @@ const ItemList = () => {
 
   const toggleTimer = (id, duration) => {
     if (activeTimers[id] && activeTimers[id] !== 'Ready!') {
-      // Cancel running timer
       clearInterval(timersRef.current[id]);
       timersRef.current[id] = null;
-
       setActiveTimers(prev => {
         const updated = { ...prev };
         delete updated[id];
@@ -75,7 +92,6 @@ const ItemList = () => {
       });
     } else {
       const endTime = Date.now() + duration * 1000;
-
       timersRef.current[id] = setInterval(() => {
         setActiveTimers(prev => {
           const updated = { ...prev };
@@ -96,10 +112,8 @@ const ItemList = () => {
 
   const getTimeLeft = (endTimestamp) => {
     if (!endTimestamp || endTimestamp === 'Ready!') return 'Ready!';
-
     const secondsLeft = Math.max(0, Math.floor((endTimestamp - Date.now()) / 1000));
     if (secondsLeft <= 0) return 'Ready!';
-
     const mins = Math.floor(secondsLeft / 60);
     const secs = secondsLeft % 60;
     return `${mins}m ${secs}s`;
@@ -111,17 +125,19 @@ const ItemList = () => {
 
   return (
     <div className={ItemListStyle['item-list']}>
-      {Object.entries(itemGroups).map(([groupName, items]) => (
-        <ItemGroup
-          key={groupName}
-          groupName={groupName}
-          items={items}
-          activeTimers={activeTimers}
-          toggleTimer={toggleTimer}
-          getTimeLeft={getTimeLeft}
-          openCustomTimer={openCustomTimer}
-        />
-      ))}
+      {Object.entries(itemGroups).map(([tierName, groups]) =>
+        Object.entries(groups).map(([groupName, items]) => (
+          <ItemGroup
+            key={`${tierName}-${groupName}`}
+            groupName={groupName}
+            items={items}
+            activeTimers={activeTimers}
+            toggleTimer={toggleTimer}
+            getTimeLeft={getTimeLeft}
+            openCustomTimer={openCustomTimer}
+          />
+        ))
+      )}
     </div>
   );
 };

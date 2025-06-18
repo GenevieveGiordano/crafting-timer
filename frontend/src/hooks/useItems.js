@@ -5,15 +5,15 @@ export default function useItems() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const groupItemsByTierAndGroup = (items) => {
+    const groupItemsByCategoryAndGroup = (items) => {
       return items.reduce((acc, item) => {
-        const tier = item.tier || 'defaultTier';
+        const category = item.category || 'defaultCategory';
         const group = item.group || 'defaultGroup';
 
-        if (!acc[tier]) acc[tier] = {};
-        if (!acc[tier][group]) acc[tier][group] = [];
+        if (!acc[category]) acc[category] = {};
+        if (!acc[category][group]) acc[category][group] = [];
 
-        acc[tier][group].push(item);
+        acc[category][group].push(item);
         return acc;
       }, {});
     };
@@ -24,7 +24,7 @@ export default function useItems() {
         const response = await fetch(API_URL);
         const data = await response.json();
 
-        const groupedData = groupItemsByTierAndGroup(data);
+        const groupedData = groupItemsByCategoryAndGroup(data);
         setItemGroups(groupedData);
       } catch (error) {
         console.error('Failed to fetch items:', error);

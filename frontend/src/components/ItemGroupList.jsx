@@ -8,10 +8,8 @@ const ItemGroupList = ({
   getTimeLeft,
   openCustomTimer,
 }) => {
-  const isStarforged = (str) => {
-    if (!str) return false;
-    return str.toLowerCase().includes('starforged');
-  };
+
+  const isStarforged = (str) => str?.toLowerCase().includes('starforged') || false;
 
   const getTierNumber = (label) => {
     const match = label.match(/^T(\d)$/i);
@@ -21,7 +19,7 @@ const ItemGroupList = ({
   // Custom group sort orders
   const customGroupOrders = {
     Resources: ['Iron', 'Silver', 'Gold', 'Unob', 'Frost', 'Coral', 'Salt', 'Marble', 'Soul'],
-    Gems: ['Sapphire', 'Onyx', 'Amethyst', 'Ruby', 'Emerald', 'Diamond'],
+    Gems: ['Sapphire', 'Onyx', 'Amethyst', 'Ruby', 'Pearl', 'Emerald', 'Diamond'],
   };
 
   const sortTiers = (a, b) => {
