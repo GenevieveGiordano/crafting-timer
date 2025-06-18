@@ -5,7 +5,8 @@
     "image": "/images/armor-t1-agi-legs-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Agi"
+    "group": "T1 Agi",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c3e",
@@ -13,7 +14,8 @@
     "image": "/images/armor-t2-agi-legs-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Agi"
+    "group": "T2 Agi",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c53",
@@ -21,7 +23,8 @@
     "image": "/images/armor-t3-int-body-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Int"
+    "group": "T3 Int",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c59",
@@ -29,7 +32,8 @@
     "image": "/images/armor-t3-sta-helm-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Sta"
+    "group": "T3 Sta",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c97",
@@ -37,7 +41,8 @@
     "image": "/images/resources/iron/item-iron-chunk-icon.png",
     "duration": 300,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c99",
@@ -45,7 +50,8 @@
     "image": "/images/resources/iron/item-iron-plate-icon.png",
     "duration": 1800,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca5",
@@ -53,7 +59,8 @@
     "image": "/images/resources/gold/crafting-gold-chunk-icon.png",
     "duration": 900,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cab",
@@ -61,7 +68,8 @@
     "image": "/images/resources/gold/crafting-gold-helm-shell-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831cce",
@@ -69,7 +77,8 @@
     "image": "/images/resources/marble/crafting-marble-helm-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831cd3",
@@ -77,7 +86,8 @@
     "image": "/images/resources/soul/item-dark-soul-cube-icon.png",
     "duration": 57600,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd6",
@@ -85,7 +95,8 @@
     "image": "/images/weapons/weapon-t1-agi-bow-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c36",
@@ -93,7 +104,8 @@
     "image": "/images/armor-t1-int-face-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c5f",
@@ -101,7 +113,8 @@
     "image": "/images/armor-t3-str-face-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Str"
+    "group": "T3 Str",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c64",
@@ -109,7 +122,8 @@
     "image": "/images/armor-t4-agi-legs-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Agi"
+    "group": "T4 Agi",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c6a",
@@ -117,7 +131,8 @@
     "image": "/images/armor-t4-int-body-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Int"
+    "group": "T4 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c73",
@@ -125,7 +140,8 @@
     "image": "/images/armor-t4-str-legs-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Str"
+    "group": "T4 Str",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c8f",
@@ -133,7 +149,8 @@
     "image": "/images/weapons/weapon-t5-sta-one-hand-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c90",
@@ -141,7 +158,8 @@
     "image": "/images/armor/armor-t5-str-legs-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831cb0",
@@ -149,7 +167,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831cc3",
@@ -157,7 +176,8 @@
     "image": "/images/resources/salt/crafting-salt-plate-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc6",
@@ -165,7 +185,8 @@
     "image": "/images/resources/salt/crafting-salt-cube-hyper-icon.png",
     "duration": 57600,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc8",
@@ -173,7 +194,8 @@
     "image": "/images/resources/marble/crafting-marble-chunk-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cdc",
@@ -181,7 +203,8 @@
     "image": "/images/weapons/weapon-t1-sta-one-hand-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf0",
@@ -189,7 +212,8 @@
     "image": "/images/weapons/weapon-t4-sta-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d02",
@@ -197,7 +221,8 @@
     "image": "/images/rings/ring-t5-sta-icon.png",
     "duration": 43200,
     "category": "Rings",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c32",
@@ -205,7 +230,8 @@
     "image": "/images/crafting-t1-cloth-icon.png",
     "duration": 3600,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c37",
@@ -213,7 +239,8 @@
     "image": "/images/crafting-starforged-ruby-leg-shell-icon.png",
     "duration": 14400,
     "category": "T2",
-    "group": "T2 Starforged Ruby"
+    "group": "T2 Starforged Ruby",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c54",
@@ -221,7 +248,8 @@
     "image": "/images/armor-t3-int-hood-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Int"
+    "group": "T3 Int",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c66",
@@ -229,7 +257,8 @@
     "image": "/images/armor-t4-agi-helm-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Agi"
+    "group": "T4 Agi",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c76",
@@ -237,7 +266,8 @@
     "image": "/images/armor-t4-str-face-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Str"
+    "group": "T4 Str",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c78",
@@ -245,7 +275,8 @@
     "image": "/images/starforged/crafting-antimatter-leg-shell-icon.png",
     "duration": 28800,
     "category": "T5",
-    "group": "T5 Starforged Antimatter"
+    "group": "T5 Starforged Antimatter",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c7a",
@@ -253,7 +284,8 @@
     "image": "/images/starforged/crafting-antimatter-helm-shell-icon.png",
     "duration": 28800,
     "category": "T5",
-    "group": "T5 Starforged Antimatter"
+    "group": "T5 Starforged Antimatter",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c8a",
@@ -261,7 +293,8 @@
     "image": "/images/armor/armor-t5-sta-body-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c8c",
@@ -269,7 +302,8 @@
     "image": "/images/armor/armor-t5-sta-face-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c98",
@@ -277,7 +311,8 @@
     "image": "/images/resources/iron/item-iron-slab-icon.png",
     "duration": 900,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca6",
@@ -285,7 +320,8 @@
     "image": "/images/resources/gold/crafting-gold-slab-icon.png",
     "duration": 3600,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb4",
@@ -293,7 +329,8 @@
     "image": "/images/resources/frost/crafting-ice-crystal-large-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cfd",
@@ -301,7 +338,8 @@
     "image": "/images/rings/ring-t3-str-icon.png",
     "duration": 28800,
     "category": "Rings",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d05",
@@ -309,7 +347,8 @@
     "image": "/images/books/trinket-base-agi-book-icon.png",
     "duration": 3600,
     "category": "Books",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c23",
@@ -317,7 +356,8 @@
     "image": "/images/crafting-silversteel-helm-icon.png",
     "duration": 7200,
     "category": "T1",
-    "group": "T1 Starforged"
+    "group": "T1 Starforged",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c29",
@@ -325,7 +365,8 @@
     "image": "/images/armor-t1-str-body-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Str"
+    "group": "T1 Str",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c47",
@@ -333,7 +374,8 @@
     "image": "/images/armor-t2-stam-body-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Sta"
+    "group": "T2 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c48",
@@ -341,7 +383,8 @@
     "image": "/images/armor-t2-stam-helm-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Sta"
+    "group": "T2 Sta",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c65",
@@ -349,7 +392,8 @@
     "image": "/images/armor-t4-agi-body-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Agi"
+    "group": "T4 Agi",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c7b",
@@ -357,7 +401,8 @@
     "image": "/images/armor/armor-t5-agi-legs-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c7d",
@@ -365,7 +410,8 @@
     "image": "/images/armor/armor-t5-agi-helmet-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c9d",
@@ -373,7 +419,8 @@
     "image": "/images/resources/iron/item-iron-helm-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831ca8",
@@ -381,7 +428,8 @@
     "image": "/images/resources/gold/crafting-gold-plate-reinforced-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce2",
@@ -389,7 +437,8 @@
     "image": "/images/weapons/weapon-t2-agi-one-hand-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c24",
@@ -397,7 +446,8 @@
     "image": "/images/armor-t1-stam-legs-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Sta"
+    "group": "T1 Sta",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c43",
@@ -405,7 +455,8 @@
     "image": "/images/armor-t2-int-body-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Int"
+    "group": "T2 Int",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c46",
@@ -413,7 +464,8 @@
     "image": "/images/armor-t2-stam-legs-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Sta"
+    "group": "T2 Sta",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c50",
@@ -421,7 +473,8 @@
     "image": "/images/armor-t3-agi-face-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi"
+    "group": "T3 Agi",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c61",
@@ -429,7 +482,8 @@
     "image": "/images/crafting-starforged-diamond-leg-shell-icon.png",
     "duration": 28800,
     "category": "T4",
-    "group": "T4 Starforged Diamond"
+    "group": "T4 Starforged Diamond",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c6b",
@@ -437,7 +491,8 @@
     "image": "/images/armor-t4-int-hat-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Int"
+    "group": "T4 Int",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c7f",
@@ -445,7 +500,8 @@
     "image": "/images/armor/armor-t5-agi-shoulder-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c81",
@@ -453,7 +509,8 @@
     "image": "/images/weapons/weapon-t5-agi-one-hand-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca1",
@@ -461,7 +518,8 @@
     "image": "/images/resources/silver/item-silver-plate-reinforced-icon.png",
     "duration": 3600,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca3",
@@ -469,7 +527,8 @@
     "image": "/images/resources/silver/item-silver-body-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb3",
@@ -477,7 +536,8 @@
     "image": "/images/resources/frost/crafting-ice-crystal-medium-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc7",
@@ -485,7 +545,8 @@
     "image": "/images/resources/salt/crafting-sea-cube-hyper-icon.png",
     "duration": 86400,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cea",
@@ -493,7 +554,8 @@
     "image": "/images/weapons/weapon-t3-agi-one-hand-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0a",
@@ -501,7 +563,8 @@
     "image": "/images/books/trinket-t1-int-book-icon.png",
     "duration": 14400,
     "category": "Books",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0c",
@@ -509,7 +572,8 @@
     "image": "/images/books/trinket-t1-str-book-icon.png",
     "duration": 14400,
     "category": "Books",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d12",
@@ -517,7 +581,8 @@
     "image": "/images/books/trinket-t3-sta-book-icon.png",
     "duration": 28800,
     "category": "Books",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c22",
@@ -525,7 +590,8 @@
     "image": "/images/crafting-silversteel-body-icon.png",
     "duration": 7200,
     "category": "T1",
-    "group": "T1 Starforged"
+    "group": "T1 Starforged",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c2b",
@@ -533,7 +599,8 @@
     "image": "/images/armor-t1-str-face-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Str"
+    "group": "T1 Str",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c3d",
@@ -541,7 +608,8 @@
     "image": "/images/armor-t2-str-face-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Str"
+    "group": "T2 Str",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c94",
@@ -549,7 +617,8 @@
     "image": "/images/armor/armor-t5-str-shoulder-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831ce0",
@@ -557,7 +626,8 @@
     "image": "/images/weapons/weapon-t2-sta-hammer-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cfa",
@@ -565,7 +635,8 @@
     "image": "/images/rings/ring-t2-int-icon.png",
     "duration": 21600,
     "category": "Rings",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cfc",
@@ -573,7 +644,8 @@
     "image": "/images/rings/ring-t2-str-icon.png",
     "duration": 21600,
     "category": "Rings",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cff",
@@ -581,7 +653,8 @@
     "image": "/images/rings/ring-t3-agi-icon.png",
     "duration": 28800,
     "category": "Rings",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d06",
@@ -589,7 +662,8 @@
     "image": "/images/books/trinket-base-int-book-icon.png",
     "duration": 3600,
     "category": "Books",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c34",
@@ -597,7 +671,8 @@
     "image": "/images/armor-t1-int-body-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c3a",
@@ -605,7 +680,8 @@
     "image": "/images/armor-t2-str-legs-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Str"
+    "group": "T2 Str",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c44",
@@ -613,7 +689,8 @@
     "image": "/images/armor-t2-int-head-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Int"
+    "group": "T2 Int",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c4a",
@@ -621,7 +698,8 @@
     "image": "/images/crafting-starforged-emerald-leg-shell-icon.png",
     "duration": 21600,
     "category": "T3",
-    "group": "T3 Starforged Emerald"
+    "group": "T3 Starforged Emerald",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c52",
@@ -629,7 +707,8 @@
     "image": "/images/armor-t3-int-legs-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Int"
+    "group": "T3 Int",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c55",
@@ -637,7 +716,8 @@
     "image": "/images/armor-t3-int-face-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Int"
+    "group": "T3 Int",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c57",
@@ -645,7 +725,8 @@
     "image": "/images/armor-t3-sta-legs-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Sta"
+    "group": "T3 Sta",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c62",
@@ -653,7 +734,8 @@
     "image": "/images/crafting-starforged-diamond-body-shell-icon.png",
     "duration": 28800,
     "category": "T4",
-    "group": "T4 Starforged Diamond"
+    "group": "T4 Starforged Diamond",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c70",
@@ -661,7 +743,8 @@
     "image": "/images/armor-t4-sta-helm-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Sta"
+    "group": "T4 Sta",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c83",
@@ -669,7 +752,8 @@
     "image": "/images/armor/armor-t5-int-body-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c91",
@@ -677,7 +761,8 @@
     "image": "/images/armor/armor-t5-str-body-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd5",
@@ -685,7 +770,8 @@
     "image": "/images/weapons/weapon-t1-int-staff-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cda",
@@ -693,7 +779,8 @@
     "image": "/images/weapons/weapon-t1-agi-one-hand-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cdd",
@@ -701,7 +788,8 @@
     "image": "/images/weapons/weapon-t2-int-staff-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce6",
@@ -709,7 +797,8 @@
     "image": "/images/weapons/weapon-t3-agi-bow-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cee",
@@ -717,7 +806,8 @@
     "image": "/images/weapons/weapon-t4-agi-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cef",
@@ -725,7 +815,8 @@
     "image": "/images/weapons/weapon-t4-str-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf6",
@@ -733,7 +824,8 @@
     "image": "/images/rings/ring-t1-int-icon.png",
     "duration": 14400,
     "category": "Rings",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d14",
@@ -741,7 +833,8 @@
     "image": "/images/books/trinket-t3-int-book-icon.png",
     "duration": 28800,
     "category": "Books",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c21",
@@ -749,7 +842,8 @@
     "image": "/images/crafting-silversteel-legs-icon.png",
     "duration": 7200,
     "category": "T1",
-    "group": "T1 Starforged"
+    "group": "T1 Starforged",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c2e",
@@ -757,7 +851,8 @@
     "image": "/images/armor-t1-agi-helm-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Agi"
+    "group": "T1 Agi",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c39",
@@ -765,7 +860,8 @@
     "image": "/images/crafting-starforged-ruby-helm-shell-icon.png",
     "duration": 14400,
     "category": "T2",
-    "group": "T2 Starforged Ruby"
+    "group": "T2 Starforged Ruby",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c49",
@@ -773,7 +869,8 @@
     "image": "/images/armor-t2-stam-face-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Sta"
+    "group": "T2 Sta",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c5c",
@@ -781,7 +878,8 @@
     "image": "/images/armor-t3-str-legs-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Str"
+    "group": "T3 Str",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c6e",
@@ -789,7 +887,8 @@
     "image": "/images/armor-t4-sta-legs-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Sta"
+    "group": "T4 Sta",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c89",
@@ -797,7 +896,8 @@
     "image": "/images/armor/armor-t5-sta-legs-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831ca7",
@@ -805,7 +905,8 @@
     "image": "/images/resources/gold/crafting-gold-plate-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cad",
@@ -813,7 +914,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-slab-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb7",
@@ -821,7 +923,8 @@
     "image": "/images/resources/frost/crafting-ice-leg-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831cbb",
@@ -829,7 +932,8 @@
     "image": "/images/resources/coral/crafting-coral-slab-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc0",
@@ -837,7 +941,8 @@
     "image": "/images/resources/coral/crafting-sea-cube-hyper-icon.png",
     "duration": 86400,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc9",
@@ -845,7 +950,8 @@
     "image": "/images/resources/marble/crafting-marble-slab-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd1",
@@ -853,7 +959,8 @@
     "image": "/images/resources/soul/item-dark-soul-nebula-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce4",
@@ -861,7 +968,8 @@
     "image": "/images/weapons/weapon-t2-sta-one-hand-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce7",
@@ -869,7 +977,8 @@
     "image": "/images/weapons/weapon-t3-str-sword-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce9",
@@ -877,7 +986,8 @@
     "image": "/images/weapons/weapon-t3-int-wand-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ceb",
@@ -885,7 +995,8 @@
     "image": "/images/weapons/weapon-t3-str-one-hand-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf1",
@@ -893,7 +1004,8 @@
     "image": "/images/weapons/weapon-t4-int-wand-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf5",
@@ -901,7 +1013,8 @@
     "image": "/images/rings/ring-t1-agi-icon.png",
     "duration": 14400,
     "category": "Rings",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d07",
@@ -909,7 +1022,8 @@
     "image": "/images/books/trinket-base-sta-book-icon.png",
     "duration": 3600,
     "category": "Books",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c25",
@@ -917,7 +1031,8 @@
     "image": "/images/armor-t1-stam-body-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Sta"
+    "group": "T1 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c26",
@@ -925,7 +1040,8 @@
     "image": "/images/armor-t1-stam-helm-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Sta"
+    "group": "T1 Sta",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c31",
@@ -933,7 +1049,8 @@
     "image": "/images/crafting-cloth-icon.png",
     "duration": 1800,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c60",
@@ -941,7 +1058,8 @@
     "image": "/images/armor-t3-str-shoulder-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Str"
+    "group": "T3 Str",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c6d",
@@ -949,7 +1067,8 @@
     "image": "/images/armor-t4-int-shoulder-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Int"
+    "group": "T4 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c87",
@@ -957,7 +1076,8 @@
     "image": "/images/weapons/weapon-t5-int-staff-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c8e",
@@ -965,7 +1085,8 @@
     "image": "/images/weapons/weapon-t5-sta-mace-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb8",
@@ -973,7 +1094,8 @@
     "image": "/images/resources/frost/crafting-ice-body-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb9",
@@ -981,7 +1103,8 @@
     "image": "/images/resources/frost/crafting-ice-helm-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831cbf",
@@ -989,7 +1112,8 @@
     "image": "/images/resources/coral/crafting-coral-cube-hyper-icon.png",
     "duration": 57600,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cdf",
@@ -997,7 +1121,8 @@
     "image": "/images/weapons/weapon-t2-str-sword-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce8",
@@ -1005,7 +1130,8 @@
     "image": "/images/weapons/weapon-t3-sta-axe-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf8",
@@ -1013,7 +1139,8 @@
     "image": "/images/rings/ring-t1-str-icon.png",
     "duration": 14400,
     "category": "Rings",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cfe",
@@ -1021,7 +1148,8 @@
     "image": "/images/rings/ring-t3-sta-icon.png",
     "duration": 28800,
     "category": "Rings",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0f",
@@ -1029,7 +1157,8 @@
     "image": "/images/books/trinket-t2-sta-book-icon.png",
     "duration": 21600,
     "category": "Books",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d10",
@@ -1037,7 +1166,8 @@
     "image": "/images/books/trinket-t2-str-book-icon.png",
     "duration": 21600,
     "category": "Books",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c35",
@@ -1045,7 +1175,8 @@
     "image": "/images/armor-t1-int-hood-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c56",
@@ -1053,7 +1184,8 @@
     "image": "/images/armor-t3-int-shoulder-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Int"
+    "group": "T3 Int",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c75",
@@ -1061,7 +1193,8 @@
     "image": "/images/armor-t4-str-helm-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Str"
+    "group": "T4 Str",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c77",
@@ -1069,7 +1202,8 @@
     "image": "/images/armor-t4-str-shoulder-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Str"
+    "group": "T4 Str",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c9f",
@@ -1077,7 +1211,8 @@
     "image": "/images/resources/silver/item-silver-slab-icon.png",
     "duration": 900,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ccd",
@@ -1085,7 +1220,8 @@
     "image": "/images/resources/marble/crafting-marble-body-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cde",
@@ -1093,7 +1229,8 @@
     "image": "/images/weapons/weapon-t2-agi-bow-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce5",
@@ -1101,7 +1238,8 @@
     "image": "/images/weapons/weapon-t3-int-staff-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf4",
@@ -1109,7 +1247,8 @@
     "image": "/images/weapons/weapon-t4-sta-one-hand-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf7",
@@ -1117,7 +1256,8 @@
     "image": "/images/rings/ring-t1-sta-icon.png",
     "duration": 14400,
     "category": "Rings",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d01",
@@ -1125,7 +1265,8 @@
     "image": "/images/rings/ring-t5-str-icon.png",
     "duration": 43200,
     "category": "Rings",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0e",
@@ -1133,7 +1274,8 @@
     "image": "/images/books/trinket-t2-int-book-icon.png",
     "duration": 21600,
     "category": "Books",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d16",
@@ -1141,7 +1283,8 @@
     "image": "/images/books/trinket-t5-sta-book-icon.png",
     "duration": 43200,
     "category": "Books",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c42",
@@ -1149,7 +1292,8 @@
     "image": "/images/armor-t2-int-legs-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Int"
+    "group": "T2 Int",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c45",
@@ -1157,7 +1301,8 @@
     "image": "/images/armor-t2-int-face-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Int"
+    "group": "T2 Int",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c67",
@@ -1165,7 +1310,8 @@
     "image": "/images/armor-t4-agi-face-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Agi"
+    "group": "T4 Agi",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c6f",
@@ -1173,7 +1319,8 @@
     "image": "/images/armor-t4-sta-body-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Sta"
+    "group": "T4 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c71",
@@ -1181,7 +1328,8 @@
     "image": "/images/armor-t4-sta-face-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Sta"
+    "group": "T4 Sta",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c80",
@@ -1189,7 +1337,8 @@
     "image": "/images/weapons/weapon-t5-agi-bow-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c9e",
@@ -1197,7 +1346,8 @@
     "image": "/images/resources/silver/item-silver-chunk-icon.png",
     "duration": 300,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca0",
@@ -1205,7 +1355,8 @@
     "image": "/images/resources/silver/item-silver-plate-icon.png",
     "duration": 1800,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ca9",
@@ -1213,7 +1364,8 @@
     "image": "/images/resources/gold/crafting-gold-leg-shell-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831cb5",
@@ -1221,7 +1373,8 @@
     "image": "/images/resources/frost/item-ice-plate-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cba",
@@ -1229,7 +1382,8 @@
     "image": "/images/resources/coral/crafting-coral-chunk-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cbc",
@@ -1237,7 +1391,8 @@
     "image": "/images/resources/coral/crafting-coral-plate-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cbd",
@@ -1245,7 +1400,8 @@
     "image": "/images/resources/coral/crafting-coral-plate-reinforced-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc1",
@@ -1253,7 +1409,8 @@
     "image": "/images/resources/salt/crafting-salt-chunk-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd8",
@@ -1261,7 +1418,8 @@
     "image": "/images/weapons/weapon-t1-sta-hammer-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cdb",
@@ -1269,7 +1427,8 @@
     "image": "/images/weapons/weapon-t1-str-one-hand-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cec",
@@ -1277,7 +1436,8 @@
     "image": "/images/weapons/weapon-t3-sta-one-hand-icon.png",
     "duration": 28800,
     "category": "Weapons",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d03",
@@ -1285,7 +1445,8 @@
     "image": "/images/rings/ring-t5-agi-icon.png",
     "duration": 43200,
     "category": "Rings",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d15",
@@ -1293,7 +1454,8 @@
     "image": "/images/books/trinket-t5-str-book-icon.png",
     "duration": 43200,
     "category": "Books",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c2a",
@@ -1301,7 +1463,8 @@
     "image": "/images/armor-t1-str-helm-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Str"
+    "group": "T1 Str",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c2f",
@@ -1309,7 +1472,8 @@
     "image": "/images/armor-t1-agi-face-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Agi"
+    "group": "T1 Agi",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c3b",
@@ -1317,7 +1481,8 @@
     "image": "/images/armor-t2-str-body-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Str"
+    "group": "T2 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c4d",
@@ -1325,7 +1490,8 @@
     "image": "/images/armor-t3-agi-legs-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi"
+    "group": "T3 Agi",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c4e",
@@ -1333,7 +1499,8 @@
     "image": "/images/armor-t3-agi-body-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi"
+    "group": "T3 Agi",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c6c",
@@ -1341,7 +1508,8 @@
     "image": "/images/armor-t4-int-face-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Int"
+    "group": "T4 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c74",
@@ -1349,7 +1517,8 @@
     "image": "/images/armor-t4-str-body-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Str"
+    "group": "T4 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c92",
@@ -1357,7 +1526,8 @@
     "image": "/images/armor/armor-t5-str-helmet-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c95",
@@ -1365,7 +1535,8 @@
     "image": "/images/weapons/weapon-t5-str-sword-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cac",
@@ -1373,7 +1544,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-chunk-icon.png",
     "duration": 1800,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cbe",
@@ -1381,7 +1553,8 @@
     "image": "/images/resources/coral/crafting-coral-cube-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Coral"
+    "group": "Coral",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc2",
@@ -1389,7 +1562,8 @@
     "image": "/images/resources/salt/crafting-salt-slab-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc5",
@@ -1397,7 +1571,8 @@
     "image": "/images/resources/salt/crafting-salt-cube-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd2",
@@ -1405,7 +1580,8 @@
     "image": "/images/resources/soul/item-dark-soul-cube-basic-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ced",
@@ -1413,7 +1589,8 @@
     "image": "/images/weapons/weapon-t4-int-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf3",
@@ -1421,7 +1598,8 @@
     "image": "/images/weapons/weapon-t4-str-one-hand-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d04",
@@ -1429,7 +1607,8 @@
     "image": "/images/rings/ring-t5-int-icon.png",
     "duration": 43200,
     "category": "Rings",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d13",
@@ -1437,7 +1616,8 @@
     "image": "/images/books/trinket-t3-agi-book-icon.png",
     "duration": 28800,
     "category": "Books",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d18",
@@ -1445,7 +1625,8 @@
     "image": "/images/books/trinket-t5-int-book-icon.png",
     "duration": 43200,
     "category": "Books",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c27",
@@ -1453,7 +1634,8 @@
     "image": "/images/armor-t1-stam-face-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Sta"
+    "group": "T1 Sta",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c33",
@@ -1461,7 +1643,8 @@
     "image": "/images/armor-t1-int-legs-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c38",
@@ -1469,7 +1652,8 @@
     "image": "/images/crafting-starforged-ruby-body-shell-icon.png",
     "duration": 14400,
     "category": "T2",
-    "group": "T2 Starforged Ruby"
+    "group": "T2 Starforged Ruby",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c4b",
@@ -1477,7 +1661,8 @@
     "image": "/images/crafting-starforged-emerald-body-shell-icon.png",
     "duration": 21600,
     "category": "T3",
-    "group": "T3 Starforged Emerald"
+    "group": "T3 Starforged Emerald",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c5b",
@@ -1485,7 +1670,8 @@
     "image": "/images/armor-t3-sta-shoulder-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Sta"
+    "group": "T3 Sta",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c72",
@@ -1493,7 +1679,8 @@
     "image": "/images/armor-t4-sta-shoulder-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Sta"
+    "group": "T4 Sta",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c85",
@@ -1501,7 +1688,8 @@
     "image": "/images/armor/armor-t5-int-face-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c88",
@@ -1509,7 +1697,8 @@
     "image": "/images/weapons/weapon-t5-int-wand-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c9c",
@@ -1517,7 +1706,8 @@
     "image": "/images/resources/iron/item-iron-body-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ccc",
@@ -1525,7 +1715,8 @@
     "image": "/images/resources/marble/crafting-marble-leg-shell-icon.png",
     "duration": 43200,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831ccf",
@@ -1533,7 +1724,8 @@
     "image": "/images/resources/soul/item-dark-soul-fragment-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf2",
@@ -1541,7 +1733,8 @@
     "image": "/images/weapons/weapon-t4-agi-one-hand-icon.png",
     "duration": 57600,
     "category": "Weapons",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cf9",
@@ -1549,7 +1742,8 @@
     "image": "/images/rings/ring-t2-agi-icon.png",
     "duration": 21600,
     "category": "Rings",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0b",
@@ -1557,7 +1751,8 @@
     "image": "/images/books/trinket-t1-sta-book-icon.png",
     "duration": 14400,
     "category": "Books",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c2d",
@@ -1565,7 +1760,8 @@
     "image": "/images/armor-t1-agi-body-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Agi"
+    "group": "T1 Agi",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c51",
@@ -1573,7 +1769,8 @@
     "image": "/images/armor-t3-agi-shoulder-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi"
+    "group": "T3 Agi",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c5d",
@@ -1581,7 +1778,8 @@
     "image": "/images/armor-t3-str-body-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Str"
+    "group": "T3 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c69",
@@ -1589,7 +1787,8 @@
     "image": "/images/armor-t4-int-legs-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Int"
+    "group": "T4 Int",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c7e",
@@ -1597,7 +1796,8 @@
     "image": "/images/armor/armor-t5-agi-face-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c82",
@@ -1605,7 +1805,8 @@
     "image": "/images/armor/armor-t5-int-legs-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c8d",
@@ -1613,7 +1814,8 @@
     "image": "/images/armor/armor-t5-sta-shoulder-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c96",
@@ -1621,7 +1823,8 @@
     "image": "/images/weapons/weapon-t5-str-one-hand-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831caa",
@@ -1629,7 +1832,8 @@
     "image": "/images/resources/gold/crafting-gold-body-shell-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Gold"
+    "group": "Gold",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cae",
@@ -1637,7 +1841,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-plate-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831caf",
@@ -1645,7 +1850,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb1",
@@ -1653,7 +1859,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-body-shell-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cc4",
@@ -1661,7 +1868,8 @@
     "image": "/images/resources/salt/crafting-salt-plate-reinforced-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Salt"
+    "group": "Salt",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cca",
@@ -1669,7 +1877,8 @@
     "image": "/images/resources/marble/crafting-marble-plate-icon.png",
     "duration": 21600,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd4",
@@ -1677,7 +1886,8 @@
     "image": "/images/resources/soul/crafting-antimatter-icon.png",
     "duration": 86400,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd7",
@@ -1685,7 +1895,8 @@
     "image": "/images/weapons/weapon-t1-str-sword-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce1",
@@ -1693,7 +1904,8 @@
     "image": "/images/weapons/weapon-t2-int-wand-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831d00",
@@ -1701,7 +1913,8 @@
     "image": "/images/rings/ring-t3-int-icon.png",
     "duration": 28800,
     "category": "Rings",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d09",
@@ -1709,7 +1922,8 @@
     "image": "/images/books/trinket-t1-agi-book-icon.png",
     "duration": 14400,
     "category": "Books",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d17",
@@ -1717,7 +1931,8 @@
     "image": "/images/books/trinket-t5-agi-book-icon.png",
     "duration": 43200,
     "category": "Books",
-    "group": "T5"
+    "group": "T5",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c28",
@@ -1725,7 +1940,8 @@
     "image": "/images/armor-t1-str-legs-icon.png",
     "duration": 14400,
     "category": "T1",
-    "group": "T1 Str"
+    "group": "T1 Str",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831c3c",
@@ -1733,7 +1949,8 @@
     "image": "/images/armor-t2-str-helm-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Str"
+    "group": "T2 Str",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c3f",
@@ -1741,7 +1958,8 @@
     "image": "/images/armor-t2-agi-body-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Agi"
+    "group": "T2 Agi",
+    "order": 2
   },
   {
     "_id": "684d0caf404139d9fd831c40",
@@ -1749,7 +1967,8 @@
     "image": "/images/armor-t2-agi-helm-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Agi"
+    "group": "T2 Agi",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c4f",
@@ -1757,7 +1976,8 @@
     "image": "/images/armor-t3-agi-helm-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi"
+    "group": "T3 Agi",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c58",
@@ -1765,7 +1985,8 @@
     "image": "/images/armor-t3-sta-body-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Sta"
+    "group": "T3 Sta",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c5a",
@@ -1773,7 +1994,8 @@
     "image": "/images/armor-t3-sta-face-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Sta"
+    "group": "T3 Sta",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c5e",
@@ -1781,7 +2003,8 @@
     "image": "/images/armor-t3-str-helm-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Str"
+    "group": "T3 Str",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c63",
@@ -1789,7 +2012,8 @@
     "image": "/images/crafting-starforged-diamond-helm-shell-icon.png",
     "duration": 28800,
     "category": "T4",
-    "group": "T4 Starforged Diamond"
+    "group": "T4 Starforged Diamond",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c68",
@@ -1797,7 +2021,8 @@
     "image": "/images/armor-t4-agi-shoulder-icon.png",
     "duration": 57600,
     "category": "T4",
-    "group": "T4 Agi"
+    "group": "T4 Agi",
+    "order": 5
   },
   {
     "_id": "684d0caf404139d9fd831c79",
@@ -1805,7 +2030,8 @@
     "image": "/images/starforged/crafting-antimatter-body-shell-icon.png",
     "duration": 28800,
     "category": "T5",
-    "group": "T5 Starforged Antimatter"
+    "group": "T5 Starforged Antimatter",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c9a",
@@ -1813,7 +2039,8 @@
     "image": "/images/resources/iron/item-iron-plate-reinforced-icon.png",
     "duration": 3600,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb2",
@@ -1821,7 +2048,8 @@
     "image": "/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Unob"
+    "group": "Unob",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831ccb",
@@ -1829,7 +2057,8 @@
     "image": "/images/resources/marble/crafting-marble-plate-rf-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Marble"
+    "group": "Marble",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd0",
@@ -1837,7 +2066,8 @@
     "image": "/images/resources/soul/item-dark-soul-gem-icon.png",
     "duration": 14400,
     "category": "Resources",
-    "group": "Soul"
+    "group": "Soul",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831d08",
@@ -1845,7 +2075,8 @@
     "image": "/images/books/trinket-base-str-book-icon.png",
     "duration": 3600,
     "category": "Books",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d0d",
@@ -1853,7 +2084,8 @@
     "image": "/images/books/trinket-t2-agi-book-icon.png",
     "duration": 21600,
     "category": "Books",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831d11",
@@ -1861,7 +2093,8 @@
     "image": "/images/books/trinket-t3-str-book-icon.png",
     "duration": 28800,
     "category": "Books",
-    "group": "T4"
+    "group": "T4",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c30",
@@ -1869,7 +2102,8 @@
     "image": "/images/crafting-worn-cloth-icon.png",
     "duration": 600,
     "category": "T1",
-    "group": "T1 Int"
+    "group": "T1 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c41",
@@ -1877,7 +2111,8 @@
     "image": "/images/armor-t2-agi-face-icon.png",
     "duration": 21600,
     "category": "T2",
-    "group": "T2 Agi"
+    "group": "T2 Agi",
+    "order": 4
   },
   {
     "_id": "684d0caf404139d9fd831c4c",
@@ -1885,7 +2120,8 @@
     "image": "/images/crafting-starforged-emerald-helm-shell-icon.png",
     "duration": 21600,
     "category": "T3",
-    "group": "T3 Starforged Emerald"
+    "group": "T3 Starforged Emerald",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c7c",
@@ -1893,7 +2129,8 @@
     "image": "/images/armor/armor-t5-agi-body-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Agi"
+    "group": "T5 Agi",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c84",
@@ -1901,7 +2138,8 @@
     "image": "/images/armor/armor-t5-int-hat-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c86",
@@ -1909,7 +2147,8 @@
     "image": "/images/armor/armor-t5-int-shoulder-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int"
+    "group": "T5 Int",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c8b",
@@ -1917,7 +2156,8 @@
     "image": "/images/armor/armor-t5-sta-helm-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Sta"
+    "group": "T5 Sta",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831c93",
@@ -1925,7 +2165,8 @@
     "image": "/images/armor/armor-t5-str-face-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Str"
+    "group": "T5 Str",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831c9b",
@@ -1933,7 +2174,8 @@
     "image": "/images/resources/iron/item-iron-leg-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Iron"
+    "group": "Iron",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831ca2",
@@ -1941,7 +2183,8 @@
     "image": "/images/resources/silver/item-silver-leg-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 1
   },
   {
     "_id": "684d0caf404139d9fd831ca4",
@@ -1949,7 +2192,8 @@
     "image": "/images/resources/silver/item-silver-helm-shell-icon.png",
     "duration": 7200,
     "category": "Resources",
-    "group": "Silver"
+    "group": "Silver",
+    "order": 3
   },
   {
     "_id": "684d0caf404139d9fd831cb6",
@@ -1957,7 +2201,8 @@
     "image": "/images/resources/frost/item-ice-plate-reinforced-icon.png",
     "duration": 28800,
     "category": "Resources",
-    "group": "Frost"
+    "group": "Frost",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd9",
@@ -1965,7 +2210,8 @@
     "image": "/images/weapons/weapon-t1-int-wand-icon.png",
     "duration": 14400,
     "category": "Weapons",
-    "group": "T1"
+    "group": "T1",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831ce3",
@@ -1973,7 +2219,8 @@
     "image": "/images/weapons/weapon-t2-str-one-hand-icon.png",
     "duration": 21600,
     "category": "Weapons",
-    "group": "T2"
+    "group": "T2",
+    "order": 99
   },
   {
     "_id": "684d0caf404139d9fd831cfb",
@@ -1981,7 +2228,8 @@
     "image": "/images/rings/ring-t2-sta-icon.png",
     "duration": 21600,
     "category": "Rings",
-    "group": "T3"
+    "group": "T3",
+    "order": 99
   },
   {
     "_id": "684d4d398e8cc6a3a31a7b78",
@@ -1990,7 +2238,8 @@
     "duration": "21600",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Emerald"
+    "group": "Emerald",
+    "order": 99
   },
   {
     "_id": "684d4e7b8e8cc6a3a31a7b79",
@@ -1999,7 +2248,8 @@
     "duration": "43200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Emerald"
+    "group": "Emerald",
+    "order": 99
   },
   {
     "_id": "684d54838e8cc6a3a31a7b7d",
@@ -2008,7 +2258,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Ruby"
+    "group": "Ruby",
+    "order": 99
   },
   {
     "_id": "684d54b18e8cc6a3a31a7b7e",
@@ -2017,7 +2268,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Ruby"
+    "group": "Ruby",
+    "order": 99
   },
   {
     "_id": "684d55108e8cc6a3a31a7b7f",
@@ -2026,7 +2278,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Onyx"
+    "group": "Onyx",
+    "order": 99
   },
   {
     "_id": "684d55358e8cc6a3a31a7b80",
@@ -2035,7 +2288,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Onyx"
+    "group": "Onyx",
+    "order": 99
   },
   {
     "_id": "684d55c68e8cc6a3a31a7b81",
@@ -2044,7 +2298,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Pearl"
+    "group": "Pearl",
+    "order": 99
   },
   {
     "_id": "684d55db8e8cc6a3a31a7b82",
@@ -2053,7 +2308,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Pearl"
+    "group": "Pearl",
+    "order": 99
   },
   {
     "_id": "684d55e98e8cc6a3a31a7b83",
@@ -2062,7 +2318,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Amethyst"
+    "group": "Amethyst",
+    "order": 99
   },
   {
     "_id": "684d56038e8cc6a3a31a7b84",
@@ -2071,7 +2328,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Amethyst"
+    "group": "Amethyst",
+    "order": 99
   },
   {
     "_id": "684d569a8e8cc6a3a31a7b85",
@@ -2080,7 +2338,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Sapphire"
+    "group": "Sapphire",
+    "order": 99
   },
   {
     "_id": "684d56ab8e8cc6a3a31a7b86",
@@ -2089,7 +2348,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Sapphire"
+    "group": "Sapphire",
+    "order": 99
   },
   {
     "_id": "684d56f98e8cc6a3a31a7b87",
@@ -2098,7 +2358,8 @@
     "duration": "7200",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Diamond"
+    "group": "Diamond",
+    "order": 99
   },
   {
     "_id": "684d570a8e8cc6a3a31a7b88",
@@ -2107,7 +2368,8 @@
     "duration": "14400",
     "vendor": "Dwarf Gem Crafter",
     "category": "Gems",
-    "group": "Diamond"
+    "group": "Diamond",
+    "order": 99
   },
   {
     "_id": "684fe5b7833b66a98b93068a",
@@ -2116,6 +2378,7 @@
     "duration": "21600",
     "vendor": "The Locksmith",
     "category": "Gems",
-    "group": "Emerald"
+    "group": "Emerald",
+    "order": 99
   }
 ]
