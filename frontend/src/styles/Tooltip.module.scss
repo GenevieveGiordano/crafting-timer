@@ -44,14 +44,15 @@ $gray-dark: #444;
 $shadow:  rgba(0, 0, 0, 0.5);
 
 /* TOOLTIP */
-// .tooltip-container {
+.tooltip-container {
+
 // justify-content: center;
 // justify-items: center;
 // justify-self: center;
 // align-content: center;
 // align-items: center;
 // align-self: center;
-// } 
+} 
 
 // Tooltip
 .tooltip-box {
@@ -68,3 +69,4 @@ $shadow:  rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 8px $shadow;
   pointer-events: none;
 }
+

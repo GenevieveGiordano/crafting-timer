@@ -1,1290 +1,13 @@
 [
   {
-    "_id": "684d0caf404139d9fd831c2c",
-    "name": "Dragon Legs",
-    "image": "/images/armor-t1-agi-legs-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Agi",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c3e",
-    "name": "Mighty Dragon Legs",
-    "image": "/images/armor-t2-agi-legs-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Agi",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c53",
-    "name": "Ancient Mage Robes",
-    "image": "/images/armor-t3-int-body-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Int",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c59",
-    "name": "Ancient Bastion Helm",
-    "image": "/images/armor-t3-sta-helm-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Sta",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c97",
-    "name": "Iron Chunk",
-    "image": "/images/resources/iron/item-iron-chunk-icon.png",
-    "duration": 300,
-    "category": "Resources",
-    "group": "Iron",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c99",
-    "name": "Iron Plate",
-    "image": "/images/resources/iron/item-iron-plate-icon.png",
-    "duration": 1800,
-    "category": "Resources",
-    "group": "Iron",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca5",
-    "name": "Gold Chunk",
-    "image": "/images/resources/gold/crafting-gold-chunk-icon.png",
-    "duration": 900,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cab",
-    "name": "Helm",
-    "image": "/images/resources/gold/crafting-gold-helm-shell-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831cce",
-    "name": "Helm",
-    "image": "/images/resources/marble/crafting-marble-helm-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd3",
-    "name": "Soul Hypercube",
-    "image": "/images/resources/soul/item-dark-soul-cube-icon.png",
-    "duration": 57600,
+    "_id": "684d0caf404139d9fd831ccf",
+    "name": "Soul Fragment",
+    "image": "/images/resources/soul/item-dark-soul-fragment-icon.png",
+    "duration": 7200,
     "category": "Resources",
     "group": "Soul",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd6",
-    "name": "Dragon Bow",
-    "image": "/images/weapons/weapon-t1-agi-bow-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c36",
-    "name": "Mage Pendant",
-    "image": "/images/armor-t1-int-face-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5f",
-    "name": "Ancient Knight Guise",
-    "image": "/images/armor-t3-str-face-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Str",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c64",
-    "name": "Crystal Dragon Legs",
-    "image": "/images/armor-t4-agi-legs-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Agi",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6a",
-    "name": "Divine Mage Cloak",
-    "image": "/images/armor-t4-int-body-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c73",
-    "name": "Crucified Knight Legs",
-    "image": "/images/armor-t4-str-legs-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Str",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c8f",
-    "name": "Skullcradle",
-    "image": "/images/weapons/weapon-t5-sta-one-hand-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c90",
-    "name": "Paladin Legs",
-    "image": "/images/armor/armor-t5-str-legs-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Str",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb0",
-    "name": "Legs",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png",
-    "duration": 28800,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc3",
-    "name": "Salt Plate",
-    "image": "/images/resources/salt/crafting-salt-plate-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc6",
-    "name": "Salt Hypercube",
-    "image": "/images/resources/salt/crafting-salt-cube-hyper-icon.png",
-    "duration": 57600,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc8",
-    "name": "Marble Chunk",
-    "image": "/images/resources/marble/crafting-marble-chunk-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cdc",
-    "name": "Mallet of Doom",
-    "image": "/images/weapons/weapon-t1-sta-one-hand-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf0",
-    "name": "The Dominator",
-    "image": "/images/weapons/weapon-t4-sta-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d02",
-    "name": "Colossus Ring",
-    "image": "/images/rings/ring-t5-sta-icon.png",
-    "duration": 43200,
-    "category": "Rings",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c32",
-    "name": "Infused Cloth",
-    "image": "/images/crafting-t1-cloth-icon.png",
-    "duration": 3600,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c37",
-    "name": "Starforged Legs",
-    "image": "/images/crafting-starforged-ruby-leg-shell-icon.png",
-    "duration": 14400,
-    "category": "T2",
-    "group": "T2 Starforged Ruby",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c54",
-    "name": "Ancient Mage Hat",
-    "image": "/images/armor-t3-int-hood-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Int",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c66",
-    "name": "Crystal Dragon Helm",
-    "image": "/images/armor-t4-agi-helm-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Agi",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c76",
-    "name": "Crucified Knight Guise",
-    "image": "/images/armor-t4-str-face-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Str",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c78",
-    "name": "Starforged Antimatter Legs",
-    "image": "/images/starforged/crafting-antimatter-leg-shell-icon.png",
-    "duration": 28800,
-    "category": "T5",
-    "group": "T5 Starforged Antimatter",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c7a",
-    "name": "Starforged Antimatter Helm",
-    "image": "/images/starforged/crafting-antimatter-helm-shell-icon.png",
-    "duration": 28800,
-    "category": "T5",
-    "group": "T5 Starforged Antimatter",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c8a",
-    "name": "Colossus Body",
-    "image": "/images/armor/armor-t5-sta-body-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c8c",
-    "name": "Colossus Face",
-    "image": "/images/armor/armor-t5-sta-face-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c98",
-    "name": "Iron Slab",
-    "image": "/images/resources/iron/item-iron-slab-icon.png",
-    "duration": 900,
-    "category": "Resources",
-    "group": "Iron",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca6",
-    "name": "Gold Slab",
-    "image": "/images/resources/gold/crafting-gold-slab-icon.png",
-    "duration": 3600,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb4",
-    "name": "Ice Crystal",
-    "image": "/images/resources/frost/crafting-ice-crystal-large-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cfd",
-    "name": "Crucified Knight Ring",
-    "image": "/images/rings/ring-t3-str-icon.png",
-    "duration": 28800,
-    "category": "Rings",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d05",
-    "name": "Dragon Book",
-    "image": "/images/books/trinket-base-agi-book-icon.png",
-    "duration": 3600,
-    "category": "Books",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c23",
-    "name": "Starforged Helm",
-    "image": "/images/crafting-silversteel-helm-icon.png",
-    "duration": 7200,
-    "category": "T1",
-    "group": "T1 Starforged",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c29",
-    "name": "Knight Armor",
-    "image": "/images/armor-t1-str-body-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Str",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c47",
-    "name": "Fortified Bastion Body",
-    "image": "/images/armor-t2-stam-body-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c48",
-    "name": "Fortified Bastion Helm",
-    "image": "/images/armor-t2-stam-helm-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Sta",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c65",
-    "name": "Crystal Dragon Armor",
-    "image": "/images/armor-t4-agi-body-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Agi",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c7b",
-    "name": "Tiamat Legs",
-    "image": "/images/armor/armor-t5-agi-legs-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c7d",
-    "name": "Tiamat Helm",
-    "image": "/images/armor/armor-t5-agi-helmet-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c9d",
-    "name": "Iron Helm",
-    "image": "/images/resources/iron/item-iron-helm-shell-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Iron",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca8",
-    "name": "Reinforced Gold Plate",
-    "image": "/images/resources/gold/crafting-gold-plate-reinforced-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce2",
-    "name": "Twin Talon",
-    "image": "/images/weapons/weapon-t2-agi-one-hand-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c24",
-    "name": "Bastion Legs",
-    "image": "/images/armor-t1-stam-legs-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Sta",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c43",
-    "name": "Adept Mage Robes",
-    "image": "/images/armor-t2-int-body-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Int",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c46",
-    "name": "Fortified Bastion Legs",
-    "image": "/images/armor-t2-stam-legs-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Sta",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c50",
-    "name": "Ancient Dragon Guise",
-    "image": "/images/armor-t3-agi-face-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Agi",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c61",
-    "name": "Starforged Diamond Legs",
-    "image": "/images/crafting-starforged-diamond-leg-shell-icon.png",
-    "duration": 28800,
-    "category": "T4",
-    "group": "T4 Starforged Diamond",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6b",
-    "name": "Divine Mage Cap",
-    "image": "/images/armor-t4-int-hat-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Int",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c7f",
-    "name": "Tiamat Mantleplate",
-    "image": "/images/armor/armor-t5-agi-shoulder-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c81",
-    "name": "Drakepiercer",
-    "image": "/images/weapons/weapon-t5-agi-one-hand-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca1",
-    "name": "Reinforced Silver Plate",
-    "image": "/images/resources/silver/item-silver-plate-reinforced-icon.png",
-    "duration": 3600,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca3",
-    "name": "Silver Body",
-    "image": "/images/resources/silver/item-silver-body-shell-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb3",
-    "name": "Ice Crystal Chunk",
-    "image": "/images/resources/frost/crafting-ice-crystal-medium-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc7",
-    "name": "Hypercube of the Sea",
-    "image": "/images/resources/salt/crafting-sea-cube-hyper-icon.png",
-    "duration": 86400,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cea",
-    "name": "Death Scythe",
-    "image": "/images/weapons/weapon-t3-agi-one-hand-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d0a",
-    "name": "Adept Mage Book",
-    "image": "/images/books/trinket-t1-int-book-icon.png",
-    "duration": 14400,
-    "category": "Books",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d0c",
-    "name": "Crimson Knight Book",
-    "image": "/images/books/trinket-t1-str-book-icon.png",
-    "duration": 14400,
-    "category": "Books",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d12",
-    "name": "Impenetrable Bastion Book",
-    "image": "/images/books/trinket-t3-sta-book-icon.png",
-    "duration": 28800,
-    "category": "Books",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c22",
-    "name": "Starforged Body",
-    "image": "/images/crafting-silversteel-body-icon.png",
-    "duration": 7200,
-    "category": "T1",
-    "group": "T1 Starforged",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c2b",
-    "name": "Knight Guise",
-    "image": "/images/armor-t1-str-face-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Str",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c3d",
-    "name": "Crimson Knight Guise",
-    "image": "/images/armor-t2-str-face-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Str",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c94",
-    "name": "Paladin Pauldrons",
-    "image": "/images/armor/armor-t5-str-shoulder-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Str",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce0",
-    "name": "Hammer of Ruin",
-    "image": "/images/weapons/weapon-t2-sta-hammer-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cfa",
-    "name": "Ancient Mage Ring",
-    "image": "/images/rings/ring-t2-int-icon.png",
-    "duration": 21600,
-    "category": "Rings",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cfc",
-    "name": "Ancient Knight Ring",
-    "image": "/images/rings/ring-t2-str-icon.png",
-    "duration": 21600,
-    "category": "Rings",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cff",
-    "name": "Crystal Dragon Ring",
-    "image": "/images/rings/ring-t3-agi-icon.png",
-    "duration": 28800,
-    "category": "Rings",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d06",
-    "name": "Mage Book",
-    "image": "/images/books/trinket-base-int-book-icon.png",
-    "duration": 3600,
-    "category": "Books",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c34",
-    "name": "Mage Cloak",
-    "image": "/images/armor-t1-int-body-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c3a",
-    "name": "Crimson Knight Legs",
-    "image": "/images/armor-t2-str-legs-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Str",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c44",
-    "name": "Adept Mage Hat",
-    "image": "/images/armor-t2-int-head-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Int",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4a",
-    "name": "Starforged Emerald Legs",
-    "image": "/images/crafting-starforged-emerald-leg-shell-icon.png",
-    "duration": 21600,
-    "category": "T3",
-    "group": "T3 Starforged Emerald",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c52",
-    "name": "Ancient Mage Legs",
-    "image": "/images/armor-t3-int-legs-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Int",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c55",
-    "name": "Ancient Mage Pendant",
-    "image": "/images/armor-t3-int-face-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Int",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c57",
-    "name": "Ancient Bastion Legs",
-    "image": "/images/armor-t3-sta-legs-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Sta",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c62",
-    "name": "Starforged Diamond Body",
-    "image": "/images/crafting-starforged-diamond-body-shell-icon.png",
-    "duration": 28800,
-    "category": "T4",
-    "group": "T4 Starforged Diamond",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c70",
-    "name": "Impenetrable Bastion Helm",
-    "image": "/images/armor-t4-sta-helm-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Sta",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c83",
-    "name": "Archmage Body",
-    "image": "/images/armor/armor-t5-int-body-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c91",
-    "name": "Paladin Body",
-    "image": "/images/armor/armor-t5-str-body-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Str",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd5",
-    "name": "Epic Pearl Staff",
-    "image": "/images/weapons/weapon-t1-int-staff-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cda",
-    "name": "Draco Scythe",
-    "image": "/images/weapons/weapon-t1-agi-one-hand-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cdd",
-    "name": "Staff of Life",
-    "image": "/images/weapons/weapon-t2-int-staff-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce6",
-    "name": "Elder Dragon Bow",
-    "image": "/images/weapons/weapon-t3-agi-bow-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cee",
-    "name": "Bow of the Dragon Gods",
-    "image": "/images/weapons/weapon-t4-agi-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cef",
-    "name": "The Holy Destroyer",
-    "image": "/images/weapons/weapon-t4-str-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf6",
-    "name": "Adept Mage Ring",
-    "image": "/images/rings/ring-t1-int-icon.png",
-    "duration": 14400,
-    "category": "Rings",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d14",
-    "name": "Divine Mage Book",
-    "image": "/images/books/trinket-t3-int-book-icon.png",
-    "duration": 28800,
-    "category": "Books",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c21",
-    "name": "Starforged Legs",
-    "image": "/images/crafting-silversteel-legs-icon.png",
-    "duration": 7200,
-    "category": "T1",
-    "group": "T1 Starforged",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c2e",
-    "name": "Dragon Helm",
-    "image": "/images/armor-t1-agi-helm-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Agi",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c39",
-    "name": "Starforged Helm",
-    "image": "/images/crafting-starforged-ruby-helm-shell-icon.png",
-    "duration": 14400,
-    "category": "T2",
-    "group": "T2 Starforged Ruby",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c49",
-    "name": "Fortified Bastion Visor",
-    "image": "/images/armor-t2-stam-face-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Sta",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5c",
-    "name": "Ancient Knight Legs",
-    "image": "/images/armor-t3-str-legs-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Str",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6e",
-    "name": "Impenetrable Bastion Legs",
-    "image": "/images/armor-t4-sta-legs-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Sta",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c89",
-    "name": "Colossus Legs",
-    "image": "/images/armor/armor-t5-sta-legs-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Sta",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca7",
-    "name": "Gold Plate",
-    "image": "/images/resources/gold/crafting-gold-plate-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cad",
-    "name": "Unobtainium Slab",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-slab-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb7",
-    "name": "Legs",
-    "image": "/images/resources/frost/crafting-ice-leg-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831cbb",
-    "name": "Coral Slab",
-    "image": "/images/resources/coral/crafting-coral-slab-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc0",
-    "name": "Hypercube of the Sea",
-    "image": "/images/resources/coral/crafting-sea-cube-hyper-icon.png",
-    "duration": 86400,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc9",
-    "name": "Marble Slab",
-    "image": "/images/resources/marble/crafting-marble-slab-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd1",
-    "name": "Soul Nebula",
-    "image": "/images/resources/soul/item-dark-soul-nebula-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Soul",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce4",
-    "name": "Thorn of Dread",
-    "image": "/images/weapons/weapon-t2-sta-one-hand-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce7",
-    "name": "The Unstable Twin",
-    "image": "/images/weapons/weapon-t3-str-sword-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce9",
-    "name": "Riptide Wand",
-    "image": "/images/weapons/weapon-t3-int-wand-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ceb",
-    "name": "Crowncleaver",
-    "image": "/images/weapons/weapon-t3-str-one-hand-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf1",
-    "name": "Lumenroot",
-    "image": "/images/weapons/weapon-t4-int-wand-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf5",
-    "name": "Mighty Dragon Ring",
-    "image": "/images/rings/ring-t1-agi-icon.png",
-    "duration": 14400,
-    "category": "Rings",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d07",
-    "name": "Bastion Book",
-    "image": "/images/books/trinket-base-sta-book-icon.png",
-    "duration": 3600,
-    "category": "Books",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c25",
-    "name": "Bastion Body",
-    "image": "/images/armor-t1-stam-body-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c26",
-    "name": "Bastion Helm",
-    "image": "/images/armor-t1-stam-helm-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Sta",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c31",
-    "name": "Cloth",
-    "image": "/images/crafting-cloth-icon.png",
-    "duration": 1800,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c60",
-    "name": "Ancient Knight Pauldrons",
-    "image": "/images/armor-t3-str-shoulder-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Str",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6d",
-    "name": "Orbs of the Divine",
-    "image": "/images/armor-t4-int-shoulder-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c87",
-    "name": "Soul Releaser",
-    "image": "/images/weapons/weapon-t5-int-staff-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c8e",
-    "name": "Morning Star",
-    "image": "/images/weapons/weapon-t5-sta-mace-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb8",
-    "name": "Body",
-    "image": "/images/resources/frost/crafting-ice-body-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb9",
-    "name": "Helm",
-    "image": "/images/resources/frost/crafting-ice-helm-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831cbf",
-    "name": "Coral Hypercube",
-    "image": "/images/resources/coral/crafting-coral-cube-hyper-icon.png",
-    "duration": 57600,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cdf",
-    "name": "Blade of the Forgotten",
-    "image": "/images/weapons/weapon-t2-str-sword-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce8",
-    "name": "Battle Axe of Doom",
-    "image": "/images/weapons/weapon-t3-sta-axe-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf8",
-    "name": "Crimson Knight Ring",
-    "image": "/images/rings/ring-t1-str-icon.png",
-    "duration": 14400,
-    "category": "Rings",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cfe",
-    "name": "Impenetrable Bastion Ring",
-    "image": "/images/rings/ring-t3-sta-icon.png",
-    "duration": 28800,
-    "category": "Rings",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d0f",
-    "name": "Ancient Bastion Book",
-    "image": "/images/books/trinket-t2-sta-book-icon.png",
-    "duration": 21600,
-    "category": "Books",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d10",
-    "name": "Ancient Knight Book",
-    "image": "/images/books/trinket-t2-str-book-icon.png",
-    "duration": 21600,
-    "category": "Books",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c35",
-    "name": "Mage Hood",
-    "image": "/images/armor-t1-int-hood-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c56",
-    "name": "Ancient Mage Companion",
-    "image": "/images/armor-t3-int-shoulder-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Int",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c75",
-    "name": "Crucified Knight Helm",
-    "image": "/images/armor-t4-str-helm-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Str",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c77",
-    "name": "Crucified Knight Pauldrons",
-    "image": "/images/armor-t4-str-shoulder-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Str",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c9f",
-    "name": "Silver Slab",
-    "image": "/images/resources/silver/item-silver-slab-icon.png",
-    "duration": 900,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ccd",
-    "name": "Body",
-    "image": "/images/resources/marble/crafting-marble-body-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cde",
-    "name": "Artemis Bow",
-    "image": "/images/weapons/weapon-t2-agi-bow-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ce5",
-    "name": "Druid Nature Staff",
-    "image": "/images/weapons/weapon-t3-int-staff-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf4",
-    "name": "Blunt Stick of Doom",
-    "image": "/images/weapons/weapon-t4-sta-one-hand-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf7",
-    "name": "Fortified Bastion Ring",
-    "image": "/images/rings/ring-t1-sta-icon.png",
-    "duration": 14400,
-    "category": "Rings",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d01",
-    "name": "Paladin Ring",
-    "image": "/images/rings/ring-t5-str-icon.png",
-    "duration": 43200,
-    "category": "Rings",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d0e",
-    "name": "Ancient Mage Book",
-    "image": "/images/books/trinket-t2-int-book-icon.png",
-    "duration": 21600,
-    "category": "Books",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d16",
-    "name": "Colossus",
-    "image": "/images/books/trinket-t5-sta-book-icon.png",
-    "duration": 43200,
-    "category": "Books",
-    "group": "T5",
-    "order": 99
+    "order": 0,
+    "statOrder": 99
   },
   {
     "_id": "684d0caf404139d9fd831c42",
@@ -1293,511 +16,18 @@
     "duration": 21600,
     "category": "T2",
     "group": "T2 Int",
-    "order": 1
+    "order": 1,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831c45",
-    "name": "Adept Mage Pendant",
-    "image": "/images/armor-t2-int-face-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Int",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c67",
-    "name": "Crystal Dragon Guise",
-    "image": "/images/armor-t4-agi-face-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Agi",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6f",
-    "name": "Impenetrable Bastion Body",
-    "image": "/images/armor-t4-sta-body-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c71",
-    "name": "Impenetrable Bastion Visor",
-    "image": "/images/armor-t4-sta-face-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Sta",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c80",
-    "name": "Pegasus Wings",
-    "image": "/images/weapons/weapon-t5-agi-bow-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c9e",
-    "name": "Silver Chunk",
-    "image": "/images/resources/silver/item-silver-chunk-icon.png",
-    "duration": 300,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca0",
-    "name": "Silver Plate",
-    "image": "/images/resources/silver/item-silver-plate-icon.png",
-    "duration": 1800,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca9",
-    "name": "Legs",
-    "image": "/images/resources/gold/crafting-gold-leg-shell-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb5",
-    "name": "Frostite Plate",
-    "image": "/images/resources/frost/item-ice-plate-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Frost",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cba",
-    "name": "Coral Chunk",
-    "image": "/images/resources/coral/crafting-coral-chunk-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cbc",
-    "name": "Coral Plate",
-    "image": "/images/resources/coral/crafting-coral-plate-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cbd",
-    "name": "Infused Coral Plate",
-    "image": "/images/resources/coral/crafting-coral-plate-reinforced-icon.png",
-    "duration": 28800,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc1",
-    "name": "Salt  Clump",
-    "image": "/images/resources/salt/crafting-salt-chunk-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd8",
-    "name": "Hammer of Doom",
-    "image": "/images/weapons/weapon-t1-sta-hammer-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cdb",
-    "name": "Squire Sword",
-    "image": "/images/weapons/weapon-t1-str-one-hand-icon.png",
-    "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cec",
-    "name": "Battle Mace of the Fallen",
-    "image": "/images/weapons/weapon-t3-sta-one-hand-icon.png",
-    "duration": 28800,
-    "category": "Weapons",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d03",
-    "name": "Tiamat Ring",
-    "image": "/images/rings/ring-t5-agi-icon.png",
-    "duration": 43200,
-    "category": "Rings",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d15",
-    "name": "Paladin",
-    "image": "/images/books/trinket-t5-str-book-icon.png",
-    "duration": 43200,
-    "category": "Books",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c2a",
-    "name": "Knight Helm",
-    "image": "/images/armor-t1-str-helm-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Str",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c2f",
-    "name": "Dragon Guise",
-    "image": "/images/armor-t1-agi-face-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Agi",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c3b",
-    "name": "Crimson Knight Body",
-    "image": "/images/armor-t2-str-body-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Str",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4d",
-    "name": "Ancient Dragon Legs",
-    "image": "/images/armor-t3-agi-legs-icon.png",
+    "_id": "684d0caf404139d9fd831c52",
+    "name": "Ancient Mage Legs",
+    "image": "/images/armor-t3-int-legs-icon.png",
     "duration": 28800,
     "category": "T3",
-    "group": "T3 Agi",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4e",
-    "name": "Ancient Dragon Armor",
-    "image": "/images/armor-t3-agi-body-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Agi",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c6c",
-    "name": "Divine Mage Mask",
-    "image": "/images/armor-t4-int-face-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c74",
-    "name": "Crucified Knight Body",
-    "image": "/images/armor-t4-str-body-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Str",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c92",
-    "name": "Paladin Helmet",
-    "image": "/images/armor/armor-t5-str-helmet-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Str",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c95",
-    "name": "Divine Claymore",
-    "image": "/images/weapons/weapon-t5-str-sword-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Str",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cac",
-    "name": "Unobtainium Chunk",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-chunk-icon.png",
-    "duration": 1800,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cbe",
-    "name": "Coral Cube",
-    "image": "/images/resources/coral/crafting-coral-cube-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Coral",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc2",
-    "name": "Salt Slab",
-    "image": "/images/resources/salt/crafting-salt-slab-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cc5",
-    "name": "Salt Cube",
-    "image": "/images/resources/salt/crafting-salt-cube-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd2",
-    "name": "Soul Cube",
-    "image": "/images/resources/soul/item-dark-soul-cube-basic-icon.png",
-    "duration": 28800,
-    "category": "Resources",
-    "group": "Soul",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ced",
-    "name": "Secret Keeper",
-    "image": "/images/weapons/weapon-t4-int-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf3",
-    "name": "Gracebreaker",
-    "image": "/images/weapons/weapon-t4-str-one-hand-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d04",
-    "name": "Archmage",
-    "image": "/images/rings/ring-t5-int-icon.png",
-    "duration": 43200,
-    "category": "Rings",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d13",
-    "name": "Crystal Dragon Book",
-    "image": "/images/books/trinket-t3-agi-book-icon.png",
-    "duration": 28800,
-    "category": "Books",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d18",
-    "name": "Archmage",
-    "image": "/images/books/trinket-t5-int-book-icon.png",
-    "duration": 43200,
-    "category": "Books",
-    "group": "T5",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c27",
-    "name": "Bastion Visor",
-    "image": "/images/armor-t1-stam-face-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Sta",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c33",
-    "name": "Mage Pants",
-    "image": "/images/armor-t1-int-legs-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c38",
-    "name": "Starforged Body",
-    "image": "/images/crafting-starforged-ruby-body-shell-icon.png",
-    "duration": 14400,
-    "category": "T2",
-    "group": "T2 Starforged Ruby",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4b",
-    "name": "Starforged Emerald Body",
-    "image": "/images/crafting-starforged-emerald-body-shell-icon.png",
-    "duration": 21600,
-    "category": "T3",
-    "group": "T3 Starforged Emerald",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5b",
-    "name": "Ancient Bastion Pauldrons",
-    "image": "/images/armor-t3-sta-shoulder-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Sta",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c72",
-    "name": "Impenetrable Bastion Pauldrons",
-    "image": "/images/armor-t4-sta-shoulder-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Sta",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c85",
-    "name": "Archmage Face",
-    "image": "/images/armor/armor-t5-int-face-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c88",
-    "name": "The Monarch",
-    "image": "/images/weapons/weapon-t5-int-wand-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Int",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c9c",
-    "name": "Iron Body",
-    "image": "/images/resources/iron/item-iron-body-shell-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Iron",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831ccc",
-    "name": "Legs",
-    "image": "/images/resources/marble/crafting-marble-leg-shell-icon.png",
-    "duration": 43200,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831ccf",
-    "name": "Soul Fragment",
-    "image": "/images/resources/soul/item-dark-soul-fragment-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Soul",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf2",
-    "name": "Crystal Halberd",
-    "image": "/images/weapons/weapon-t4-agi-one-hand-icon.png",
-    "duration": 57600,
-    "category": "Weapons",
-    "group": "T4",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cf9",
-    "name": "Ancient Dragon Ring",
-    "image": "/images/rings/ring-t2-agi-icon.png",
-    "duration": 21600,
-    "category": "Rings",
-    "group": "T3",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831d0b",
-    "name": "Fortified Bastion Book",
-    "image": "/images/books/trinket-t1-sta-book-icon.png",
-    "duration": 14400,
-    "category": "Books",
-    "group": "T2",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c2d",
-    "name": "Dragon Armor",
-    "image": "/images/armor-t1-agi-body-icon.png",
-    "duration": 14400,
-    "category": "T1",
-    "group": "T1 Agi",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c51",
-    "name": "Ancient Dragon Pauldrons",
-    "image": "/images/armor-t3-agi-shoulder-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Agi",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5d",
-    "name": "Ancient Knight Body",
-    "image": "/images/armor-t3-str-body-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Str",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c69",
-    "name": "Divine Mage Legs",
-    "image": "/images/armor-t4-int-legs-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Int",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831c7e",
-    "name": "Tiamat Face",
-    "image": "/images/armor/armor-t5-agi-face-icon.png",
-    "duration": 86400,
-    "category": "T5",
-    "group": "T5 Agi",
-    "order": 99
+    "group": "T3 Int",
+    "order": 1,
+    "statOrder": 1
   },
   {
     "_id": "684d0caf404139d9fd831c82",
@@ -1806,133 +36,208 @@
     "duration": 86400,
     "category": "T5",
     "group": "T5 Int",
-    "order": 1
+    "order": 1,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831c8d",
-    "name": "Colossus Pauldrons",
-    "image": "/images/armor/armor-t5-sta-shoulder-icon.png",
+    "_id": "684d0caf404139d9fd831c69",
+    "name": "Divine Mage Legs",
+    "image": "/images/armor-t4-int-legs-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Int",
+    "order": 1,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c33",
+    "name": "Mage Pants",
+    "image": "/images/armor-t1-int-legs-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 1,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c4d",
+    "name": "Ancient Dragon Legs",
+    "image": "/images/armor-t3-agi-legs-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Agi",
+    "order": 1,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c64",
+    "name": "Crystal Dragon Legs",
+    "image": "/images/armor-t4-agi-legs-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Agi",
+    "order": 1,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2c",
+    "name": "Dragon Legs",
+    "image": "/images/armor-t1-agi-legs-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Agi",
+    "order": 1,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c3e",
+    "name": "Mighty Dragon Legs",
+    "image": "/images/armor-t2-agi-legs-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Agi",
+    "order": 1,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c7b",
+    "name": "Tiamat Legs",
+    "image": "/images/armor/armor-t5-agi-legs-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Agi",
+    "order": 1,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c57",
+    "name": "Ancient Bastion Legs",
+    "image": "/images/armor-t3-sta-legs-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Sta",
+    "order": 1,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c24",
+    "name": "Bastion Legs",
+    "image": "/images/armor-t1-stam-legs-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Sta",
+    "order": 1,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c89",
+    "name": "Colossus Legs",
+    "image": "/images/armor/armor-t5-sta-legs-icon.png",
     "duration": 86400,
     "category": "T5",
     "group": "T5 Sta",
-    "order": 5
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831c96",
-    "name": "Axe of Honor",
-    "image": "/images/weapons/weapon-t5-str-one-hand-icon.png",
-    "duration": 86400,
+    "_id": "684d0caf404139d9fd831c46",
+    "name": "Fortified Bastion Legs",
+    "image": "/images/armor-t2-stam-legs-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Sta",
+    "order": 1,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c6e",
+    "name": "Impenetrable Bastion Legs",
+    "image": "/images/armor-t4-sta-legs-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Sta",
+    "order": 1,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c78",
+    "name": "Starforged Antimatter Legs",
+    "image": "/images/starforged/crafting-antimatter-leg-shell-icon.png",
+    "duration": 28800,
     "category": "T5",
-    "group": "T5 Str",
-    "order": 99
+    "group": "T5 Starforged Antimatter",
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831caa",
-    "name": "Body",
-    "image": "/images/resources/gold/crafting-gold-body-shell-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Gold",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cae",
-    "name": "Unobtainium Plate",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-plate-icon.png",
-    "duration": 14400,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831caf",
-    "name": "Reinforced Unobtainium Plate",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png",
-    "duration": 21600,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cb1",
-    "name": "Body",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-body-shell-icon.png",
+    "_id": "684d0caf404139d9fd831c61",
+    "name": "Starforged Diamond Legs",
+    "image": "/images/crafting-starforged-diamond-leg-shell-icon.png",
     "duration": 28800,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 99
+    "category": "T4",
+    "group": "T4 Starforged Diamond",
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831cc4",
-    "name": "Infused Salt Plate",
-    "image": "/images/resources/salt/crafting-salt-plate-reinforced-icon.png",
-    "duration": 28800,
-    "category": "Resources",
-    "group": "Salt",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cca",
-    "name": "Marble Plate",
-    "image": "/images/resources/marble/crafting-marble-plate-icon.png",
+    "_id": "684d0caf404139d9fd831c4a",
+    "name": "Starforged Emerald Legs",
+    "image": "/images/crafting-starforged-emerald-leg-shell-icon.png",
     "duration": 21600,
-    "category": "Resources",
-    "group": "Marble",
-    "order": 99
+    "category": "T3",
+    "group": "T3 Starforged Emerald",
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831cd4",
-    "name": "Antimatter",
-    "image": "/images/resources/soul/crafting-antimatter-icon.png",
-    "duration": 86400,
-    "category": "Resources",
-    "group": "Soul",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831cd7",
-    "name": "Holy Deathbringer",
-    "image": "/images/weapons/weapon-t1-str-sword-icon.png",
+    "_id": "684d0caf404139d9fd831c37",
+    "name": "Starforged Legs",
+    "image": "/images/crafting-starforged-ruby-leg-shell-icon.png",
     "duration": 14400,
-    "category": "Weapons",
-    "group": "T1",
-    "order": 99
+    "category": "T2",
+    "group": "T2 Starforged Ruby",
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831ce1",
-    "name": "Wand of Hate",
-    "image": "/images/weapons/weapon-t2-int-wand-icon.png",
-    "duration": 21600,
-    "category": "Weapons",
-    "group": "T2",
-    "order": 3
+    "_id": "684d0caf404139d9fd831c21",
+    "name": "Starforged Legs",
+    "image": "/images/crafting-silversteel-legs-icon.png",
+    "duration": 7200,
+    "category": "T1",
+    "group": "T1 Starforged",
+    "order": 1,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831d00",
-    "name": "Divine Mage Ring",
-    "image": "/images/rings/ring-t3-int-icon.png",
+    "_id": "684d0caf404139d9fd831c5c",
+    "name": "Ancient Knight Legs",
+    "image": "/images/armor-t3-str-legs-icon.png",
     "duration": 28800,
-    "category": "Rings",
-    "group": "T4",
-    "order": 99
+    "category": "T3",
+    "group": "T3 Str",
+    "order": 1,
+    "statOrder": 4
   },
   {
-    "_id": "684d0caf404139d9fd831d09",
-    "name": "Mighty Dragon Book",
-    "image": "/images/books/trinket-t1-agi-book-icon.png",
-    "duration": 14400,
-    "category": "Books",
-    "group": "T2",
-    "order": 99
+    "_id": "684d0caf404139d9fd831c3a",
+    "name": "Crimson Knight Legs",
+    "image": "/images/armor-t2-str-legs-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Str",
+    "order": 1,
+    "statOrder": 4
   },
   {
-    "_id": "684d0caf404139d9fd831d17",
-    "name": "Tiamat",
-    "image": "/images/books/trinket-t5-agi-book-icon.png",
-    "duration": 43200,
-    "category": "Books",
-    "group": "T5",
-    "order": 99
+    "_id": "684d0caf404139d9fd831c73",
+    "name": "Crucified Knight Legs",
+    "image": "/images/armor-t4-str-legs-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Str",
+    "order": 1,
+    "statOrder": 4
   },
   {
     "_id": "684d0caf404139d9fd831c28",
@@ -1941,124 +246,88 @@
     "duration": 14400,
     "category": "T1",
     "group": "T1 Str",
-    "order": 1
+    "order": 1,
+    "statOrder": 4
   },
   {
-    "_id": "684d0caf404139d9fd831c3c",
-    "name": "Crimson Knight Helm",
-    "image": "/images/armor-t2-str-helm-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Str",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c3f",
-    "name": "Mighty Dragon Armor",
-    "image": "/images/armor-t2-agi-body-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Agi",
-    "order": 2
-  },
-  {
-    "_id": "684d0caf404139d9fd831c40",
-    "name": "Mighty Dragon Helm",
-    "image": "/images/armor-t2-agi-helm-icon.png",
-    "duration": 21600,
-    "category": "T2",
-    "group": "T2 Agi",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4f",
-    "name": "Ancient Dragon Helm",
-    "image": "/images/armor-t3-agi-helm-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Agi",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c58",
-    "name": "Ancient Bastion Body",
-    "image": "/images/armor-t3-sta-body-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Sta",
-    "order": 99
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5a",
-    "name": "Ancient Bastion Visor",
-    "image": "/images/armor-t3-sta-face-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Sta",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c5e",
-    "name": "Ancient Knight Helm",
-    "image": "/images/armor-t3-str-helm-icon.png",
-    "duration": 28800,
-    "category": "T3",
-    "group": "T3 Str",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c63",
-    "name": "Starforged Diamond Helm",
-    "image": "/images/crafting-starforged-diamond-helm-shell-icon.png",
-    "duration": 28800,
-    "category": "T4",
-    "group": "T4 Starforged Diamond",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831c68",
-    "name": "Crystal Dragon Pauldrons",
-    "image": "/images/armor-t4-agi-shoulder-icon.png",
-    "duration": 57600,
-    "category": "T4",
-    "group": "T4 Agi",
-    "order": 5
-  },
-  {
-    "_id": "684d0caf404139d9fd831c79",
-    "name": "Starforged Antimatter Body",
-    "image": "/images/starforged/crafting-antimatter-body-shell-icon.png",
-    "duration": 28800,
+    "_id": "684d0caf404139d9fd831c90",
+    "name": "Paladin Legs",
+    "image": "/images/armor/armor-t5-str-legs-icon.png",
+    "duration": 86400,
     "category": "T5",
-    "group": "T5 Starforged Antimatter",
-    "order": 99
+    "group": "T5 Str",
+    "order": 1,
+    "statOrder": 4
   },
   {
-    "_id": "684d0caf404139d9fd831c9a",
-    "name": "Reinforced Iron Plate",
-    "image": "/images/resources/iron/item-iron-plate-reinforced-icon.png",
-    "duration": 3600,
+    "_id": "684d0caf404139d9fd831cba",
+    "name": "Coral Chunk",
+    "image": "/images/resources/coral/crafting-coral-chunk-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 1,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca5",
+    "name": "Gold Chunk",
+    "image": "/images/resources/gold/crafting-gold-chunk-icon.png",
+    "duration": 900,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 1,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb3",
+    "name": "Ice Crystal Chunk",
+    "image": "/images/resources/frost/crafting-ice-crystal-medium-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 1,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c97",
+    "name": "Iron Chunk",
+    "image": "/images/resources/iron/item-iron-chunk-icon.png",
+    "duration": 300,
     "category": "Resources",
     "group": "Iron",
-    "order": 99
+    "order": 1,
+    "statOrder": 99
   },
   {
-    "_id": "684d0caf404139d9fd831cb2",
-    "name": "Helm",
-    "image": "/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png",
-    "duration": 28800,
-    "category": "Resources",
-    "group": "Unob",
-    "order": 3
-  },
-  {
-    "_id": "684d0caf404139d9fd831ccb",
-    "name": "Reinforced Marble Plate",
-    "image": "/images/resources/marble/crafting-marble-plate-rf-icon.png",
-    "duration": 28800,
+    "_id": "684d0caf404139d9fd831cc8",
+    "name": "Marble Chunk",
+    "image": "/images/resources/marble/crafting-marble-chunk-icon.png",
+    "duration": 7200,
     "category": "Resources",
     "group": "Marble",
-    "order": 99
+    "order": 1,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc1",
+    "name": "Salt  Clump",
+    "image": "/images/resources/salt/crafting-salt-chunk-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 1,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9e",
+    "name": "Silver Chunk",
+    "image": "/images/resources/silver/item-silver-chunk-icon.png",
+    "duration": 300,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 1,
+    "statOrder": 99
   },
   {
     "_id": "684d0caf404139d9fd831cd0",
@@ -2067,61 +336,108 @@
     "duration": 14400,
     "category": "Resources",
     "group": "Soul",
-    "order": 1
+    "order": 1,
+    "statOrder": 99
   },
   {
-    "_id": "684d0caf404139d9fd831d08",
-    "name": "Knight Book",
-    "image": "/images/books/trinket-base-str-book-icon.png",
-    "duration": 3600,
-    "category": "Books",
-    "group": "T1",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cac",
+    "name": "Unobtainium Chunk",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-chunk-icon.png",
+    "duration": 1800,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 1,
+    "statOrder": 99
   },
   {
-    "_id": "684d0caf404139d9fd831d0d",
-    "name": "Ancient Dragon Book",
-    "image": "/images/books/trinket-t2-agi-book-icon.png",
+    "_id": "684d0caf404139d9fd831c43",
+    "name": "Adept Mage Robes",
+    "image": "/images/armor-t2-int-body-icon.png",
     "duration": 21600,
-    "category": "Books",
-    "group": "T3",
-    "order": 99
+    "category": "T2",
+    "group": "T2 Int",
+    "order": 2,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831d11",
-    "name": "Crucified Knight Book",
-    "image": "/images/books/trinket-t3-str-book-icon.png",
+    "_id": "684d0caf404139d9fd831c53",
+    "name": "Ancient Mage Robes",
+    "image": "/images/armor-t3-int-body-icon.png",
     "duration": 28800,
-    "category": "Books",
-    "group": "T4",
-    "order": 99
+    "category": "T3",
+    "group": "T3 Int",
+    "order": 2,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831c30",
-    "name": "Worn CLoth",
-    "image": "/images/crafting-worn-cloth-icon.png",
-    "duration": 600,
+    "_id": "684d0caf404139d9fd831c83",
+    "name": "Archmage Body",
+    "image": "/images/armor/armor-t5-int-body-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Int",
+    "order": 2,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c6a",
+    "name": "Divine Mage Cloak",
+    "image": "/images/armor-t4-int-body-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Int",
+    "order": 2,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c34",
+    "name": "Mage Cloak",
+    "image": "/images/armor-t1-int-body-icon.png",
+    "duration": 14400,
     "category": "T1",
     "group": "T1 Int",
-    "order": 99
+    "order": 2,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831c41",
-    "name": "Mighty Dragon Guise",
-    "image": "/images/armor-t2-agi-face-icon.png",
+    "_id": "684d0caf404139d9fd831c4e",
+    "name": "Ancient Dragon Armor",
+    "image": "/images/armor-t3-agi-body-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Agi",
+    "order": 2,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c65",
+    "name": "Crystal Dragon Armor",
+    "image": "/images/armor-t4-agi-body-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Agi",
+    "order": 2,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2d",
+    "name": "Dragon Armor",
+    "image": "/images/armor-t1-agi-body-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Agi",
+    "order": 2,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c3f",
+    "name": "Mighty Dragon Armor",
+    "image": "/images/armor-t2-agi-body-icon.png",
     "duration": 21600,
     "category": "T2",
     "group": "T2 Agi",
-    "order": 4
-  },
-  {
-    "_id": "684d0caf404139d9fd831c4c",
-    "name": "Starforged Emerald Helm",
-    "image": "/images/crafting-starforged-emerald-helm-shell-icon.png",
-    "duration": 21600,
-    "category": "T3",
-    "group": "T3 Starforged Emerald",
-    "order": 3
+    "order": 2,
+    "statOrder": 2
   },
   {
     "_id": "684d0caf404139d9fd831c7c",
@@ -2130,7 +446,258 @@
     "duration": 86400,
     "category": "T5",
     "group": "T5 Agi",
-    "order": 99
+    "order": 2,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c58",
+    "name": "Ancient Bastion Body",
+    "image": "/images/armor-t3-sta-body-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Sta",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c25",
+    "name": "Bastion Body",
+    "image": "/images/armor-t1-stam-body-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Sta",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c8a",
+    "name": "Colossus Body",
+    "image": "/images/armor/armor-t5-sta-body-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Sta",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c47",
+    "name": "Fortified Bastion Body",
+    "image": "/images/armor-t2-stam-body-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Sta",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c6f",
+    "name": "Impenetrable Bastion Body",
+    "image": "/images/armor-t4-sta-body-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Sta",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c79",
+    "name": "Starforged Antimatter Body",
+    "image": "/images/starforged/crafting-antimatter-body-shell-icon.png",
+    "duration": 28800,
+    "category": "T5",
+    "group": "T5 Starforged Antimatter",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c22",
+    "name": "Starforged Body",
+    "image": "/images/crafting-silversteel-body-icon.png",
+    "duration": 7200,
+    "category": "T1",
+    "group": "T1 Starforged",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c38",
+    "name": "Starforged Body",
+    "image": "/images/crafting-starforged-ruby-body-shell-icon.png",
+    "duration": 14400,
+    "category": "T2",
+    "group": "T2 Starforged Ruby",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c62",
+    "name": "Starforged Diamond Body",
+    "image": "/images/crafting-starforged-diamond-body-shell-icon.png",
+    "duration": 28800,
+    "category": "T4",
+    "group": "T4 Starforged Diamond",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c4b",
+    "name": "Starforged Emerald Body",
+    "image": "/images/crafting-starforged-emerald-body-shell-icon.png",
+    "duration": 21600,
+    "category": "T3",
+    "group": "T3 Starforged Emerald",
+    "order": 2,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c5d",
+    "name": "Ancient Knight Body",
+    "image": "/images/armor-t3-str-body-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Str",
+    "order": 2,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c3b",
+    "name": "Crimson Knight Body",
+    "image": "/images/armor-t2-str-body-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Str",
+    "order": 2,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c74",
+    "name": "Crucified Knight Body",
+    "image": "/images/armor-t4-str-body-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Str",
+    "order": 2,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c29",
+    "name": "Knight Armor",
+    "image": "/images/armor-t1-str-body-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Str",
+    "order": 2,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c91",
+    "name": "Paladin Body",
+    "image": "/images/armor/armor-t5-str-body-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Str",
+    "order": 2,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cbb",
+    "name": "Coral Slab",
+    "image": "/images/resources/coral/crafting-coral-slab-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca6",
+    "name": "Gold Slab",
+    "image": "/images/resources/gold/crafting-gold-slab-icon.png",
+    "duration": 3600,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c98",
+    "name": "Iron Slab",
+    "image": "/images/resources/iron/item-iron-slab-icon.png",
+    "duration": 900,
+    "category": "Resources",
+    "group": "Iron",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc9",
+    "name": "Marble Slab",
+    "image": "/images/resources/marble/crafting-marble-slab-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Marble",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc2",
+    "name": "Salt Slab",
+    "image": "/images/resources/salt/crafting-salt-slab-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9f",
+    "name": "Silver Slab",
+    "image": "/images/resources/silver/item-silver-slab-icon.png",
+    "duration": 900,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd1",
+    "name": "Soul Nebula",
+    "image": "/images/resources/soul/item-dark-soul-nebula-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Soul",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cad",
+    "name": "Unobtainium Slab",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-slab-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 2,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c44",
+    "name": "Adept Mage Hat",
+    "image": "/images/armor-t2-int-head-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Int",
+    "order": 3,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c54",
+    "name": "Ancient Mage Hat",
+    "image": "/images/armor-t3-int-hood-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Int",
+    "order": 3,
+    "statOrder": 1
   },
   {
     "_id": "684d0caf404139d9fd831c84",
@@ -2139,16 +706,98 @@
     "duration": 86400,
     "category": "T5",
     "group": "T5 Int",
-    "order": 3
+    "order": 3,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831c86",
-    "name": "Archmage Necklace",
-    "image": "/images/armor/armor-t5-int-shoulder-icon.png",
+    "_id": "684d0caf404139d9fd831c6b",
+    "name": "Divine Mage Cap",
+    "image": "/images/armor-t4-int-hat-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Int",
+    "order": 3,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c35",
+    "name": "Mage Hood",
+    "image": "/images/armor-t1-int-hood-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 3,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c4f",
+    "name": "Ancient Dragon Helm",
+    "image": "/images/armor-t3-agi-helm-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Agi",
+    "order": 3,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c66",
+    "name": "Crystal Dragon Helm",
+    "image": "/images/armor-t4-agi-helm-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Agi",
+    "order": 3,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2e",
+    "name": "Dragon Helm",
+    "image": "/images/armor-t1-agi-helm-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Agi",
+    "order": 3,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c40",
+    "name": "Mighty Dragon Helm",
+    "image": "/images/armor-t2-agi-helm-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Agi",
+    "order": 3,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c7d",
+    "name": "Tiamat Helm",
+    "image": "/images/armor/armor-t5-agi-helmet-icon.png",
     "duration": 86400,
     "category": "T5",
-    "group": "T5 Int",
-    "order": 99
+    "group": "T5 Agi",
+    "order": 3,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c59",
+    "name": "Ancient Bastion Helm",
+    "image": "/images/armor-t3-sta-helm-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Sta",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c26",
+    "name": "Bastion Helm",
+    "image": "/images/armor-t1-stam-helm-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Sta",
+    "order": 3,
+    "statOrder": 3
   },
   {
     "_id": "684d0caf404139d9fd831c8b",
@@ -2157,43 +806,208 @@
     "duration": 86400,
     "category": "T5",
     "group": "T5 Sta",
-    "order": 3
+    "order": 3,
+    "statOrder": 3
   },
   {
-    "_id": "684d0caf404139d9fd831c93",
-    "name": "Paladin Face",
-    "image": "/images/armor/armor-t5-str-face-icon.png",
+    "_id": "684d0caf404139d9fd831c48",
+    "name": "Fortified Bastion Helm",
+    "image": "/images/armor-t2-stam-helm-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Sta",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c70",
+    "name": "Impenetrable Bastion Helm",
+    "image": "/images/armor-t4-sta-helm-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Sta",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c7a",
+    "name": "Starforged Antimatter Helm",
+    "image": "/images/starforged/crafting-antimatter-helm-shell-icon.png",
+    "duration": 28800,
+    "category": "T5",
+    "group": "T5 Starforged Antimatter",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c63",
+    "name": "Starforged Diamond Helm",
+    "image": "/images/crafting-starforged-diamond-helm-shell-icon.png",
+    "duration": 28800,
+    "category": "T4",
+    "group": "T4 Starforged Diamond",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c4c",
+    "name": "Starforged Emerald Helm",
+    "image": "/images/crafting-starforged-emerald-helm-shell-icon.png",
+    "duration": 21600,
+    "category": "T3",
+    "group": "T3 Starforged Emerald",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c23",
+    "name": "Starforged Helm",
+    "image": "/images/crafting-silversteel-helm-icon.png",
+    "duration": 7200,
+    "category": "T1",
+    "group": "T1 Starforged",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c39",
+    "name": "Starforged Helm",
+    "image": "/images/crafting-starforged-ruby-helm-shell-icon.png",
+    "duration": 14400,
+    "category": "T2",
+    "group": "T2 Starforged Ruby",
+    "order": 3,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c5e",
+    "name": "Ancient Knight Helm",
+    "image": "/images/armor-t3-str-helm-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Str",
+    "order": 3,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c3c",
+    "name": "Crimson Knight Helm",
+    "image": "/images/armor-t2-str-helm-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Str",
+    "order": 3,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c75",
+    "name": "Crucified Knight Helm",
+    "image": "/images/armor-t4-str-helm-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Str",
+    "order": 3,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2a",
+    "name": "Knight Helm",
+    "image": "/images/armor-t1-str-helm-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Str",
+    "order": 3,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c92",
+    "name": "Paladin Helmet",
+    "image": "/images/armor/armor-t5-str-helmet-icon.png",
     "duration": 86400,
     "category": "T5",
     "group": "T5 Str",
-    "order": 99
+    "order": 3,
+    "statOrder": 4
   },
   {
-    "_id": "684d0caf404139d9fd831c9b",
-    "name": "Iron Legs",
-    "image": "/images/resources/iron/item-iron-leg-shell-icon.png",
+    "_id": "684d0caf404139d9fd831cbe",
+    "name": "Coral Cube",
+    "image": "/images/resources/coral/crafting-coral-cube-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cbc",
+    "name": "Coral Plate",
+    "image": "/images/resources/coral/crafting-coral-plate-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb5",
+    "name": "Frostite Plate",
+    "image": "/images/resources/frost/item-ice-plate-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca7",
+    "name": "Gold Plate",
+    "image": "/images/resources/gold/crafting-gold-plate-icon.png",
     "duration": 7200,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cbd",
+    "name": "Infused Coral Plate",
+    "image": "/images/resources/coral/crafting-coral-plate-reinforced-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc4",
+    "name": "Infused Salt Plate",
+    "image": "/images/resources/salt/crafting-salt-plate-reinforced-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c99",
+    "name": "Iron Plate",
+    "image": "/images/resources/iron/item-iron-plate-icon.png",
+    "duration": 1800,
     "category": "Resources",
     "group": "Iron",
-    "order": 1
+    "order": 3,
+    "statOrder": 99
   },
   {
-    "_id": "684d0caf404139d9fd831ca2",
-    "name": "Silver Legs",
-    "image": "/images/resources/silver/item-silver-leg-shell-icon.png",
-    "duration": 7200,
+    "_id": "684d0caf404139d9fd831cca",
+    "name": "Marble Plate",
+    "image": "/images/resources/marble/crafting-marble-plate-icon.png",
+    "duration": 21600,
     "category": "Resources",
-    "group": "Silver",
-    "order": 1
-  },
-  {
-    "_id": "684d0caf404139d9fd831ca4",
-    "name": "Silver Helm",
-    "image": "/images/resources/silver/item-silver-helm-shell-icon.png",
-    "duration": 7200,
-    "category": "Resources",
-    "group": "Silver",
-    "order": 3
+    "group": "Marble",
+    "order": 3,
+    "statOrder": 99
   },
   {
     "_id": "684d0caf404139d9fd831cb6",
@@ -2202,7 +1016,398 @@
     "duration": 28800,
     "category": "Resources",
     "group": "Frost",
-    "order": 99
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca8",
+    "name": "Reinforced Gold Plate",
+    "image": "/images/resources/gold/crafting-gold-plate-reinforced-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9a",
+    "name": "Reinforced Iron Plate",
+    "image": "/images/resources/iron/item-iron-plate-reinforced-icon.png",
+    "duration": 3600,
+    "category": "Resources",
+    "group": "Iron",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ccb",
+    "name": "Reinforced Marble Plate",
+    "image": "/images/resources/marble/crafting-marble-plate-rf-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Marble",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca1",
+    "name": "Reinforced Silver Plate",
+    "image": "/images/resources/silver/item-silver-plate-reinforced-icon.png",
+    "duration": 3600,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831caf",
+    "name": "Reinforced Unobtainium Plate",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-plate-reinforced-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc5",
+    "name": "Salt Cube",
+    "image": "/images/resources/salt/crafting-salt-cube-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc3",
+    "name": "Salt Plate",
+    "image": "/images/resources/salt/crafting-salt-plate-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca0",
+    "name": "Silver Plate",
+    "image": "/images/resources/silver/item-silver-plate-icon.png",
+    "duration": 1800,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cae",
+    "name": "Unobtainium Plate",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-plate-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 3,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cbf",
+    "name": "Coral Hypercube",
+    "image": "/images/resources/coral/crafting-coral-cube-hyper-icon.png",
+    "duration": 57600,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 4,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc6",
+    "name": "Salt Hypercube",
+    "image": "/images/resources/salt/crafting-salt-cube-hyper-icon.png",
+    "duration": 57600,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 4,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd3",
+    "name": "Soul Hypercube",
+    "image": "/images/resources/soul/item-dark-soul-cube-icon.png",
+    "duration": 57600,
+    "category": "Resources",
+    "group": "Soul",
+    "order": 4,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd4",
+    "name": "Antimatter",
+    "image": "/images/resources/soul/crafting-antimatter-icon.png",
+    "duration": 86400,
+    "category": "Resources",
+    "group": "Soul",
+    "order": 5,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb4",
+    "name": "Ice Crystal",
+    "image": "/images/resources/frost/crafting-ice-crystal-large-icon.png",
+    "duration": 14400,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 5,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd2",
+    "name": "Soul Cube",
+    "image": "/images/resources/soul/item-dark-soul-cube-basic-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Soul",
+    "order": 5,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc7",
+    "name": "Hypercube of the Sea",
+    "image": "/images/resources/salt/crafting-sea-cube-hyper-icon.png",
+    "duration": 86400,
+    "category": "Resources",
+    "group": "Salt",
+    "order": 7,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cc0",
+    "name": "Hypercube of the Sea",
+    "image": "/images/resources/coral/crafting-sea-cube-hyper-icon.png",
+    "duration": 86400,
+    "category": "Resources",
+    "group": "Coral",
+    "order": 7,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9b",
+    "name": "Iron Legs",
+    "image": "/images/resources/iron/item-iron-leg-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Iron",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb0",
+    "name": "Legs",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-leg-shell-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb7",
+    "name": "Legs",
+    "image": "/images/resources/frost/crafting-ice-leg-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca9",
+    "name": "Legs",
+    "image": "/images/resources/gold/crafting-gold-leg-shell-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ccc",
+    "name": "Legs",
+    "image": "/images/resources/marble/crafting-marble-leg-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Marble",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca2",
+    "name": "Silver Legs",
+    "image": "/images/resources/silver/item-silver-leg-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 8,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb8",
+    "name": "Body",
+    "image": "/images/resources/frost/crafting-ice-body-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ccd",
+    "name": "Body",
+    "image": "/images/resources/marble/crafting-marble-body-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Marble",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831caa",
+    "name": "Body",
+    "image": "/images/resources/gold/crafting-gold-body-shell-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb1",
+    "name": "Body",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-body-shell-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9c",
+    "name": "Iron Body",
+    "image": "/images/resources/iron/item-iron-body-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Iron",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca3",
+    "name": "Silver Body",
+    "image": "/images/resources/silver/item-silver-body-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 9,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831d0a",
+    "name": "Adept Mage Book",
+    "image": "/images/books/trinket-t1-int-book-icon.png",
+    "duration": 14400,
+    "category": "Books",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf6",
+    "name": "Adept Mage Ring",
+    "image": "/images/rings/ring-t1-int-icon.png",
+    "duration": 14400,
+    "category": "Rings",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d0e",
+    "name": "Ancient Mage Book",
+    "image": "/images/books/trinket-t2-int-book-icon.png",
+    "duration": 21600,
+    "category": "Books",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831cfa",
+    "name": "Ancient Mage Ring",
+    "image": "/images/rings/ring-t2-int-icon.png",
+    "duration": 21600,
+    "category": "Rings",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d04",
+    "name": "Archmage",
+    "image": "/images/rings/ring-t5-int-icon.png",
+    "duration": 43200,
+    "category": "Rings",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d18",
+    "name": "Archmage",
+    "image": "/images/books/trinket-t5-int-book-icon.png",
+    "duration": 43200,
+    "category": "Books",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d14",
+    "name": "Divine Mage Book",
+    "image": "/images/books/trinket-t3-int-book-icon.png",
+    "duration": 28800,
+    "category": "Books",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d00",
+    "name": "Divine Mage Ring",
+    "image": "/images/rings/ring-t3-int-icon.png",
+    "duration": 28800,
+    "category": "Rings",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce5",
+    "name": "Druid Nature Staff",
+    "image": "/images/weapons/weapon-t3-int-staff-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd5",
+    "name": "Epic Pearl Staff",
+    "image": "/images/weapons/weapon-t1-int-staff-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 1
   },
   {
     "_id": "684d0caf404139d9fd831cd9",
@@ -2211,16 +1416,288 @@
     "duration": 14400,
     "category": "Weapons",
     "group": "T1",
-    "order": 99
+    "order": 10,
+    "statOrder": 1
   },
   {
-    "_id": "684d0caf404139d9fd831ce3",
-    "name": "Ironjaw",
-    "image": "/images/weapons/weapon-t2-str-one-hand-icon.png",
+    "_id": "684d0caf404139d9fd831cf1",
+    "name": "Lumenroot",
+    "image": "/images/weapons/weapon-t4-int-wand-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d06",
+    "name": "Mage Book",
+    "image": "/images/books/trinket-base-int-book-icon.png",
+    "duration": 3600,
+    "category": "Books",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce9",
+    "name": "Riptide Wand",
+    "image": "/images/weapons/weapon-t3-int-wand-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831ced",
+    "name": "Secret Keeper",
+    "image": "/images/weapons/weapon-t4-int-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c87",
+    "name": "Soul Releaser",
+    "image": "/images/weapons/weapon-t5-int-staff-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Int",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831cdd",
+    "name": "Staff of Life",
+    "image": "/images/weapons/weapon-t2-int-staff-icon.png",
     "duration": 21600,
     "category": "Weapons",
     "group": "T2",
-    "order": 99
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c88",
+    "name": "The Monarch",
+    "image": "/images/weapons/weapon-t5-int-wand-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Int",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce1",
+    "name": "Wand of Hate",
+    "image": "/images/weapons/weapon-t2-int-wand-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831d0d",
+    "name": "Ancient Dragon Book",
+    "image": "/images/books/trinket-t2-agi-book-icon.png",
+    "duration": 21600,
+    "category": "Books",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf9",
+    "name": "Ancient Dragon Ring",
+    "image": "/images/rings/ring-t2-agi-icon.png",
+    "duration": 21600,
+    "category": "Rings",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cde",
+    "name": "Artemis Bow",
+    "image": "/images/weapons/weapon-t2-agi-bow-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cee",
+    "name": "Bow of the Dragon Gods",
+    "image": "/images/weapons/weapon-t4-agi-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d13",
+    "name": "Crystal Dragon Book",
+    "image": "/images/books/trinket-t3-agi-book-icon.png",
+    "duration": 28800,
+    "category": "Books",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cff",
+    "name": "Crystal Dragon Ring",
+    "image": "/images/rings/ring-t3-agi-icon.png",
+    "duration": 28800,
+    "category": "Rings",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf2",
+    "name": "Crystal Halberd",
+    "image": "/images/weapons/weapon-t4-agi-one-hand-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cea",
+    "name": "Death Scythe",
+    "image": "/images/weapons/weapon-t3-agi-one-hand-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cda",
+    "name": "Draco Scythe",
+    "image": "/images/weapons/weapon-t1-agi-one-hand-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d05",
+    "name": "Dragon Book",
+    "image": "/images/books/trinket-base-agi-book-icon.png",
+    "duration": 3600,
+    "category": "Books",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd6",
+    "name": "Dragon Bow",
+    "image": "/images/weapons/weapon-t1-agi-bow-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c81",
+    "name": "Drakepiercer",
+    "image": "/images/weapons/weapon-t5-agi-one-hand-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Agi",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce6",
+    "name": "Elder Dragon Bow",
+    "image": "/images/weapons/weapon-t3-agi-bow-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d09",
+    "name": "Mighty Dragon Book",
+    "image": "/images/books/trinket-t1-agi-book-icon.png",
+    "duration": 14400,
+    "category": "Books",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf5",
+    "name": "Mighty Dragon Ring",
+    "image": "/images/rings/ring-t1-agi-icon.png",
+    "duration": 14400,
+    "category": "Rings",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c80",
+    "name": "Pegasus Wings",
+    "image": "/images/weapons/weapon-t5-agi-bow-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Agi",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d17",
+    "name": "Tiamat",
+    "image": "/images/books/trinket-t5-agi-book-icon.png",
+    "duration": 43200,
+    "category": "Books",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d03",
+    "name": "Tiamat Ring",
+    "image": "/images/rings/ring-t5-agi-icon.png",
+    "duration": 43200,
+    "category": "Rings",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce2",
+    "name": "Twin Talon",
+    "image": "/images/weapons/weapon-t2-agi-one-hand-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831d0f",
+    "name": "Ancient Bastion Book",
+    "image": "/images/books/trinket-t2-sta-book-icon.png",
+    "duration": 21600,
+    "category": "Books",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 3
   },
   {
     "_id": "684d0caf404139d9fd831cfb",
@@ -2229,147 +1706,778 @@
     "duration": 21600,
     "category": "Rings",
     "group": "T3",
-    "order": 99
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d4d398e8cc6a3a31a7b78",
-    "name": "Mega Emerald",
-    "image": "/images/gems/emerald/emerald-mega-icon.png",
-    "duration": "21600",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Emerald",
-    "order": 99
+    "_id": "684d0caf404139d9fd831d07",
+    "name": "Bastion Book",
+    "image": "/images/books/trinket-base-sta-book-icon.png",
+    "duration": 3600,
+    "category": "Books",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d4e7b8e8cc6a3a31a7b79",
-    "name": "Uber Emerald",
-    "image": "/images/gems/emerald/emerald-uber-icon.png",
-    "duration": "43200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Emerald",
-    "order": 99
+    "_id": "684d0caf404139d9fd831ce8",
+    "name": "Battle Axe of Doom",
+    "image": "/images/weapons/weapon-t3-sta-axe-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d54838e8cc6a3a31a7b7d",
-    "name": "Mega Ruby",
-    "image": "/images/gems/ruby/ruby-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Ruby",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cec",
+    "name": "Battle Mace of the Fallen",
+    "image": "/images/weapons/weapon-t3-sta-one-hand-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d54b18e8cc6a3a31a7b7e",
-    "name": "Uber Ruby",
-    "image": "/images/gems/ruby/ruby-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Ruby",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cf4",
+    "name": "Blunt Stick of Doom",
+    "image": "/images/weapons/weapon-t4-sta-one-hand-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d55108e8cc6a3a31a7b7f",
-    "name": "Mega Onyx",
-    "image": "/images/gems/onyx/onyx-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Onyx",
-    "order": 99
+    "_id": "684d0caf404139d9fd831d16",
+    "name": "Colossus",
+    "image": "/images/books/trinket-t5-sta-book-icon.png",
+    "duration": 43200,
+    "category": "Books",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d55358e8cc6a3a31a7b80",
-    "name": "Uber Onyx",
-    "image": "/images/gems/onyx/onyx-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Onyx",
-    "order": 99
+    "_id": "684d0caf404139d9fd831d02",
+    "name": "Colossus Ring",
+    "image": "/images/rings/ring-t5-sta-icon.png",
+    "duration": 43200,
+    "category": "Rings",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d55c68e8cc6a3a31a7b81",
-    "name": "Mega Pearl",
-    "image": "/images/gems/pearl/crafting-pearl-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Pearl",
-    "order": 99
+    "_id": "684d0caf404139d9fd831d0b",
+    "name": "Fortified Bastion Book",
+    "image": "/images/books/trinket-t1-sta-book-icon.png",
+    "duration": 14400,
+    "category": "Books",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d55db8e8cc6a3a31a7b82",
-    "name": "Uber Pearl",
-    "image": "/images/gems/pearl/crafting-pearl-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Pearl",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cf7",
+    "name": "Fortified Bastion Ring",
+    "image": "/images/rings/ring-t1-sta-icon.png",
+    "duration": 14400,
+    "category": "Rings",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d55e98e8cc6a3a31a7b83",
-    "name": "Mega Amethyst",
-    "image": "/images/gems/amethyst/amethyst-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Amethyst",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cd8",
+    "name": "Hammer of Doom",
+    "image": "/images/weapons/weapon-t1-sta-hammer-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d56038e8cc6a3a31a7b84",
-    "name": "Uber Amethyst",
-    "image": "/images/gems/amethyst/amethyst-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Amethyst",
-    "order": 99
+    "_id": "684d0caf404139d9fd831ce0",
+    "name": "Hammer of Ruin",
+    "image": "/images/weapons/weapon-t2-sta-hammer-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d569a8e8cc6a3a31a7b85",
-    "name": "Mega Sapphire",
-    "image": "/images/gems/sapphire/sapphire-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Sapphire",
-    "order": 99
+    "_id": "684d0caf404139d9fd831d12",
+    "name": "Impenetrable Bastion Book",
+    "image": "/images/books/trinket-t3-sta-book-icon.png",
+    "duration": 28800,
+    "category": "Books",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d56ab8e8cc6a3a31a7b86",
-    "name": "Uber Sapphire",
-    "image": "/images/gems/sapphire/sapphire-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Sapphire",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cfe",
+    "name": "Impenetrable Bastion Ring",
+    "image": "/images/rings/ring-t3-sta-icon.png",
+    "duration": 28800,
+    "category": "Rings",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d56f98e8cc6a3a31a7b87",
-    "name": "Mega Diamond",
-    "image": "/images/gems/diamond/diamond-mega-icon.png",
-    "duration": "7200",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Diamond",
-    "order": 99
+    "_id": "684d0caf404139d9fd831cdc",
+    "name": "Mallet of Doom",
+    "image": "/images/weapons/weapon-t1-sta-one-hand-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 3
   },
   {
-    "_id": "684d570a8e8cc6a3a31a7b88",
-    "name": "Uber Diamond",
-    "image": "/images/gems/diamond/diamond-uber-icon.png",
-    "duration": "14400",
-    "vendor": "Dwarf Gem Crafter",
-    "category": "Gems",
-    "group": "Diamond",
-    "order": 99
+    "_id": "684d0caf404139d9fd831c8e",
+    "name": "Morning Star",
+    "image": "/images/weapons/weapon-t5-sta-mace-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Sta",
+    "order": 10,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c8f",
+    "name": "Skullcradle",
+    "image": "/images/weapons/weapon-t5-sta-one-hand-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Sta",
+    "order": 10,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf0",
+    "name": "The Dominator",
+    "image": "/images/weapons/weapon-t4-sta-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce4",
+    "name": "Thorn of Dread",
+    "image": "/images/weapons/weapon-t2-sta-one-hand-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831d10",
+    "name": "Ancient Knight Book",
+    "image": "/images/books/trinket-t2-str-book-icon.png",
+    "duration": 21600,
+    "category": "Books",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cfc",
+    "name": "Ancient Knight Ring",
+    "image": "/images/rings/ring-t2-str-icon.png",
+    "duration": 21600,
+    "category": "Rings",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c96",
+    "name": "Axe of Honor",
+    "image": "/images/weapons/weapon-t5-str-one-hand-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Str",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cdf",
+    "name": "Blade of the Forgotten",
+    "image": "/images/weapons/weapon-t2-str-sword-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831d0c",
+    "name": "Crimson Knight Book",
+    "image": "/images/books/trinket-t1-str-book-icon.png",
+    "duration": 14400,
+    "category": "Books",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf8",
+    "name": "Crimson Knight Ring",
+    "image": "/images/rings/ring-t1-str-icon.png",
+    "duration": 14400,
+    "category": "Rings",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831ceb",
+    "name": "Crowncleaver",
+    "image": "/images/weapons/weapon-t3-str-one-hand-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831d11",
+    "name": "Crucified Knight Book",
+    "image": "/images/books/trinket-t3-str-book-icon.png",
+    "duration": 28800,
+    "category": "Books",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cfd",
+    "name": "Crucified Knight Ring",
+    "image": "/images/rings/ring-t3-str-icon.png",
+    "duration": 28800,
+    "category": "Rings",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c95",
+    "name": "Divine Claymore",
+    "image": "/images/weapons/weapon-t5-str-sword-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Str",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cf3",
+    "name": "Gracebreaker",
+    "image": "/images/weapons/weapon-t4-str-one-hand-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cd7",
+    "name": "Holy Deathbringer",
+    "image": "/images/weapons/weapon-t1-str-sword-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce3",
+    "name": "Ironjaw",
+    "image": "/images/weapons/weapon-t2-str-one-hand-icon.png",
+    "duration": 21600,
+    "category": "Weapons",
+    "group": "T2",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831d08",
+    "name": "Knight Book",
+    "image": "/images/books/trinket-base-str-book-icon.png",
+    "duration": 3600,
+    "category": "Books",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831d15",
+    "name": "Paladin",
+    "image": "/images/books/trinket-t5-str-book-icon.png",
+    "duration": 43200,
+    "category": "Books",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831d01",
+    "name": "Paladin Ring",
+    "image": "/images/rings/ring-t5-str-icon.png",
+    "duration": 43200,
+    "category": "Rings",
+    "group": "T5",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cdb",
+    "name": "Squire Sword",
+    "image": "/images/weapons/weapon-t1-str-one-hand-icon.png",
+    "duration": 14400,
+    "category": "Weapons",
+    "group": "T1",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cef",
+    "name": "The Holy Destroyer",
+    "image": "/images/weapons/weapon-t4-str-icon.png",
+    "duration": 57600,
+    "category": "Weapons",
+    "group": "T4",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831ce7",
+    "name": "The Unstable Twin",
+    "image": "/images/weapons/weapon-t3-str-sword-icon.png",
+    "duration": 28800,
+    "category": "Weapons",
+    "group": "T3",
+    "order": 10,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831cab",
+    "name": "Helm",
+    "image": "/images/resources/gold/crafting-gold-helm-shell-icon.png",
+    "duration": 21600,
+    "category": "Resources",
+    "group": "Gold",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cce",
+    "name": "Helm",
+    "image": "/images/resources/marble/crafting-marble-helm-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Marble",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb9",
+    "name": "Helm",
+    "image": "/images/resources/frost/crafting-ice-helm-shell-icon.png",
+    "duration": 43200,
+    "category": "Resources",
+    "group": "Frost",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831cb2",
+    "name": "Helm",
+    "image": "/images/resources/unobtainium/crafting-unobtainium-helm-shell-icon.png",
+    "duration": 28800,
+    "category": "Resources",
+    "group": "Unob",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c9d",
+    "name": "Iron Helm",
+    "image": "/images/resources/iron/item-iron-helm-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Iron",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831ca4",
+    "name": "Silver Helm",
+    "image": "/images/resources/silver/item-silver-helm-shell-icon.png",
+    "duration": 7200,
+    "category": "Resources",
+    "group": "Silver",
+    "order": 10,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d0caf404139d9fd831c45",
+    "name": "Adept Mage Pendant",
+    "image": "/images/armor-t2-int-face-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c56",
+    "name": "Ancient Mage Companion",
+    "image": "/images/armor-t3-int-shoulder-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c55",
+    "name": "Ancient Mage Pendant",
+    "image": "/images/armor-t3-int-face-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c85",
+    "name": "Archmage Face",
+    "image": "/images/armor/armor-t5-int-face-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c86",
+    "name": "Archmage Necklace",
+    "image": "/images/armor/armor-t5-int-shoulder-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c31",
+    "name": "Cloth",
+    "image": "/images/crafting-cloth-icon.png",
+    "duration": 1800,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c6c",
+    "name": "Divine Mage Mask",
+    "image": "/images/armor-t4-int-face-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c32",
+    "name": "Infused Cloth",
+    "image": "/images/crafting-t1-cloth-icon.png",
+    "duration": 3600,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c36",
+    "name": "Mage Pendant",
+    "image": "/images/armor-t1-int-face-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c6d",
+    "name": "Orbs of the Divine",
+    "image": "/images/armor-t4-int-shoulder-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c30",
+    "name": "Worn CLoth",
+    "image": "/images/crafting-worn-cloth-icon.png",
+    "duration": 600,
+    "category": "T1",
+    "group": "T1 Int",
+    "order": 99,
+    "statOrder": 1
+  },
+  {
+    "_id": "684d0caf404139d9fd831c50",
+    "name": "Ancient Dragon Guise",
+    "image": "/images/armor-t3-agi-face-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c51",
+    "name": "Ancient Dragon Pauldrons",
+    "image": "/images/armor-t3-agi-shoulder-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c67",
+    "name": "Crystal Dragon Guise",
+    "image": "/images/armor-t4-agi-face-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c68",
+    "name": "Crystal Dragon Pauldrons",
+    "image": "/images/armor-t4-agi-shoulder-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2f",
+    "name": "Dragon Guise",
+    "image": "/images/armor-t1-agi-face-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c41",
+    "name": "Mighty Dragon Guise",
+    "image": "/images/armor-t2-agi-face-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c7e",
+    "name": "Tiamat Face",
+    "image": "/images/armor/armor-t5-agi-face-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c7f",
+    "name": "Tiamat Mantleplate",
+    "image": "/images/armor/armor-t5-agi-shoulder-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Agi",
+    "order": 99,
+    "statOrder": 2
+  },
+  {
+    "_id": "684d0caf404139d9fd831c5b",
+    "name": "Ancient Bastion Pauldrons",
+    "image": "/images/armor-t3-sta-shoulder-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c5a",
+    "name": "Ancient Bastion Visor",
+    "image": "/images/armor-t3-sta-face-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c27",
+    "name": "Bastion Visor",
+    "image": "/images/armor-t1-stam-face-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c8c",
+    "name": "Colossus Face",
+    "image": "/images/armor/armor-t5-sta-face-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c8d",
+    "name": "Colossus Pauldrons",
+    "image": "/images/armor/armor-t5-sta-shoulder-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c49",
+    "name": "Fortified Bastion Visor",
+    "image": "/images/armor-t2-stam-face-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c72",
+    "name": "Impenetrable Bastion Pauldrons",
+    "image": "/images/armor-t4-sta-shoulder-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c71",
+    "name": "Impenetrable Bastion Visor",
+    "image": "/images/armor-t4-sta-face-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Sta",
+    "order": 99,
+    "statOrder": 3
+  },
+  {
+    "_id": "684d0caf404139d9fd831c5f",
+    "name": "Ancient Knight Guise",
+    "image": "/images/armor-t3-str-face-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c60",
+    "name": "Ancient Knight Pauldrons",
+    "image": "/images/armor-t3-str-shoulder-icon.png",
+    "duration": 28800,
+    "category": "T3",
+    "group": "T3 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c3d",
+    "name": "Crimson Knight Guise",
+    "image": "/images/armor-t2-str-face-icon.png",
+    "duration": 21600,
+    "category": "T2",
+    "group": "T2 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c76",
+    "name": "Crucified Knight Guise",
+    "image": "/images/armor-t4-str-face-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c77",
+    "name": "Crucified Knight Pauldrons",
+    "image": "/images/armor-t4-str-shoulder-icon.png",
+    "duration": 57600,
+    "category": "T4",
+    "group": "T4 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c2b",
+    "name": "Knight Guise",
+    "image": "/images/armor-t1-str-face-icon.png",
+    "duration": 14400,
+    "category": "T1",
+    "group": "T1 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c93",
+    "name": "Paladin Face",
+    "image": "/images/armor/armor-t5-str-face-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Str",
+    "order": 99,
+    "statOrder": 4
+  },
+  {
+    "_id": "684d0caf404139d9fd831c94",
+    "name": "Paladin Pauldrons",
+    "image": "/images/armor/armor-t5-str-shoulder-icon.png",
+    "duration": 86400,
+    "category": "T5",
+    "group": "T5 Str",
+    "order": 99,
+    "statOrder": 4
   },
   {
     "_id": "684fe5b7833b66a98b93068a",
@@ -2379,6 +2487,161 @@
     "vendor": "The Locksmith",
     "category": "Gems",
     "group": "Emerald",
-    "order": 99
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d55e98e8cc6a3a31a7b83",
+    "name": "Mega Amethyst",
+    "image": "/images/gems/amethyst/amethyst-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Amethyst",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d56f98e8cc6a3a31a7b87",
+    "name": "Mega Diamond",
+    "image": "/images/gems/diamond/diamond-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Diamond",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d4d398e8cc6a3a31a7b78",
+    "name": "Mega Emerald",
+    "image": "/images/gems/emerald/emerald-mega-icon.png",
+    "duration": "21600",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Emerald",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d55108e8cc6a3a31a7b7f",
+    "name": "Mega Onyx",
+    "image": "/images/gems/onyx/onyx-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Onyx",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d55c68e8cc6a3a31a7b81",
+    "name": "Mega Pearl",
+    "image": "/images/gems/pearl/crafting-pearl-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Pearl",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d54838e8cc6a3a31a7b7d",
+    "name": "Mega Ruby",
+    "image": "/images/gems/ruby/ruby-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Ruby",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d569a8e8cc6a3a31a7b85",
+    "name": "Mega Sapphire",
+    "image": "/images/gems/sapphire/sapphire-mega-icon.png",
+    "duration": "7200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Sapphire",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d56038e8cc6a3a31a7b84",
+    "name": "Uber Amethyst",
+    "image": "/images/gems/amethyst/amethyst-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Amethyst",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d570a8e8cc6a3a31a7b88",
+    "name": "Uber Diamond",
+    "image": "/images/gems/diamond/diamond-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Diamond",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d4e7b8e8cc6a3a31a7b79",
+    "name": "Uber Emerald",
+    "image": "/images/gems/emerald/emerald-uber-icon.png",
+    "duration": "43200",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Emerald",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d55358e8cc6a3a31a7b80",
+    "name": "Uber Onyx",
+    "image": "/images/gems/onyx/onyx-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Onyx",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d55db8e8cc6a3a31a7b82",
+    "name": "Uber Pearl",
+    "image": "/images/gems/pearl/crafting-pearl-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Pearl",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d54b18e8cc6a3a31a7b7e",
+    "name": "Uber Ruby",
+    "image": "/images/gems/ruby/ruby-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Ruby",
+    "order": 99,
+    "statOrder": 99
+  },
+  {
+    "_id": "684d56ab8e8cc6a3a31a7b86",
+    "name": "Uber Sapphire",
+    "image": "/images/gems/sapphire/sapphire-uber-icon.png",
+    "duration": "14400",
+    "vendor": "Dwarf Gem Crafter",
+    "category": "Gems",
+    "group": "Sapphire",
+    "order": 99,
+    "statOrder": 99
   }
 ]
